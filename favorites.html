@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites - Islamabad Smart City</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        body {
+            background-color: #fbecd7;
+        }
+
+        .favorite-card {
+            transition: all 0.3s ease;
+            border: 2px solid #60546c;
+        }
+
+        .favorite-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 16px rgba(127, 46, 31, 0.2);
+            border-color: #7f2e1f;
+        }
+
+        .remove-btn {
+            transition: all 0.2s ease;
+        }
+
+        .remove-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .empty-state {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .favorite-card {
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);" class="text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-map-marked-alt text-3xl" style="color: #fbecd7;"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold">Islamabad Smart City</h1>
+                        <p class="text-xs" style="color: #fbecd7;">Find civic facilities near you</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-6 items-center">
+                    <a href="index.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">
+                        <i class="fas fa-home mr-1"></i> Home
+                    </a>
+                    <a href="statistics.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">
+                        <i class="fas fa-chart-bar mr-1"></i> Statistics
+                    </a>
+                    <a href="favorites.html" style="color: #ffffff; font-weight: bold;" class="hover:underline">
+                        <i class="fas fa-heart mr-1"></i> Favorites
+                    </a>
+                    <a href="about.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">
+                        <i class="fas fa-info-circle mr-1"></i> About
+                    </a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="md:hidden text-white text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav id="mobileMenu" class="md:hidden mt-4 space-y-2 hidden">
+                <a href="index.html" style="background-color: #60546c;" class="block py-2 px-4 rounded hover:bg-opacity-80">
+                    <i class="fas fa-home mr-2"></i> Home
+                </a>
+                <a href="statistics.html" style="background-color: #60546c;" class="block py-2 px-4 rounded hover:bg-opacity-80">
+                    <i class="fas fa-chart-bar mr-2"></i> Statistics
+                </a>
+                <a href="favorites.html" style="background-color: #7f2e1f; font-weight: bold;" class="block py-2 px-4 rounded">
+                    <i class="fas fa-heart mr-2"></i> Favorites
+                </a>
+                <a href="about.html" style="background-color: #60546c;" class="block py-2 px-4 rounded hover:bg-opacity-80">
+                    <i class="fas fa-info-circle mr-2"></i> About
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Page Header -->
+        <div class="text-center mb-8">
+            <i class="fas fa-heart text-6xl mb-4" style="color: #7f2e1f;"></i>
+            <h1 class="text-4xl font-bold mb-2" style="color: #202236;">My Favorites</h1>
+            <p class="text-lg" style="color: #60546c;">Your saved facilities for quick access</p>
+        </div>
+
+        <!-- Favorites Count -->
+        <div class="bg-white rounded-lg shadow-md p-4 mb-6 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <i class="fas fa-bookmark text-2xl" style="color: #7f2e1f;"></i>
+                <span class="font-medium" style="color: #202236;">
+                    You have <span id="favCount" class="font-bold" style="color: #7f2e1f;">0</span> saved favorites
+                </span>
+            </div>
+            <button id="clearAllBtn" style="background-color: #7f2e1f; display: none;" onmouseover="this.style.backgroundColor='#60546c'" onmouseout="this.style.backgroundColor='#7f2e1f'" class="text-white px-4 py-2 rounded shadow hover:shadow-lg transition-all">
+                <i class="fas fa-trash-alt mr-2"></i>
+                Clear All
+            </button>
+        </div>
+
+        <!-- Favorites Grid -->
+        <div id="favoritesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Favorites will be loaded here dynamically -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state text-center py-16 hidden">
+            <i class="fas fa-heart-broken text-8xl mb-6" style="color: #60546c; opacity: 0.3;"></i>
+            <h2 class="text-2xl font-bold mb-4" style="color: #202236;">No favorites yet</h2>
+            <p class="text-lg mb-8" style="color: #60546c;">
+                Start adding facilities to your favorites by clicking the heart icon on the map.
+            </p>
+            <a href="index.html" style="background-color: #7f2e1f;" onmouseover="this.style.backgroundColor='#60546c'" onmouseout="this.style.backgroundColor='#7f2e1f'" class="inline-block text-white px-8 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all">
+                <i class="fas fa-map-marked-alt mr-2"></i>
+                Explore Map
+            </a>
+        </div>
+
+        <!-- Back to Map Button -->
+        <div class="text-center mt-8" id="backToMapBtn" style="display: none;">
+            <a href="index.html" style="background-color: #7f2e1f;" onmouseover="this.style.backgroundColor='#60546c'" onmouseout="this.style.backgroundColor='#7f2e1f'" class="inline-block text-white px-8 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all">
+                <i class="fas fa-map-marked-alt mr-2"></i>
+                Back to Map
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);" class="text-white mt-16 py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- About -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4" style="color: #fbecd7;">About</h3>
+                    <p class="text-sm" style="color: #fbecd7;">
+                        Islamabad Smart City WebGIS helps citizens locate essential civic facilities across Islamabad.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4" style="color: #fbecd7;">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">Home</a></li>
+                        <li><a href="statistics.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">Statistics</a></li>
+                        <li><a href="favorites.html" style="color: #ffffff; font-weight: bold;">Favorites</a></li>
+                        <li><a href="about.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">About</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4" style="color: #fbecd7;">Technologies</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span style="background-color: #7f2e1f;" class="text-xs px-2 py-1 rounded">Leaflet.js</span>
+                        <span style="background-color: #7f2e1f;" class="text-xs px-2 py-1 rounded">OpenStreetMap</span>
+                        <span style="background-color: #7f2e1f;" class="text-xs px-2 py-1 rounded">LocalStorage</span>
+                        <span style="background-color: #7f2e1f;" class="text-xs px-2 py-1 rounded">Tailwind CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-600 mt-8 pt-6 text-center text-sm" style="color: #fbecd7;">
+                <p>&copy; 2025 Islamabad Smart City. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Category icons mapping
+        const categoryIcons = {
+            'hospitals': 'fa-hospital',
+            'police-stations': 'fa-shield-alt',
+            'parks': 'fa-tree',
+            'mosques': 'fa-mosque',
+            'schools': 'fa-school',
+            'colleges': 'fa-university',
+            'universities': 'fa-graduation-cap'
+        };
+
+        // Category colors mapping
+        const categoryColors = {
+            'hospitals': '#7f2e1f',
+            'police-stations': '#202236',
+            'parks': '#60546c',
+            'mosques': '#7f2e1f',
+            'schools': '#202236',
+            'colleges': '#60546c',
+            'universities': '#7f2e1f'
+        };
+
+        // Load favorites from localStorage
+        function loadFavorites() {
+            const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+            const favoritesGrid = document.getElementById('favoritesGrid');
+            const emptyState = document.getElementById('emptyState');
+            const favCount = document.getElementById('favCount');
+            const clearAllBtn = document.getElementById('clearAllBtn');
+            const backToMapBtn = document.getElementById('backToMapBtn');
+
+            favCount.textContent = favorites.length;
+
+            if (favorites.length === 0) {
+                favoritesGrid.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                clearAllBtn.style.display = 'none';
+                backToMapBtn.style.display = 'none';
+            } else {
+                emptyState.classList.add('hidden');
+                clearAllBtn.style.display = 'block';
+                backToMapBtn.style.display = 'block';
+                displayFavorites(favorites);
+            }
+        }
+
+        // Display favorites as cards
+        function displayFavorites(favorites) {
+            const favoritesGrid = document.getElementById('favoritesGrid');
+            favoritesGrid.innerHTML = '';
+
+            favorites.forEach((fav, index) => {
+                const icon = categoryIcons[fav.category] || 'fa-map-marker';
+                const color = categoryColors[fav.category] || '#7f2e1f';
+
+                const card = document.createElement('div');
+                card.className = 'favorite-card bg-white rounded-lg shadow-md p-6';
+                card.style.animationDelay = `${index * 0.05}s`;
+                card.innerHTML = `
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-start space-x-3">
+                            <div style="background-color: #fbecd7;" class="rounded-full p-3">
+                                <i class="fas ${icon} text-2xl" style="color: ${color};"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg mb-1" style="color: #202236;">${fav.name}</h3>
+                                <p class="text-sm" style="color: #60546c;">
+                                    <i class="fas fa-tag mr-1"></i>
+                                    ${fav.category.replace('-', ' ').replace(/\b\w/g, c => c.toUpperCase())}
+                                </p>
+                            </div>
+                        </div>
+                        <button onclick="removeFavorite('${fav.id}')" class="remove-btn text-red-500 hover:text-red-700" title="Remove from favorites">
+                            <i class="fas fa-times text-xl"></i>
+                        </button>
+                    </div>
+
+                    ${fav.address ? `
+                        <p class="text-sm mb-2" style="color: #60546c;">
+                            <i class="fas fa-map-marker-alt mr-2" style="color: #7f2e1f;"></i>
+                            ${fav.address}
+                        </p>
+                    ` : ''}
+
+                    ${fav.sector ? `
+                        <p class="text-sm mb-2" style="color: #60546c;">
+                            <i class="fas fa-location-dot mr-2" style="color: #7f2e1f;"></i>
+                            Sector ${fav.sector}
+                        </p>
+                    ` : ''}
+
+                    ${fav.phone ? `
+                        <p class="text-sm mb-2" style="color: #60546c;">
+                            <i class="fas fa-phone mr-2" style="color: #7f2e1f;"></i>
+                            <a href="tel:${fav.phone}" class="hover:underline">${fav.phone}</a>
+                        </p>
+                    ` : ''}
+
+                    ${fav.description ? `
+                        <p class="text-sm mb-4 italic" style="color: #60546c;">
+                            ${fav.description}
+                        </p>
+                    ` : ''}
+
+                    <div class="flex gap-2 mt-4">
+                        <a href="index.html?facility=${fav.id}" style="background-color: #7f2e1f;" onmouseover="this.style.backgroundColor='#60546c'" onmouseout="this.style.backgroundColor='#7f2e1f'" class="flex-1 text-white text-center px-4 py-2 rounded text-sm font-medium shadow hover:shadow-lg transition-all">
+                            <i class="fas fa-map mr-1"></i>
+                            View on Map
+                        </a>
+                        ${fav.lat && fav.lng ? `
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=${fav.lat},${fav.lng}" target="_blank" style="background-color: #60546c;" onmouseover="this.style.backgroundColor='#202236'" onmouseout="this.style.backgroundColor='#60546c'" class="flex-1 text-white text-center px-4 py-2 rounded text-sm font-medium shadow hover:shadow-lg transition-all">
+                                <i class="fas fa-directions mr-1"></i>
+                                Directions
+                            </a>
+                        ` : ''}
+                    </div>
+                `;
+                favoritesGrid.appendChild(card);
+            });
+        }
+
+        // Remove single favorite
+        function removeFavorite(facilityId) {
+            if (confirm('Remove this facility from favorites?')) {
+                let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+                favorites = favorites.filter(f => f.id !== facilityId);
+                localStorage.setItem('favorites', JSON.stringify(favorites));
+                loadFavorites();
+                showNotification('Removed from favorites', 'success');
+            }
+        }
+
+        // Clear all favorites
+        document.getElementById('clearAllBtn').addEventListener('click', function() {
+            if (confirm('Are you sure you want to remove all favorites?')) {
+                localStorage.removeItem('favorites');
+                loadFavorites();
+                showNotification('All favorites cleared', 'success');
+            }
+        });
+
+        // Simple notification function
+        function showNotification(message, type) {
+            const notification = document.createElement('div');
+            notification.className = 'fixed top-4 right-4 z-50 px-6 py-3 rounded shadow-lg text-white';
+            notification.style.backgroundColor = type === 'success' ? '#60546c' : '#7f2e1f';
+            notification.innerHTML = `
+                <i class="fas fa-${type === 'success' ? 'check-circle' : 'exclamation-circle'} mr-2"></i>
+                ${message}
+            `;
+            document.body.appendChild(notification);
+
+            setTimeout(() => {
+                notification.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        }
+
+        // Load favorites on page load
+        window.addEventListener('DOMContentLoaded', loadFavorites);
+    </script>
+</body>
+</html>

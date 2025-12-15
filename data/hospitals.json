@@ -1,0 +1,1812 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "category": "hospitals",
+    "total": 75,
+    "lastUpdated": "2024-12-15",
+    "city": "Islamabad",
+    "description": "Healthcare facilities including hospitals, clinics, and specialized medical centers"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hosp_001",
+      "properties": {
+        "name": "Pakistan Institute of Medical Sciences (PIMS)",
+        "category": "Government Hospital",
+        "address": "G-8/3, Islamabad",
+        "sector": "G-8",
+        "contact": "+92-51-9261170",
+        "email": "info@pims.gov.pk",
+        "website": "www.pims.gov.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "Cardiology", "Neurology", "Orthopedics", "Pharmacy", "Laboratory"],
+        "rating": 4.2,
+        "reviews": 1250,
+        "description": "Major government tertiary care hospital providing comprehensive medical services",
+        "established": "1985",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0578, 33.7077]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_002",
+      "properties": {
+        "name": "Shifa International Hospital",
+        "category": "Private Hospital",
+        "address": "H-8/4, Pitras Bukhari Road, Islamabad",
+        "sector": "H-8",
+        "contact": "+92-51-8463572",
+        "email": "info@shifa.com.pk",
+        "website": "www.shifa.com.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "Cardiac Surgery", "Neurosurgery", "Oncology", "Radiology", "Laboratory"],
+        "rating": 4.7,
+        "reviews": 2840,
+        "description": "Leading private hospital with state-of-the-art medical facilities",
+        "established": "1987",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0456, 33.6589]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_003",
+      "properties": {
+        "name": "Polyclinic Hospital",
+        "category": "Government Hospital",
+        "address": "G-6/2, Islamabad",
+        "sector": "G-6",
+        "contact": "+92-51-9211404",
+        "email": "contact@polyclinic.gov.pk",
+        "website": "www.polyclinic.gov.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "Gynecology", "Pediatrics", "Dental"],
+        "rating": 3.9,
+        "reviews": 980,
+        "description": "Federal government hospital providing general medical care",
+        "established": "1978",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0681, 33.7147]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_004",
+      "properties": {
+        "name": "Maroof International Hospital",
+        "category": "Private Hospital",
+        "address": "Main PWD Road, G-10/4, Islamabad",
+        "sector": "G-10",
+        "contact": "+92-51-4449860",
+        "email": "info@maroof.com.pk",
+        "website": "www.maroof.com.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "Cardiology", "Gastroenterology", "Orthopedics", "Laboratory"],
+        "rating": 4.5,
+        "reviews": 1650,
+        "description": "Modern private hospital with comprehensive healthcare services",
+        "established": "2006",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0234, 33.6956]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_005",
+      "properties": {
+        "name": "Quaid-e-Azam International Hospital",
+        "category": "Private Hospital",
+        "address": "D-12/2, Islamabad",
+        "sector": "D-12",
+        "contact": "+92-51-5725000",
+        "email": "info@qaih.com.pk",
+        "website": "www.qaih.com.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "Cardiac Center", "Neurology", "Oncology", "Radiology"],
+        "rating": 4.4,
+        "reviews": 1420,
+        "description": "Advanced medical facility with modern equipment and expert staff",
+        "established": "2015",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0891, 33.6234]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_006",
+      "properties": {
+        "name": "Ali Medical Centre",
+        "category": "Private Clinic",
+        "address": "F-8 Markaz, Islamabad",
+        "sector": "F-8",
+        "contact": "+92-51-2251881",
+        "email": "info@alimedical.pk",
+        "website": "www.alimedical.pk",
+        "timing": "9:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Laboratory", "X-Ray", "Pharmacy"],
+        "rating": 4.1,
+        "reviews": 560,
+        "description": "Multi-specialty clinic providing outpatient services",
+        "established": "1995",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0479, 33.6944]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_007",
+      "properties": {
+        "name": "Federal Government Polyclinic (FGPC)",
+        "category": "Government Hospital",
+        "address": "Chak Shahzad, Park Road, Islamabad",
+        "sector": "Chak Shahzad",
+        "contact": "+92-51-9212706",
+        "email": "admin@fgpc.gov.pk",
+        "website": "www.fgpc.gov.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "OPD"],
+        "rating": 3.7,
+        "reviews": 720,
+        "description": "Government hospital serving federal employees and general public",
+        "established": "1980",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0923, 33.6712]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_008",
+      "properties": {
+        "name": "Islamabad Diagnostic Centre",
+        "category": "Diagnostic Center",
+        "address": "F-7 Markaz, Islamabad",
+        "sector": "F-7",
+        "contact": "+92-51-2651441",
+        "email": "info@idc.com.pk",
+        "website": "www.idc.com.pk",
+        "timing": "8:00 AM - 8:00 PM",
+        "services": ["Laboratory", "Radiology", "CT Scan", "MRI", "Ultrasound"],
+        "rating": 4.3,
+        "reviews": 890,
+        "description": "Advanced diagnostic and imaging center",
+        "established": "1998",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0567, 33.7234]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_009",
+      "properties": {
+        "name": "Kulsum International Hospital",
+        "category": "Private Hospital",
+        "address": "F-11 Markaz, Islamabad",
+        "sector": "F-11",
+        "contact": "+92-51-2290901",
+        "email": "info@kulsum.pk",
+        "website": "www.kulsum.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "Maternity", "Pediatrics", "General Surgery", "Laboratory"],
+        "rating": 4.0,
+        "reviews": 670,
+        "description": "Community hospital focusing on maternity and pediatric care",
+        "established": "2008",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0712, 33.6734]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_010",
+      "properties": {
+        "name": "Hearts International Hospital",
+        "category": "Private Hospital",
+        "address": "E-11/4, Islamabad",
+        "sector": "E-11",
+        "contact": "+92-51-4863000",
+        "email": "info@hearts.pk",
+        "website": "www.hearts.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "Cardiac Surgery", "Interventional Cardiology", "ICU", "CCU"],
+        "rating": 4.6,
+        "reviews": 1340,
+        "description": "Specialized cardiac care hospital with expert cardiologists",
+        "established": "2012",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1234, 33.6423]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_011",
+      "properties": {
+        "name": "Al-Shifa Eye Trust Hospital",
+        "category": "Eye Hospital",
+        "address": "G-8/3, Islamabad",
+        "sector": "G-8",
+        "contact": "+92-51-2251352",
+        "email": "info@alshifaeye.org",
+        "website": "www.alshifaeye.org",
+        "timing": "8:00 AM - 5:00 PM",
+        "services": ["Cataract Surgery", "Glaucoma Treatment", "Retina Care", "Laser Surgery"],
+        "rating": 4.5,
+        "reviews": 980,
+        "description": "Charitable eye hospital providing free eye care to needy patients",
+        "established": "2000",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0598, 33.7089]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_012",
+      "properties": {
+        "name": "Maryam Memorial Hospital",
+        "category": "Private Hospital",
+        "address": "PWD Road, Islamabad",
+        "sector": "PWD",
+        "contact": "+92-51-5730303",
+        "email": "info@maryamhospital.pk",
+        "website": "www.maryamhospital.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "Gynecology", "Laboratory"],
+        "rating": 3.8,
+        "reviews": 540,
+        "description": "General hospital providing affordable healthcare services",
+        "established": "2010",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0134, 33.6867]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_013",
+      "properties": {
+        "name": "National Institute of Rehabilitation Medicine (NIRM)",
+        "category": "Rehabilitation Center",
+        "address": "G-6/3, Islamabad",
+        "sector": "G-6",
+        "contact": "+92-51-9260507",
+        "email": "info@nirm.gov.pk",
+        "website": "www.nirm.gov.pk",
+        "timing": "8:00 AM - 4:00 PM",
+        "services": ["Physiotherapy", "Occupational Therapy", "Speech Therapy", "Prosthetics"],
+        "rating": 4.1,
+        "reviews": 450,
+        "description": "Specialized rehabilitation center for physical therapy",
+        "established": "1992",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0701, 33.7167]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_014",
+      "properties": {
+        "name": "Hameed Latif Hospital",
+        "category": "Private Hospital",
+        "address": "I-8 Markaz, Islamabad",
+        "sector": "I-8",
+        "contact": "+92-51-4443701",
+        "email": "info@hameedlatif.pk",
+        "website": "www.hameedlatif.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "Cardiology", "Orthopedics", "General Surgery"],
+        "rating": 4.2,
+        "reviews": 820,
+        "description": "Multi-specialty hospital with experienced medical team",
+        "established": "2014",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0756, 33.6645]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_015",
+      "properties": {
+        "name": "Aadil Hospital",
+        "category": "Private Hospital",
+        "address": "Blue Area, Islamabad",
+        "sector": "Blue Area",
+        "contact": "+92-51-2802581",
+        "email": "info@aadil.pk",
+        "website": "www.aadil.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "Laboratory", "Radiology"],
+        "rating": 4.0,
+        "reviews": 610,
+        "description": "Centrally located hospital serving downtown Islamabad",
+        "established": "2005",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0623, 33.7181]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_016",
+      "properties": {
+        "name": "Life Care Hospital",
+        "category": "Private Clinic",
+        "address": "G-11/1, Islamabad",
+        "sector": "G-11",
+        "contact": "+92-51-2290456",
+        "email": "info@lifecare.pk",
+        "website": "www.lifecare.pk",
+        "timing": "9:00 AM - 10:00 PM",
+        "services": ["General Consultation", "Pediatrics", "Gynecology", "Laboratory"],
+        "rating": 3.9,
+        "reviews": 380,
+        "description": "Family clinic providing primary healthcare services",
+        "established": "2007",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0323, 33.6845]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_017",
+      "properties": {
+        "name": "Medicare Cardiac & General Hospital",
+        "category": "Private Hospital",
+        "address": "G-9/1, Islamabad",
+        "sector": "G-9",
+        "contact": "+92-51-2253031",
+        "email": "info@medicare.pk",
+        "website": "www.medicare.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "Cardiology", "General Medicine", "ICU", "Laboratory"],
+        "rating": 4.3,
+        "reviews": 920,
+        "description": "Specialized in cardiac and general medical care",
+        "established": "2009",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0412, 33.7012]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_018",
+      "properties": {
+        "name": "Islamabad Dental Hospital",
+        "category": "Dental Hospital",
+        "address": "F-10 Markaz, Islamabad",
+        "sector": "F-10",
+        "contact": "+92-51-2212671",
+        "email": "info@dentalhosp.pk",
+        "website": "www.dentalhosp.pk",
+        "timing": "9:00 AM - 7:00 PM",
+        "services": ["Dental Consultation", "Root Canal", "Orthodontics", "Cosmetic Dentistry"],
+        "rating": 4.4,
+        "reviews": 680,
+        "description": "Specialized dental care center with modern equipment",
+        "established": "2011",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0289, 33.6878]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_019",
+      "properties": {
+        "name": "KRL Hospital",
+        "category": "Government Hospital",
+        "address": "Kahuta Road, Islamabad",
+        "sector": "Kahuta Road",
+        "contact": "+92-51-9271004",
+        "email": "info@krlhospital.gov.pk",
+        "website": "www.krlhospital.gov.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "OPD"],
+        "rating": 3.8,
+        "reviews": 490,
+        "description": "Defense organization hospital serving KRL employees and families",
+        "established": "1988",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1456, 33.6523]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_020",
+      "properties": {
+        "name": "Al-Mustafa Medical Centre",
+        "category": "Private Clinic",
+        "address": "I-10 Markaz, Islamabad",
+        "sector": "I-10",
+        "contact": "+92-51-5730112",
+        "email": "info@almustafa.pk",
+        "website": "www.almustafa.pk",
+        "timing": "8:00 AM - 10:00 PM",
+        "services": ["General Consultation", "Laboratory", "Ultrasound", "Pharmacy"],
+        "rating": 4.0,
+        "reviews": 420,
+        "description": "Multi-specialty clinic with experienced doctors",
+        "established": "2013",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0234, 33.6623]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_021",
+      "properties": {
+        "name": "CDA Hospital",
+        "category": "Government Hospital",
+        "address": "G-6/2, Islamabad",
+        "sector": "G-6",
+        "contact": "+92-51-9208371",
+        "email": "info@cdahospital.gov.pk",
+        "website": "www.cdahospital.gov.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "OPD"],
+        "rating": 3.6,
+        "reviews": 510,
+        "description": "Capital Development Authority hospital for CDA employees",
+        "established": "1975",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0689, 33.7156]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_022",
+      "properties": {
+        "name": "Akbar Niazi Teaching Hospital",
+        "category": "Private Hospital",
+        "address": "Services Hospital Road, G-10/4, Islamabad",
+        "sector": "G-10",
+        "contact": "+92-51-4864026",
+        "email": "info@anth.pk",
+        "website": "www.anth.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "Surgery", "Orthopedics", "Gynecology"],
+        "rating": 4.1,
+        "reviews": 760,
+        "description": "Teaching hospital affiliated with medical college",
+        "established": "2016",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0245, 33.6967]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_023",
+      "properties": {
+        "name": "Islamabad Children Hospital",
+        "category": "Children Hospital",
+        "address": "F-8/3, Islamabad",
+        "sector": "F-8",
+        "contact": "+92-51-2287654",
+        "email": "info@childhosp.pk",
+        "website": "www.childhosp.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Pediatric Emergency", "Neonatology", "Pediatric Surgery", "Vaccination"],
+        "rating": 4.3,
+        "reviews": 1120,
+        "description": "Specialized children hospital with pediatric experts",
+        "established": "2003",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0501, 33.6923]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_024",
+      "properties": {
+        "name": "Bahria International Hospital",
+        "category": "Private Hospital",
+        "address": "Bahria Town Phase 7, Islamabad",
+        "sector": "Bahria Town",
+        "contact": "+92-51-5730800",
+        "email": "info@bahriahospital.pk",
+        "website": "www.bahriahospital.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "Cardiology", "Neurology", "Radiology"],
+        "rating": 4.5,
+        "reviews": 1480,
+        "description": "Modern hospital in Bahria Town with comprehensive facilities",
+        "established": "2017",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.9923, 33.5634]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_025",
+      "properties": {
+        "name": "Sir Syed Hospital",
+        "category": "Private Clinic",
+        "address": "I-9/2, Islamabad",
+        "sector": "I-9",
+        "contact": "+92-51-4448901",
+        "email": "info@sirsyed.pk",
+        "website": "www.sirsyed.pk",
+        "timing": "8:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Laboratory", "X-Ray", "Pharmacy"],
+        "rating": 3.7,
+        "reviews": 320,
+        "description": "Community clinic providing affordable healthcare",
+        "established": "2008",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0445, 33.6756]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_026",
+      "properties": {
+        "name": "National Hospital & Medical Centre",
+        "category": "Private Hospital",
+        "address": "E-11/1, Islamabad",
+        "sector": "E-11",
+        "contact": "+92-51-8439652",
+        "email": "info@nhmc.pk",
+        "website": "www.nhmc.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "Cardiology", "Laboratory"],
+        "rating": 4.2,
+        "reviews": 890,
+        "description": "Multi-specialty hospital with modern facilities",
+        "established": "2012",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1245, 33.6445]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_027",
+      "properties": {
+        "name": "Al-Khidmat Hospital",
+        "category": "Charitable Hospital",
+        "address": "G-8/4, Islamabad",
+        "sector": "G-8",
+        "contact": "+92-51-2252601",
+        "email": "info@alkhidmat.pk",
+        "website": "www.alkhidmat.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "Free OPD"],
+        "rating": 4.0,
+        "reviews": 670,
+        "description": "Charitable hospital providing free medical care to needy",
+        "established": "2004",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0567, 33.7045]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_028",
+      "properties": {
+        "name": "Rehman Medical Institute",
+        "category": "Private Hospital",
+        "address": "Phase 5, DHA Islamabad",
+        "sector": "DHA",
+        "contact": "+92-51-5727000",
+        "email": "info@rmi.pk",
+        "website": "www.rmi.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "Cardiac Center", "Neurology", "Oncology"],
+        "rating": 4.6,
+        "reviews": 1560,
+        "description": "Premium healthcare facility in DHA with international standards",
+        "established": "2019",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1678, 33.5912]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_029",
+      "properties": {
+        "name": "Akhtar Saeed Medical Centre",
+        "category": "Private Clinic",
+        "address": "F-11 Markaz, Islamabad",
+        "sector": "F-11",
+        "contact": "+92-51-2290771",
+        "email": "info@asmc.pk",
+        "website": "www.asmc.pk",
+        "timing": "9:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Laboratory", "Ultrasound", "Pharmacy"],
+        "rating": 4.1,
+        "reviews": 540,
+        "description": "Well-equipped medical center with specialist doctors",
+        "established": "2010",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0723, 33.6745]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_030",
+      "properties": {
+        "name": "Islamabad Maternity Hospital",
+        "category": "Maternity Hospital",
+        "address": "G-9/4, Islamabad",
+        "sector": "G-9",
+        "contact": "+92-51-2253412",
+        "email": "info@maternity.pk",
+        "website": "www.maternity.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Maternity Care", "Gynecology", "Neonatology", "Ultrasound"],
+        "rating": 4.2,
+        "reviews": 780,
+        "description": "Specialized maternity care with experienced gynecologists",
+        "established": "2006",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0398, 33.7023]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_031",
+      "properties": {
+        "name": "Mid City Hospital",
+        "category": "Private Hospital",
+        "address": "I-10/3, Islamabad",
+        "sector": "I-10",
+        "contact": "+92-51-5487901",
+        "email": "info@midcity.pk",
+        "website": "www.midcity.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "Laboratory"],
+        "rating": 3.9,
+        "reviews": 620,
+        "description": "Community hospital serving I-sector residents",
+        "established": "2015",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0267, 33.6634]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_032",
+      "properties": {
+        "name": "Rawal Institute of Health Sciences",
+        "category": "Teaching Hospital",
+        "address": "Lehtrar Road, Islamabad",
+        "sector": "Lehtrar Road",
+        "contact": "+92-51-5489300",
+        "email": "info@rawal.edu.pk",
+        "website": "www.rawal.edu.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "Surgery", "Orthopedics", "Medical Education"],
+        "rating": 4.0,
+        "reviews": 710,
+        "description": "Teaching hospital with medical college affiliation",
+        "established": "2013",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0156, 33.5834]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_033",
+      "properties": {
+        "name": "Care & Cure Clinic",
+        "category": "Private Clinic",
+        "address": "F-7/2, Islamabad",
+        "sector": "F-7",
+        "contact": "+92-51-2651234",
+        "email": "info@carecure.pk",
+        "website": "www.carecure.pk",
+        "timing": "10:00 AM - 8:00 PM",
+        "services": ["General Consultation", "Pediatrics", "Laboratory"],
+        "rating": 3.8,
+        "reviews": 290,
+        "description": "Family clinic in central location",
+        "established": "2011",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0589, 33.7256]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_034",
+      "properties": {
+        "name": "Galaxy Hospital",
+        "category": "Private Hospital",
+        "address": "G-11/3, Islamabad",
+        "sector": "G-11",
+        "contact": "+92-51-2290567",
+        "email": "info@galaxy.pk",
+        "website": "www.galaxy.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Orthopedics", "Laboratory"],
+        "rating": 4.0,
+        "reviews": 580,
+        "description": "Modern hospital with comprehensive healthcare services",
+        "established": "2014",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0334, 33.6867]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_035",
+      "properties": {
+        "name": "Dr. Akram's Skin Clinic",
+        "category": "Dermatology Clinic",
+        "address": "F-10 Markaz, Islamabad",
+        "sector": "F-10",
+        "contact": "+92-51-2212890",
+        "email": "info@akramskin.pk",
+        "website": "www.akramskin.pk",
+        "timing": "11:00 AM - 7:00 PM",
+        "services": ["Dermatology", "Cosmetic Treatments", "Laser Therapy"],
+        "rating": 4.4,
+        "reviews": 620,
+        "description": "Specialized dermatology clinic with expert skin care",
+        "established": "2009",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0301, 33.6889]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_036",
+      "properties": {
+        "name": "Trust Medical Centre",
+        "category": "Private Clinic",
+        "address": "I-8 Markaz, Islamabad",
+        "sector": "I-8",
+        "contact": "+92-51-4443890",
+        "email": "info@trust.pk",
+        "website": "www.trust.pk",
+        "timing": "9:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Laboratory", "X-Ray"],
+        "rating": 3.7,
+        "reviews": 340,
+        "description": "Multi-specialty clinic with affordable rates",
+        "established": "2012",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0767, 33.6656]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_037",
+      "properties": {
+        "name": "Advanced Orthopedic Centre",
+        "category": "Orthopedic Clinic",
+        "address": "G-10/2, Islamabad",
+        "sector": "G-10",
+        "contact": "+92-51-4449123",
+        "email": "info@ortho.pk",
+        "website": "www.ortho.pk",
+        "timing": "10:00 AM - 6:00 PM",
+        "services": ["Orthopedics", "Physiotherapy", "Sports Medicine"],
+        "rating": 4.3,
+        "reviews": 480,
+        "description": "Specialized orthopedic and sports injury center",
+        "established": "2015",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0256, 33.6978]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_038",
+      "properties": {
+        "name": "Roots Ivy Hospital",
+        "category": "Private Hospital",
+        "address": "PWD Road, Islamabad",
+        "sector": "PWD",
+        "contact": "+92-51-5730200",
+        "email": "info@rootsivy.pk",
+        "website": "www.rootsivy.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "General Medicine", "Surgery"],
+        "rating": 4.1,
+        "reviews": 690,
+        "description": "Modern hospital with international healthcare standards",
+        "established": "2018",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0145, 33.6878]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_039",
+      "properties": {
+        "name": "Al-Razi Healthcare",
+        "category": "Private Clinic",
+        "address": "F-6 Markaz, Islamabad",
+        "sector": "F-6",
+        "contact": "+92-51-2871456",
+        "email": "info@alrazi.pk",
+        "website": "www.alrazi.pk",
+        "timing": "9:00 AM - 8:00 PM",
+        "services": ["General Consultation", "Laboratory", "Ultrasound"],
+        "rating": 3.9,
+        "reviews": 410,
+        "description": "Family healthcare center with experienced physicians",
+        "established": "2007",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0712, 33.7189]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_040",
+      "properties": {
+        "name": "Capital Hospital",
+        "category": "Private Hospital",
+        "address": "G-7/1, Islamabad",
+        "sector": "G-7",
+        "contact": "+92-51-2271890",
+        "email": "info@capital.pk",
+        "website": "www.capital.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "Laboratory"],
+        "rating": 4.0,
+        "reviews": 740,
+        "description": "Well-established hospital serving central Islamabad",
+        "established": "2005",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0534, 33.7123]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_041",
+      "properties": {
+        "name": "Neurology & Spine Centre",
+        "category": "Neurology Clinic",
+        "address": "F-8 Markaz, Islamabad",
+        "sector": "F-8",
+        "contact": "+92-51-2251567",
+        "email": "info@neuro.pk",
+        "website": "www.neuro.pk",
+        "timing": "10:00 AM - 6:00 PM",
+        "services": ["Neurology", "Spine Surgery", "Pain Management"],
+        "rating": 4.5,
+        "reviews": 560,
+        "description": "Specialized neurology and spine treatment center",
+        "established": "2016",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0489, 33.6956]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_042",
+      "properties": {
+        "name": "Waheed Medical Complex",
+        "category": "Private Clinic",
+        "address": "I-9/3, Islamabad",
+        "sector": "I-9",
+        "contact": "+92-51-4448234",
+        "email": "info@waheed.pk",
+        "website": "www.waheed.pk",
+        "timing": "8:00 AM - 10:00 PM",
+        "services": ["General Consultation", "Laboratory", "Pharmacy"],
+        "rating": 3.6,
+        "reviews": 280,
+        "description": "Community medical center with 24/7 pharmacy",
+        "established": "2010",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0467, 33.6734]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_043",
+      "properties": {
+        "name": "Islamabad ENT Hospital",
+        "category": "ENT Hospital",
+        "address": "G-9/2, Islamabad",
+        "sector": "G-9",
+        "contact": "+92-51-2253678",
+        "email": "info@ent.pk",
+        "website": "www.ent.pk",
+        "timing": "9:00 AM - 7:00 PM",
+        "services": ["ENT Consultation", "Hearing Tests", "Surgery"],
+        "rating": 4.2,
+        "reviews": 420,
+        "description": "Specialized ENT hospital with modern equipment",
+        "established": "2013",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0423, 33.7034]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_044",
+      "properties": {
+        "name": "Family Medical Centre",
+        "category": "Private Clinic",
+        "address": "F-11/3, Islamabad",
+        "sector": "F-11",
+        "contact": "+92-51-2290123",
+        "email": "info@family.pk",
+        "website": "www.family.pk",
+        "timing": "9:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Pediatrics", "Laboratory"],
+        "rating": 3.8,
+        "reviews": 350,
+        "description": "Family-oriented clinic with pediatric specialists",
+        "established": "2008",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0734, 33.6723]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_045",
+      "properties": {
+        "name": "Islamabad Kidney Centre",
+        "category": "Kidney Center",
+        "address": "G-8/1, Islamabad",
+        "sector": "G-8",
+        "contact": "+92-51-2251789",
+        "email": "info@kidney.pk",
+        "website": "www.kidney.pk",
+        "timing": "8:00 AM - 6:00 PM",
+        "services": ["Dialysis", "Nephrology", "Kidney Transplant"],
+        "rating": 4.4,
+        "reviews": 640,
+        "description": "Specialized kidney treatment and dialysis center",
+        "established": "2011",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0612, 33.7098]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_046",
+      "properties": {
+        "name": "Chughtai Lab & Healthcare",
+        "category": "Diagnostic Center",
+        "address": "F-7 Markaz, Islamabad",
+        "sector": "F-7",
+        "contact": "+92-51-2651900",
+        "email": "info@chugtailab.pk",
+        "website": "www.chugtailab.pk",
+        "timing": "7:00 AM - 11:00 PM",
+        "services": ["Laboratory", "Radiology", "CT Scan", "MRI"],
+        "rating": 4.6,
+        "reviews": 1340,
+        "description": "Leading diagnostic laboratory with nationwide presence",
+        "established": "1983",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0578, 33.7245]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_047",
+      "properties": {
+        "name": "Prime Healthcare Clinic",
+        "category": "Private Clinic",
+        "address": "G-11/2, Islamabad",
+        "sector": "G-11",
+        "contact": "+92-51-2290345",
+        "email": "info@prime.pk",
+        "website": "www.prime.pk",
+        "timing": "9:00 AM - 8:00 PM",
+        "services": ["General Consultation", "Laboratory", "X-Ray"],
+        "rating": 3.7,
+        "reviews": 310,
+        "description": "Modern clinic with digital health records",
+        "established": "2014",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0345, 33.6856]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_048",
+      "properties": {
+        "name": "Islamabad Gastroenterology Centre",
+        "category": "Gastroenterology Clinic",
+        "address": "F-10/1, Islamabad",
+        "sector": "F-10",
+        "contact": "+92-51-2212456",
+        "email": "info@gastro.pk",
+        "website": "www.gastro.pk",
+        "timing": "10:00 AM - 6:00 PM",
+        "services": ["Gastroenterology", "Endoscopy", "Colonoscopy"],
+        "rating": 4.3,
+        "reviews": 490,
+        "description": "Specialized gastroenterology and digestive care center",
+        "established": "2015",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0312, 33.6901]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_049",
+      "properties": {
+        "name": "Modern Diagnostics",
+        "category": "Diagnostic Center",
+        "address": "I-10 Markaz, Islamabad",
+        "sector": "I-10",
+        "contact": "+92-51-5730456",
+        "email": "info@moderndiag.pk",
+        "website": "www.moderndiag.pk",
+        "timing": "7:00 AM - 10:00 PM",
+        "services": ["Laboratory", "X-Ray", "Ultrasound"],
+        "rating": 4.0,
+        "reviews": 520,
+        "description": "Comprehensive diagnostic services with quick reports",
+        "established": "2012",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0245, 33.6645]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_050",
+      "properties": {
+        "name": "Vision Eye Hospital",
+        "category": "Eye Hospital",
+        "address": "F-8/3, Islamabad",
+        "sector": "F-8",
+        "contact": "+92-51-2251234",
+        "email": "info@vision.pk",
+        "website": "www.vision.pk",
+        "timing": "9:00 AM - 7:00 PM",
+        "services": ["Eye Consultation", "Laser Surgery", "Cataract Surgery"],
+        "rating": 4.4,
+        "reviews": 780,
+        "description": "Advanced eye care with laser surgery facilities",
+        "established": "2010",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0512, 33.6934]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_051",
+      "properties": {
+        "name": "Green Crescent Clinic",
+        "category": "Private Clinic",
+        "address": "I-8/4, Islamabad",
+        "sector": "I-8",
+        "contact": "+92-51-4443234",
+        "email": "info@greencrescent.pk",
+        "website": "www.greencrescent.pk",
+        "timing": "8:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Laboratory", "Pharmacy"],
+        "rating": 3.8,
+        "reviews": 380,
+        "description": "Community clinic with affordable healthcare",
+        "established": "2011",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0778, 33.6634]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_052",
+      "properties": {
+        "name": "Dr. Ziauddin Hospital",
+        "category": "Private Hospital",
+        "address": "G-9/3, Islamabad",
+        "sector": "G-9",
+        "contact": "+92-51-2253901",
+        "email": "info@ziauddin.pk",
+        "website": "www.ziauddin.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "ICU", "General Medicine", "Surgery"],
+        "rating": 4.1,
+        "reviews": 820,
+        "description": "Well-equipped hospital with experienced medical staff",
+        "established": "2007",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0389, 33.7045]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_053",
+      "properties": {
+        "name": "Medicare Diabetes Centre",
+        "category": "Diabetes Center",
+        "address": "F-7/4, Islamabad",
+        "sector": "F-7",
+        "contact": "+92-51-2651678",
+        "email": "info@diabetes.pk",
+        "website": "www.diabetes.pk",
+        "timing": "9:00 AM - 6:00 PM",
+        "services": ["Diabetes Care", "Endocrinology", "Nutrition Counseling"],
+        "rating": 4.3,
+        "reviews": 560,
+        "description": "Specialized diabetes care and management center",
+        "established": "2013",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0601, 33.7267]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_054",
+      "properties": {
+        "name": "Healing Touch Clinic",
+        "category": "Private Clinic",
+        "address": "G-10/4, Islamabad",
+        "sector": "G-10",
+        "contact": "+92-51-4449567",
+        "email": "info@healing.pk",
+        "website": "www.healing.pk",
+        "timing": "10:00 AM - 8:00 PM",
+        "services": ["General Consultation", "Physiotherapy", "Laboratory"],
+        "rating": 3.9,
+        "reviews": 420,
+        "description": "Holistic healthcare approach with modern facilities",
+        "established": "2015",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0267, 33.6945]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_055",
+      "properties": {
+        "name": "Islamabad Cancer Hospital",
+        "category": "Cancer Hospital",
+        "address": "G-8/2, Islamabad",
+        "sector": "G-8",
+        "contact": "+92-51-2252890",
+        "email": "info@cancer.pk",
+        "website": "www.cancer.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Oncology", "Chemotherapy", "Radiation Therapy", "Cancer Surgery"],
+        "rating": 4.5,
+        "reviews": 920,
+        "description": "Specialized cancer treatment center with modern oncology facilities",
+        "established": "2014",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0623, 33.7112]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_056",
+      "properties": {
+        "name": "Allied Hospitals",
+        "category": "Private Hospital",
+        "address": "F-6/3, Islamabad",
+        "sector": "F-6",
+        "contact": "+92-51-2871234",
+        "email": "info@allied.pk",
+        "website": "www.allied.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "Laboratory"],
+        "rating": 4.0,
+        "reviews": 710,
+        "description": "Multi-specialty hospital in prime location",
+        "established": "2009",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0734, 33.7201]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_057",
+      "properties": {
+        "name": "Sunrise Medical Complex",
+        "category": "Private Clinic",
+        "address": "I-9/1, Islamabad",
+        "sector": "I-9",
+        "contact": "+92-51-4448567",
+        "email": "info@sunrise.pk",
+        "website": "www.sunrise.pk",
+        "timing": "8:00 AM - 10:00 PM",
+        "services": ["General Consultation", "Laboratory", "X-Ray", "Pharmacy"],
+        "rating": 3.7,
+        "reviews": 390,
+        "description": "24/7 medical services with experienced doctors",
+        "established": "2012",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0423, 33.6778]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_058",
+      "properties": {
+        "name": "Dr. Sharif Cardiology Clinic",
+        "category": "Cardiology Clinic",
+        "address": "F-10/2, Islamabad",
+        "sector": "F-10",
+        "contact": "+92-51-2212789",
+        "email": "info@cardio.pk",
+        "website": "www.cardio.pk",
+        "timing": "10:00 AM - 6:00 PM",
+        "services": ["Cardiology", "ECG", "Echocardiography", "Stress Test"],
+        "rating": 4.5,
+        "reviews": 680,
+        "description": "Expert cardiologist with advanced cardiac diagnostics",
+        "established": "2011",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0323, 33.6912]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_059",
+      "properties": {
+        "name": "Wellness Medical Centre",
+        "category": "Private Clinic",
+        "address": "G-11/4, Islamabad",
+        "sector": "G-11",
+        "contact": "+92-51-2290678",
+        "email": "info@wellness.pk",
+        "website": "www.wellness.pk",
+        "timing": "9:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Preventive Care", "Laboratory"],
+        "rating": 3.9,
+        "reviews": 450,
+        "description": "Focus on preventive healthcare and wellness",
+        "established": "2013",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0356, 33.6834]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_060",
+      "properties": {
+        "name": "Life Line Emergency Hospital",
+        "category": "Emergency Hospital",
+        "address": "I-10/4, Islamabad",
+        "sector": "I-10",
+        "contact": "+92-51-5730678",
+        "email": "info@lifeline.pk",
+        "website": "www.lifeline.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "Trauma Care", "ICU", "Ambulance Service"],
+        "rating": 4.2,
+        "reviews": 840,
+        "description": "Specialized emergency and trauma care facility",
+        "established": "2016",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0278, 33.6612]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_061",
+      "properties": {
+        "name": "Smart Medical Clinic",
+        "category": "Private Clinic",
+        "address": "F-11/1, Islamabad",
+        "sector": "F-11",
+        "contact": "+92-51-2290234",
+        "email": "info@smart.pk",
+        "website": "www.smart.pk",
+        "timing": "9:00 AM - 8:00 PM",
+        "services": ["General Consultation", "Laboratory", "Pharmacy"],
+        "rating": 3.8,
+        "reviews": 320,
+        "description": "Modern clinic with digital health solutions",
+        "established": "2017",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0701, 33.6756]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_062",
+      "properties": {
+        "name": "Frontier Medical Complex",
+        "category": "Private Clinic",
+        "address": "G-9/1, Islamabad",
+        "sector": "G-9",
+        "contact": "+92-51-2253234",
+        "email": "info@frontier.pk",
+        "website": "www.frontier.pk",
+        "timing": "8:00 AM - 10:00 PM",
+        "services": ["General Consultation", "Laboratory", "X-Ray"],
+        "rating": 3.6,
+        "reviews": 290,
+        "description": "Affordable healthcare for all segments",
+        "established": "2010",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0434, 33.7023]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_063",
+      "properties": {
+        "name": "Advanced Radiology Centre",
+        "category": "Diagnostic Center",
+        "address": "F-8/1, Islamabad",
+        "sector": "F-8",
+        "contact": "+92-51-2251456",
+        "email": "info@radiology.pk",
+        "website": "www.radiology.pk",
+        "timing": "8:00 AM - 8:00 PM",
+        "services": ["X-Ray", "CT Scan", "MRI", "Ultrasound", "Mammography"],
+        "rating": 4.4,
+        "reviews": 720,
+        "description": "State-of-the-art radiology and imaging center",
+        "established": "2014",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0523, 33.6967]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_064",
+      "properties": {
+        "name": "Hope Medical Centre",
+        "category": "Private Clinic",
+        "address": "I-8/2, Islamabad",
+        "sector": "I-8",
+        "contact": "+92-51-4443567",
+        "email": "info@hope.pk",
+        "website": "www.hope.pk",
+        "timing": "9:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Pediatrics", "Laboratory"],
+        "rating": 3.9,
+        "reviews": 410,
+        "description": "Family-friendly clinic with child specialists",
+        "established": "2011",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0789, 33.6667]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_065",
+      "properties": {
+        "name": "Pak Pharmacy & Clinic",
+        "category": "Private Clinic",
+        "address": "G-10/3, Islamabad",
+        "sector": "G-10",
+        "contact": "+92-51-4449234",
+        "email": "info@pakpharmacy.pk",
+        "website": "www.pakpharmacy.pk",
+        "timing": "24/7 Pharmacy, Clinic: 9 AM - 9 PM",
+        "services": ["General Consultation", "Pharmacy", "Laboratory"],
+        "rating": 3.7,
+        "reviews": 350,
+        "description": "24/7 pharmacy with medical consultation services",
+        "established": "2009",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0289, 33.6989]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_066",
+      "properties": {
+        "name": "Dr. Ayesha Women's Clinic",
+        "category": "Women's Clinic",
+        "address": "F-7/3, Islamabad",
+        "sector": "F-7",
+        "contact": "+92-51-2651345",
+        "email": "info@ayesha.pk",
+        "website": "www.ayesha.pk",
+        "timing": "10:00 AM - 6:00 PM",
+        "services": ["Gynecology", "Obstetrics", "Ultrasound", "Family Planning"],
+        "rating": 4.3,
+        "reviews": 620,
+        "description": "Specialized women's healthcare and maternity services",
+        "established": "2012",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0612, 33.7278]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_067",
+      "properties": {
+        "name": "City Medical Complex",
+        "category": "Private Clinic",
+        "address": "I-9/4, Islamabad",
+        "sector": "I-9",
+        "contact": "+92-51-4448678",
+        "email": "info@citymedical.pk",
+        "website": "www.citymedical.pk",
+        "timing": "8:00 AM - 10:00 PM",
+        "services": ["General Consultation", "Laboratory", "X-Ray", "Pharmacy"],
+        "rating": 3.8,
+        "reviews": 430,
+        "description": "Comprehensive medical services under one roof",
+        "established": "2013",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0478, 33.6712]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_068",
+      "properties": {
+        "name": "Perfect Health Clinic",
+        "category": "Private Clinic",
+        "address": "G-11/1, Islamabad",
+        "sector": "G-11",
+        "contact": "+92-51-2290890",
+        "email": "info@perfecthealth.pk",
+        "website": "www.perfecthealth.pk",
+        "timing": "9:00 AM - 8:00 PM",
+        "services": ["General Consultation", "Laboratory", "Preventive Care"],
+        "rating": 3.9,
+        "reviews": 370,
+        "description": "Focus on preventive and primary healthcare",
+        "established": "2014",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0367, 33.6878]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_069",
+      "properties": {
+        "name": "Universal Medical Centre",
+        "category": "Private Clinic",
+        "address": "F-10/3, Islamabad",
+        "sector": "F-10",
+        "contact": "+92-51-2212345",
+        "email": "info@universal.pk",
+        "website": "www.universal.pk",
+        "timing": "9:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Laboratory", "Ultrasound"],
+        "rating": 4.0,
+        "reviews": 490,
+        "description": "Multi-specialty clinic with experienced physicians",
+        "established": "2010",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0334, 33.6923]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_070",
+      "properties": {
+        "name": "Metro Medical Services",
+        "category": "Private Clinic",
+        "address": "I-10/1, Islamabad",
+        "sector": "I-10",
+        "contact": "+92-51-5730234",
+        "email": "info@metro.pk",
+        "website": "www.metro.pk",
+        "timing": "8:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Laboratory", "X-Ray"],
+        "rating": 3.7,
+        "reviews": 340,
+        "description": "Affordable medical services for the community",
+        "established": "2011",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0256, 33.6656]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_071",
+      "properties": {
+        "name": "New Life Hospital",
+        "category": "Private Hospital",
+        "address": "G-8/4, Islamabad",
+        "sector": "G-8",
+        "contact": "+92-51-2252345",
+        "email": "info@newlife.pk",
+        "website": "www.newlife.pk",
+        "timing": "24/7 Emergency Services",
+        "services": ["Emergency", "General Medicine", "Surgery", "Maternity"],
+        "rating": 4.1,
+        "reviews": 730,
+        "description": "Modern hospital with maternity and surgical facilities",
+        "established": "2015",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0545, 33.7056]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_072",
+      "properties": {
+        "name": "Excel Laboratory & Clinic",
+        "category": "Diagnostic Center",
+        "address": "F-6/2, Islamabad",
+        "sector": "F-6",
+        "contact": "+92-51-2871567",
+        "email": "info@excel.pk",
+        "website": "www.excel.pk",
+        "timing": "7:00 AM - 10:00 PM",
+        "services": ["Laboratory", "Radiology", "General Consultation"],
+        "rating": 4.2,
+        "reviews": 580,
+        "description": "Comprehensive diagnostic services with quick turnaround",
+        "established": "2008",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0745, 33.7212]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_073",
+      "properties": {
+        "name": "Good Health Clinic",
+        "category": "Private Clinic",
+        "address": "I-8/3, Islamabad",
+        "sector": "I-8",
+        "contact": "+92-51-4443890",
+        "email": "info@goodhealth.pk",
+        "website": "www.goodhealth.pk",
+        "timing": "9:00 AM - 8:00 PM",
+        "services": ["General Consultation", "Pediatrics", "Laboratory"],
+        "rating": 3.8,
+        "reviews": 390,
+        "description": "Family healthcare with focus on children",
+        "established": "2012",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0801, 33.6623]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_074",
+      "properties": {
+        "name": "Central Pharmacy & Medical Centre",
+        "category": "Private Clinic",
+        "address": "Blue Area, Jinnah Avenue, Islamabad",
+        "sector": "Blue Area",
+        "contact": "+92-51-2802678",
+        "email": "info@central.pk",
+        "website": "www.central.pk",
+        "timing": "24/7 Pharmacy, Clinic: 9 AM - 8 PM",
+        "services": ["General Consultation", "Pharmacy", "Laboratory"],
+        "rating": 4.0,
+        "reviews": 610,
+        "description": "Central location with 24/7 pharmacy services",
+        "established": "2007",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0634, 33.7192]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hosp_075",
+      "properties": {
+        "name": "Sehat Medical Complex",
+        "category": "Private Clinic",
+        "address": "G-9/4, Islamabad",
+        "sector": "G-9",
+        "contact": "+92-51-2253789",
+        "email": "info@sehat.pk",
+        "website": "www.sehat.pk",
+        "timing": "8:00 AM - 9:00 PM",
+        "services": ["General Consultation", "Laboratory", "X-Ray", "Pharmacy"],
+        "rating": 3.9,
+        "reviews": 460,
+        "description": "Complete healthcare services with affordable rates",
+        "established": "2011",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0378, 33.7067]
+      }
+    }
+  ]
+}

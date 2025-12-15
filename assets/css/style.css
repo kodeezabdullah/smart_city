@@ -1,0 +1,748 @@
+/* Custom styles for Islamabad Smart City WebGIS */
+
+/* Custom Color Palette */
+:root {
+    --color-cream: #fbecd7;
+    --color-burgundy: #7f2e1f;
+    --color-navy: #202236;
+    --color-mauve: #60546c;
+    --color-light: #ffffff;
+    --color-dark: #1a1a1a;
+}
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    background-color: var(--color-cream);
+}
+
+/* Filter buttons */
+.filter-btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-light);
+    color: var(--color-navy);
+    border: 2px solid var(--color-mauve);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.filter-btn:hover {
+    background-color: var(--color-cream);
+    border-color: var(--color-burgundy);
+    transform: translateY(-1px);
+}
+
+.filter-btn.active {
+    background-color: var(--color-burgundy);
+    color: white;
+    border-color: var(--color-burgundy);
+    box-shadow: 0 4px 10px rgba(127, 46, 31, 0.3);
+}
+
+.filter-btn i {
+    font-size: 1rem;
+}
+
+/* Map container */
+#map {
+    width: 100%;
+    min-height: 600px;
+    height: 100%;
+    border-radius: 0.5rem;
+    position: relative;
+    z-index: 1;
+    background-color: #f0f0f0;
+}
+
+/* Custom marker styles */
+.custom-marker {
+    background: transparent;
+    border: none;
+}
+
+/* Leaflet popup customization */
+.leaflet-popup-content-wrapper {
+    border-radius: 0.5rem;
+    padding: 0;
+}
+
+.leaflet-popup-content {
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.custom-popup .leaflet-popup-close-button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+/* Facility popup styles */
+.facility-popup {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.facility-popup h3 {
+    margin: 0;
+    line-height: 1.3;
+}
+
+.facility-popup p {
+    margin: 0.25rem 0;
+}
+
+.facility-popup i {
+    width: 1.25rem;
+}
+
+/* User location marker animation */
+.user-location-marker {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+/* Sidebar styles */
+#sidebar {
+    max-height: 700px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e0 #f7fafc;
+}
+
+#sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+#sidebar::-webkit-scrollbar-track {
+    background: #f7fafc;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 3px;
+}
+
+#sidebar::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0;
+}
+
+/* Facility details styles */
+.facility-details {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Legend styles */
+#legend {
+    font-size: 0.875rem;
+    max-width: 200px;
+    z-index: 1000;
+    position: relative;
+}
+
+#legend h3 {
+    font-size: 1rem;
+}
+
+/* Facility card styles */
+.facility-card {
+    transition: all 0.3s ease;
+    animation: slideIn 0.3s ease-out;
+}
+
+.facility-card:hover {
+    transform: translateY(-2px);
+    border-color: #3b82f6;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Search bar focus effect */
+#searchBar:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Button hover effects */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading spinner (for future use) */
+.spinner {
+    border: 3px solid #f3f4f6;
+    border-top: 3px solid #3b82f6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #legend {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+        max-width: 150px;
+    }
+
+    .filter-btn {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .facility-popup {
+        font-size: 0.875rem;
+    }
+}
+
+/* Marker cluster customization */
+.marker-cluster-small {
+    background-color: rgba(37, 99, 235, 0.6);
+}
+
+.marker-cluster-small div {
+    background-color: rgba(37, 99, 235, 0.8);
+}
+
+.marker-cluster-medium {
+    background-color: rgba(234, 88, 12, 0.6);
+}
+
+.marker-cluster-medium div {
+    background-color: rgba(234, 88, 12, 0.8);
+}
+
+.marker-cluster-large {
+    background-color: rgba(220, 38, 38, 0.6);
+}
+
+.marker-cluster-large div {
+    background-color: rgba(220, 38, 38, 0.8);
+}
+
+.marker-cluster {
+    color: white;
+    font-weight: bold;
+}
+
+/* Scrollbar styling for results list */
+#resultsList::-webkit-scrollbar {
+    width: 8px;
+}
+
+#resultsList::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+#resultsList::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+#resultsList::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Print styles */
+@media print {
+    header, footer, #sidebar, .filter-btn, button {
+        display: none !important;
+    }
+
+    #map {
+        height: 100vh !important;
+        page-break-after: avoid;
+    }
+}
+
+/* Accessibility improvements */
+:focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Fade in animation for page load - DISABLED to prevent overlap issues */
+/* body {
+    animation: pageLoad 0.5s ease-in;
+} */
+
+@keyframes pageLoad {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Success/Error messages (for future use) */
+.message {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    animation: slideDown 0.3s ease;
+}
+
+.message-success {
+    background-color: #d1fae5;
+    color: #065f46;
+    border: 1px solid #6ee7b7;
+}
+
+.message-error {
+    background-color: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fca5a5;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Tooltip styles (for future use) */
+.tooltip {
+    position: relative;
+}
+
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1f2937;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover::after {
+    opacity: 1;
+}
+
+/* Mobile menu animation */
+#mobileMenu {
+    transition: max-height 0.3s ease;
+}
+
+/* Ensure map is properly layered */
+.leaflet-container {
+    z-index: 1;
+    background: #f0f0f0;
+}
+
+.leaflet-pane {
+    z-index: 400;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+    z-index: 1000;
+}
+
+.leaflet-control-zoom,
+.leaflet-control-scale {
+    z-index: 1000;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Additional fixes for map visibility */
+.leaflet-container a {
+    color: #0078A8;
+}
+
+/* Ensure map container wrapper has height */
+#map {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Remove any conflicting positioning */
+main {
+    position: relative;
+    z-index: 1;
+}
+
+header {
+    position: relative;
+    z-index: 10;
+}
+
+/* Notification System */
+.notification {
+    min-width: 300px;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 0.875rem;
+    animation: slideIn 0.3s ease;
+    border: 2px solid;
+}
+
+.notification-success {
+    background: var(--color-mauve);
+    color: white;
+    border-color: var(--color-mauve);
+}
+
+.notification-error {
+    background: var(--color-burgundy);
+    color: white;
+    border-color: var(--color-burgundy);
+}
+
+.notification-warning {
+    background: var(--color-cream);
+    color: var(--color-burgundy);
+    border-color: var(--color-burgundy);
+}
+
+.notification-info {
+    background: var(--color-navy);
+    color: white;
+    border-color: var(--color-navy);
+}
+
+.notification-icon {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+.animate-slide-in {
+    animation: slideIn 0.3s ease;
+}
+
+/* Loading Overlay */
+#loading-overlay {
+    backdrop-filter: blur(2px);
+}
+
+/* User location marker pulse animation */
+.user-marker-pulse {
+    animation: markerPulse 2s infinite;
+}
+
+@keyframes markerPulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+}
+
+/* Search suggestions (for future use) */
+.search-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-top: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+.search-suggestion-item {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.search-suggestion-item:hover {
+    background: #f3f4f6;
+}
+
+.search-suggestion-item.active {
+    background: #e5e7eb;
+}
+
+/* Distance indicator on cards */
+.distance-badge {
+    background: var(--color-burgundy);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border: 1px solid var(--color-burgundy);
+}
+
+/* Sidebar Tabs */
+.sidebar-tab {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--color-mauve);
+    font-size: 0.875rem;
+}
+
+.sidebar-tab:hover {
+    background: var(--color-cream);
+    color: var(--color-burgundy);
+}
+
+.sidebar-tab.active {
+    background: var(--color-cream);
+    color: var(--color-burgundy);
+    border-bottom: 3px solid var(--color-burgundy);
+}
+
+/* Tab Content */
+.tab-content {
+    animation: fadeIn 0.3s ease-in;
+}
+
+.tab-content.hidden {
+    display: none;
+}
+
+/* Modal animations */
+#aboutModal, #statsModal, #favoritesModal {
+    animation: fadeIn 0.3s ease-in;
+}
+
+#aboutModal > div, #statsModal > div, #favoritesModal > div {
+    animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Routing markers */
+.custom-routing-marker {
+    background: transparent;
+    border: none;
+}
+
+/* Leaflet Routing Machine customization */
+.leaflet-routing-container {
+    display: none !important; /* Hide default routing panel, we use sidebar */
+}
+
+/* Drawing tools */
+.leaflet-draw-toolbar a {
+    background-color: #fff;
+}
+
+.leaflet-draw-toolbar a:hover {
+    background-color: #f3f4f6;
+}
+
+/* Chart container */
+#distributionChart {
+    max-height: 300px !important;
+}
+
+/* Facility details enhanced */
+.facility-details {
+    animation: slideIn 0.3s ease-out;
+}
+
+/* Action buttons */
+button[onclick*="getDirectionsToFacility"],
+button[onclick*="toggleFavorite"],
+button[onclick*="shareLocation"] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button[onclick*="getDirectionsToFacility"]:hover,
+button[onclick*="toggleFavorite"]:hover,
+button[onclick*="shareLocation"]:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Stats grid enhancement */
+.bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+/* Loading overlay enhancement */
+#loading-overlay {
+    backdrop-filter: blur(4px);
+}
+
+/* Print media queries for map */
+@media print {
+    #loading-overlay,
+    #notification-container,
+    header,
+    footer,
+    #sidebar,
+    .leaflet-control,
+    button {
+        display: none !important;
+    }
+
+    #map {
+        height: 100vh !important;
+        width: 100% !important;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+button:focus-visible,
+a:focus-visible {
+    outline: 2px solid var(--color-burgundy);
+    outline-offset: 2px;
+}
+
+:focus-visible {
+    outline: 2px solid var(--color-burgundy);
+    outline-offset: 2px;
+}
+
+/* Enhanced hover effects */
+.facility-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.facility-card:hover {
+    transform: translateY(-2px) scale(1.01);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .sidebar-tab {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    #sidebar {
+        max-height: 500px;
+    }
+
+    .modal-content {
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+}

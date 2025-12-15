@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics - Islamabad Smart City</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        body {
+            background-color: #fbecd7;
+        }
+
+        .stat-card {
+            transition: all 0.3s ease;
+            border: 2px solid #60546c;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(127, 46, 31, 0.2);
+            border-color: #7f2e1f;
+        }
+
+        .category-bar {
+            height: 24px;
+            background-color: #7f2e1f;
+            border-radius: 4px;
+            transition: width 0.6s ease;
+        }
+
+        .category-row {
+            transition: all 0.3s ease;
+        }
+
+        .category-row:hover {
+            background-color: rgba(96, 84, 108, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);" class="text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-map-marked-alt text-3xl" style="color: #fbecd7;"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold">Islamabad Smart City</h1>
+                        <p class="text-xs" style="color: #fbecd7;">Find civic facilities near you</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-6 items-center">
+                    <a href="index.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">
+                        <i class="fas fa-home mr-1"></i> Home
+                    </a>
+                    <a href="statistics.html" style="color: #ffffff; font-weight: bold;" class="hover:underline">
+                        <i class="fas fa-chart-bar mr-1"></i> Statistics
+                    </a>
+                    <a href="favorites.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">
+                        <i class="fas fa-heart mr-1"></i> Favorites
+                    </a>
+                    <a href="about.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">
+                        <i class="fas fa-info-circle mr-1"></i> About
+                    </a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="md:hidden text-white text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav id="mobileMenu" class="md:hidden mt-4 space-y-2 hidden">
+                <a href="index.html" style="background-color: #60546c;" class="block py-2 px-4 rounded hover:bg-opacity-80">
+                    <i class="fas fa-home mr-2"></i> Home
+                </a>
+                <a href="statistics.html" style="background-color: #7f2e1f; font-weight: bold;" class="block py-2 px-4 rounded">
+                    <i class="fas fa-chart-bar mr-2"></i> Statistics
+                </a>
+                <a href="favorites.html" style="background-color: #60546c;" class="block py-2 px-4 rounded hover:bg-opacity-80">
+                    <i class="fas fa-heart mr-2"></i> Favorites
+                </a>
+                <a href="about.html" style="background-color: #60546c;" class="block py-2 px-4 rounded hover:bg-opacity-80">
+                    <i class="fas fa-info-circle mr-2"></i> About
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Page Header -->
+        <div class="text-center mb-8">
+            <i class="fas fa-chart-pie text-6xl mb-4" style="color: #7f2e1f;"></i>
+            <h1 class="text-4xl font-bold mb-2" style="color: #202236;">Facility Statistics</h1>
+            <p class="text-lg" style="color: #60546c;">Comprehensive data about Islamabad's civic facilities</p>
+        </div>
+
+        <!-- Summary Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <!-- Total Facilities -->
+            <div class="stat-card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium" style="color: #60546c;">Total Facilities</p>
+                        <p class="text-3xl font-bold mt-2" style="color: #7f2e1f;">688</p>
+                    </div>
+                    <div style="background-color: #fbecd7;" class="rounded-full p-4">
+                        <i class="fas fa-building text-3xl" style="color: #7f2e1f;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Healthcare -->
+            <div class="stat-card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium" style="color: #60546c;">Healthcare</p>
+                        <p class="text-3xl font-bold mt-2" style="color: #7f2e1f;">75</p>
+                    </div>
+                    <div style="background-color: #fbecd7;" class="rounded-full p-4">
+                        <i class="fas fa-hospital text-3xl" style="color: #7f2e1f;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="stat-card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium" style="color: #60546c;">Education</p>
+                        <p class="text-3xl font-bold mt-2" style="color: #7f2e1f;">310</p>
+                    </div>
+                    <div style="background-color: #fbecd7;" class="rounded-full p-4">
+                        <i class="fas fa-graduation-cap text-3xl" style="color: #7f2e1f;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recreation -->
+            <div class="stat-card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium" style="color: #60546c;">Recreation</p>
+                        <p class="text-3xl font-bold mt-2" style="color: #7f2e1f;">60</p>
+                    </div>
+                    <div style="background-color: #fbecd7;" class="rounded-full p-4">
+                        <i class="fas fa-tree text-3xl" style="color: #7f2e1f;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts and Breakdown -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+            <!-- Distribution Chart -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-4" style="color: #202236;">
+                    <i class="fas fa-chart-pie mr-2" style="color: #7f2e1f;"></i>
+                    Facility Distribution
+                </h2>
+                <div class="relative" style="height: 300px;">
+                    <canvas id="distributionChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Category Breakdown -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-4" style="color: #202236;">
+                    <i class="fas fa-list mr-2" style="color: #7f2e1f;"></i>
+                    Category Breakdown
+                </h2>
+                <div class="space-y-4">
+                    <!-- Hospitals -->
+                    <div class="category-row p-3 rounded">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-medium" style="color: #202236;">
+                                <i class="fas fa-hospital mr-2" style="color: #7f2e1f;"></i>
+                                Hospitals
+                            </span>
+                            <span class="font-bold" style="color: #7f2e1f;">75 (10.9%)</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="category-bar" style="width: 10.9%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Police Stations -->
+                    <div class="category-row p-3 rounded">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-medium" style="color: #202236;">
+                                <i class="fas fa-shield-alt mr-2" style="color: #7f2e1f;"></i>
+                                Police Stations
+                            </span>
+                            <span class="font-bold" style="color: #7f2e1f;">35 (5.1%)</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="category-bar" style="width: 5.1%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Parks -->
+                    <div class="category-row p-3 rounded">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-medium" style="color: #202236;">
+                                <i class="fas fa-tree mr-2" style="color: #7f2e1f;"></i>
+                                Parks
+                            </span>
+                            <span class="font-bold" style="color: #7f2e1f;">60 (8.7%)</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="category-bar" style="width: 8.7%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Mosques -->
+                    <div class="category-row p-3 rounded">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-medium" style="color: #202236;">
+                                <i class="fas fa-mosque mr-2" style="color: #7f2e1f;"></i>
+                                Mosques
+                            </span>
+                            <span class="font-bold" style="color: #7f2e1f;">208 (30.2%)</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="category-bar" style="width: 30.2%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Schools -->
+                    <div class="category-row p-3 rounded">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-medium" style="color: #202236;">
+                                <i class="fas fa-school mr-2" style="color: #7f2e1f;"></i>
+                                Schools
+                            </span>
+                            <span class="font-bold" style="color: #7f2e1f;">250 (36.3%)</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="category-bar" style="width: 36.3%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Colleges -->
+                    <div class="category-row p-3 rounded">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-medium" style="color: #202236;">
+                                <i class="fas fa-university mr-2" style="color: #7f2e1f;"></i>
+                                Colleges
+                            </span>
+                            <span class="font-bold" style="color: #7f2e1f;">40 (5.8%)</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="category-bar" style="width: 5.8%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Universities -->
+                    <div class="category-row p-3 rounded">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-medium" style="color: #202236;">
+                                <i class="fas fa-graduation-cap mr-2" style="color: #7f2e1f;"></i>
+                                Universities
+                            </span>
+                            <span class="font-bold" style="color: #7f2e1f;">20 (2.9%)</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="category-bar" style="width: 2.9%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Did You Know Section -->
+        <div class="bg-white rounded-lg shadow-md p-8">
+            <h2 class="text-2xl font-bold mb-6 text-center" style="color: #202236;">
+                <i class="fas fa-lightbulb mr-2" style="color: #7f2e1f;"></i>
+                Did You Know?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="text-center p-4" style="background-color: #fbecd7; border-radius: 8px;">
+                    <i class="fas fa-school text-4xl mb-3" style="color: #7f2e1f;"></i>
+                    <p class="font-medium" style="color: #202236;">Schools are the most common facility</p>
+                    <p class="text-sm mt-2" style="color: #60546c;">250 schools serving the community (36.3%)</p>
+                </div>
+                <div class="text-center p-4" style="background-color: #fbecd7; border-radius: 8px;">
+                    <i class="fas fa-mosque text-4xl mb-3" style="color: #7f2e1f;"></i>
+                    <p class="font-medium" style="color: #202236;">208 places of worship</p>
+                    <p class="text-sm mt-2" style="color: #60546c;">Making up 30.2% of all facilities</p>
+                </div>
+                <div class="text-center p-4" style="background-color: #fbecd7; border-radius: 8px;">
+                    <i class="fas fa-hospital text-4xl mb-3" style="color: #7f2e1f;"></i>
+                    <p class="font-medium" style="color: #202236;">75 healthcare facilities</p>
+                    <p class="text-sm mt-2" style="color: #60546c;">Ensuring accessible medical care citywide</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Map Button -->
+        <div class="text-center mt-8">
+            <a href="index.html" style="background-color: #7f2e1f;" onmouseover="this.style.backgroundColor='#60546c'" onmouseout="this.style.backgroundColor='#7f2e1f'" class="inline-block text-white px-8 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all">
+                <i class="fas fa-map-marked-alt mr-2"></i>
+                Back to Map
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);" class="text-white mt-16 py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- About -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4" style="color: #fbecd7;">About</h3>
+                    <p class="text-sm" style="color: #fbecd7;">
+                        Islamabad Smart City WebGIS helps citizens locate essential civic facilities across Islamabad.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4" style="color: #fbecd7;">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">Home</a></li>
+                        <li><a href="statistics.html" style="color: #ffffff; font-weight: bold;">Statistics</a></li>
+                        <li><a href="favorites.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">Favorites</a></li>
+                        <li><a href="about.html" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'" class="hover:underline">About</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4" style="color: #fbecd7;">Technologies</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span style="background-color: #7f2e1f;" class="text-xs px-2 py-1 rounded">Leaflet.js</span>
+                        <span style="background-color: #7f2e1f;" class="text-xs px-2 py-1 rounded">OpenStreetMap</span>
+                        <span style="background-color: #7f2e1f;" class="text-xs px-2 py-1 rounded">Chart.js</span>
+                        <span style="background-color: #7f2e1f;" class="text-xs px-2 py-1 rounded">Tailwind CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-600 mt-8 pt-6 text-center text-sm" style="color: #fbecd7;">
+                <p>&copy; 2025 Islamabad Smart City. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Chart.js - Distribution Chart
+        const ctx = document.getElementById('distributionChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Schools', 'Mosques', 'Hospitals', 'Parks', 'Colleges', 'Police Stations', 'Universities'],
+                datasets: [{
+                    data: [250, 208, 75, 60, 40, 35, 20],
+                    backgroundColor: [
+                        '#7f2e1f',
+                        '#60546c',
+                        '#202236',
+                        '#fbecd7',
+                        '#a0616a',
+                        '#8b6f7d',
+                        '#d4a574'
+                    ],
+                    borderWidth: 2,
+                    borderColor: '#ffffff'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 15,
+                            font: {
+                                size: 12
+                            }
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                const label = context.label || '';
+                                const value = context.parsed || 0;
+                                const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                const percentage = ((value / total) * 100).toFixed(1);
+                                return `${label}: ${value} (${percentage}%)`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Animate bars on page load
+        window.addEventListener('load', function() {
+            const bars = document.querySelectorAll('.category-bar');
+            bars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0%';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 100);
+            });
+        });
+    </script>
+</body>
+</html>

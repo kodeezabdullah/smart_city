@@ -1,0 +1,1166 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "category": "colleges",
+    "total": 50,
+    "lastUpdated": "2024-12-15",
+    "city": "Islamabad",
+    "description": "Colleges and higher secondary institutions"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "college_001",
+      "properties": {
+        "name": "F.G. Degree College for Men F-7",
+        "category": "Government College",
+        "address": "F-7/2",
+        "sector": "F-7",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels",
+          "Bachelors"
+        ],
+        "rating": 4.5,
+        "reviews": 980,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0567,
+          33.7245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_002",
+      "properties": {
+        "name": "F.G. Degree College for Women F-7",
+        "category": "Government College",
+        "address": "F-7/2",
+        "sector": "F-7",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels",
+          "Bachelors"
+        ],
+        "rating": 4.6,
+        "reviews": 1120,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0578,
+          33.7234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_003",
+      "properties": {
+        "name": "Punjab College Islamabad",
+        "category": "Private College",
+        "address": "G-10/4",
+        "sector": "G-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels",
+          "Bachelors"
+        ],
+        "rating": 4.7,
+        "reviews": 1450,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0267,
+          33.6945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_004",
+      "properties": {
+        "name": "Concordia College",
+        "category": "Private College",
+        "address": "G-11/3",
+        "sector": "G-11",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels",
+          "Bachelors"
+        ],
+        "rating": 4.6,
+        "reviews": 1230,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0356,
+          33.6856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_005",
+      "properties": {
+        "name": "Fazaia College F-6",
+        "category": "Private College",
+        "address": "F-6, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.9,
+        "reviews": 505,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.105,
+          33.735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_006",
+      "properties": {
+        "name": "Roots IVY College F-6",
+        "category": "Government College",
+        "address": "F-6, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.0,
+        "reviews": 684,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11,
+          33.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_007",
+      "properties": {
+        "name": "Roots IVY College F-6",
+        "category": "Private College",
+        "address": "F-6, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.3,
+        "reviews": 249,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11500000000001,
+          33.745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_008",
+      "properties": {
+        "name": "Punjab College F-7",
+        "category": "Government College",
+        "address": "F-7, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.9,
+        "reviews": 691,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1175,
+          33.747499999999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_009",
+      "properties": {
+        "name": "Al-Huda College F-7",
+        "category": "Government College",
+        "address": "F-7, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.6,
+        "reviews": 566,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1225,
+          33.7525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_010",
+      "properties": {
+        "name": "Wah Model College F-7",
+        "category": "Government College",
+        "address": "F-7, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.4,
+        "reviews": 503,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.12750000000001,
+          33.75749999999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_011",
+      "properties": {
+        "name": "Fazaia College F-8",
+        "category": "Private College",
+        "address": "F-8, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.0,
+        "reviews": 236,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13,
+          33.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_012",
+      "properties": {
+        "name": "Fazaia College F-8",
+        "category": "Government College",
+        "address": "F-8, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.7,
+        "reviews": 641,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13499999999999,
+          33.765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_013",
+      "properties": {
+        "name": "Fazaia College F-8",
+        "category": "Private College",
+        "address": "F-8, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.5,
+        "reviews": 260,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.14,
+          33.769999999999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_014",
+      "properties": {
+        "name": "Punjab College F-10",
+        "category": "Government College",
+        "address": "F-10, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.9,
+        "reviews": 190,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.155,
+          33.785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_015",
+      "properties": {
+        "name": "Wah Model College F-10",
+        "category": "Government College",
+        "address": "F-10, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.8,
+        "reviews": 642,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.16,
+          33.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_016",
+      "properties": {
+        "name": "Al-Huda College F-10",
+        "category": "Government College",
+        "address": "F-10, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.2,
+        "reviews": 125,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.165,
+          33.794999999999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_017",
+      "properties": {
+        "name": "F.G. College F-11",
+        "category": "Private College",
+        "address": "F-11, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.7,
+        "reviews": 356,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1675,
+          33.7975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_018",
+      "properties": {
+        "name": "Wah Model College F-11",
+        "category": "Private College",
+        "address": "F-11, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.7,
+        "reviews": 551,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1725,
+          33.8025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_019",
+      "properties": {
+        "name": "Punjab College F-11",
+        "category": "Private College",
+        "address": "F-11, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.7,
+        "reviews": 640,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.17750000000001,
+          33.8075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_020",
+      "properties": {
+        "name": "Fazaia College G-6",
+        "category": "Private College",
+        "address": "G-6, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.2,
+        "reviews": 531,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.105,
+          33.735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_021",
+      "properties": {
+        "name": "Fazaia College G-6",
+        "category": "Private College",
+        "address": "G-6, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.3,
+        "reviews": 127,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11,
+          33.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_022",
+      "properties": {
+        "name": "Roots IVY College G-6",
+        "category": "Private College",
+        "address": "G-6, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.9,
+        "reviews": 231,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11500000000001,
+          33.745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_023",
+      "properties": {
+        "name": "Al-Huda College G-7",
+        "category": "Government College",
+        "address": "G-7, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.3,
+        "reviews": 586,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1175,
+          33.747499999999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_024",
+      "properties": {
+        "name": "Wah Model College G-7",
+        "category": "Private College",
+        "address": "G-7, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.4,
+        "reviews": 324,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1225,
+          33.7525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_025",
+      "properties": {
+        "name": "F.G. College G-7",
+        "category": "Private College",
+        "address": "G-7, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.4,
+        "reviews": 286,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.12750000000001,
+          33.75749999999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_026",
+      "properties": {
+        "name": "Fazaia College G-8",
+        "category": "Private College",
+        "address": "G-8, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.2,
+        "reviews": 668,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13,
+          33.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_027",
+      "properties": {
+        "name": "Fazaia College G-8",
+        "category": "Government College",
+        "address": "G-8, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.0,
+        "reviews": 268,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13499999999999,
+          33.765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_028",
+      "properties": {
+        "name": "Punjab College G-8",
+        "category": "Private College",
+        "address": "G-8, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.5,
+        "reviews": 215,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.14,
+          33.769999999999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_029",
+      "properties": {
+        "name": "Punjab College G-9",
+        "category": "Private College",
+        "address": "G-9, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.3,
+        "reviews": 205,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1425,
+          33.772499999999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_030",
+      "properties": {
+        "name": "Al-Huda College G-9",
+        "category": "Government College",
+        "address": "G-9, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.3,
+        "reviews": 141,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1475,
+          33.777499999999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_031",
+      "properties": {
+        "name": "Al-Huda College G-9",
+        "category": "Government College",
+        "address": "G-9, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.9,
+        "reviews": 644,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1525,
+          33.78249999999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_032",
+      "properties": {
+        "name": "Al-Huda College G-10",
+        "category": "Government College",
+        "address": "G-10, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.5,
+        "reviews": 259,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.155,
+          33.785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_033",
+      "properties": {
+        "name": "F.G. College G-10",
+        "category": "Private College",
+        "address": "G-10, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.7,
+        "reviews": 319,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.16,
+          33.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_034",
+      "properties": {
+        "name": "Roots IVY College G-10",
+        "category": "Government College",
+        "address": "G-10, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.1,
+        "reviews": 572,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.165,
+          33.794999999999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_035",
+      "properties": {
+        "name": "Punjab College G-11",
+        "category": "Private College",
+        "address": "G-11, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.5,
+        "reviews": 165,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1675,
+          33.7975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_036",
+      "properties": {
+        "name": "Fazaia College G-11",
+        "category": "Government College",
+        "address": "G-11, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.5,
+        "reviews": 618,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1725,
+          33.8025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_037",
+      "properties": {
+        "name": "Punjab College G-11",
+        "category": "Government College",
+        "address": "G-11, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.9,
+        "reviews": 138,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.17750000000001,
+          33.8075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_038",
+      "properties": {
+        "name": "Wah Model College I-8",
+        "category": "Private College",
+        "address": "I-8, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.8,
+        "reviews": 462,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13,
+          33.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_039",
+      "properties": {
+        "name": "Fazaia College I-8",
+        "category": "Government College",
+        "address": "I-8, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.7,
+        "reviews": 656,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13499999999999,
+          33.765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_040",
+      "properties": {
+        "name": "Fazaia College I-8",
+        "category": "Government College",
+        "address": "I-8, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.2,
+        "reviews": 142,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.14,
+          33.769999999999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_041",
+      "properties": {
+        "name": "Wah Model College I-9",
+        "category": "Private College",
+        "address": "I-9, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.3,
+        "reviews": 313,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1425,
+          33.772499999999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_042",
+      "properties": {
+        "name": "Wah Model College I-9",
+        "category": "Private College",
+        "address": "I-9, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.5,
+        "reviews": 350,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1475,
+          33.777499999999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_043",
+      "properties": {
+        "name": "Punjab College I-9",
+        "category": "Private College",
+        "address": "I-9, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.8,
+        "reviews": 209,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1525,
+          33.78249999999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_044",
+      "properties": {
+        "name": "Al-Huda College I-10",
+        "category": "Government College",
+        "address": "I-10, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.7,
+        "reviews": 404,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.155,
+          33.785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_045",
+      "properties": {
+        "name": "Punjab College I-10",
+        "category": "Private College",
+        "address": "I-10, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 3.7,
+        "reviews": 472,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.16,
+          33.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "college_046",
+      "properties": {
+        "name": "Wah Model College I-10",
+        "category": "Government College",
+        "address": "I-10, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 3:00 PM",
+        "programs": [
+          "Intermediate",
+          "A-Levels"
+        ],
+        "rating": 4.2,
+        "reviews": 435,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.165,
+          33.794999999999995
+        ]
+      }
+    }
+  ]
+}

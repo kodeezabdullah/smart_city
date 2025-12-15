@@ -1,0 +1,537 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "category": "universities",
+    "total": 25,
+    "lastUpdated": "2024-12-15",
+    "city": "Islamabad",
+    "description": "Universities and higher education institutions in Islamabad"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "uni_001",
+      "properties": {
+        "name": "Quaid-i-Azam University (QAU)",
+        "category": "Public University",
+        "address": "Main Campus, University Road, Islamabad",
+        "sector": "University Town",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["BS", "MS", "PhD", "Arts", "Sciences", "Social Sciences"],
+        "established": "1967",
+        "rating": 4.7,
+        "reviews": 3450,
+        "description": "Pakistan's premier public research university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1323, 33.7467]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_002",
+      "properties": {
+        "name": "National University of Sciences and Technology (NUST)",
+        "category": "Public University",
+        "address": "H-12 Sector, Islamabad",
+        "sector": "H-12",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Engineering", "IT", "Business", "Sciences", "Architecture"],
+        "established": "1991",
+        "rating": 4.8,
+        "reviews": 4120,
+        "description": "Top-ranked engineering and technology university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1456, 33.6412]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_003",
+      "properties": {
+        "name": "COMSATS University Islamabad",
+        "category": "Public University",
+        "address": "Park Road, Chak Shahzad, Islamabad",
+        "sector": "Chak Shahzad",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Computer Science", "Engineering", "Business", "Sciences"],
+        "established": "1998",
+        "rating": 4.6,
+        "reviews": 3280,
+        "description": "Leading IT and engineering university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0923, 33.6534]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_004",
+      "properties": {
+        "name": "International Islamic University (IIU)",
+        "category": "Public University",
+        "address": "H-10 Sector, Islamabad",
+        "sector": "H-10",
+        "timing": "8:00 AM - 4:00 PM",
+        "programs": ["Islamic Studies", "Engineering", "Business", "Law", "Sciences"],
+        "established": "1980",
+        "rating": 4.5,
+        "reviews": 2890,
+        "description": "University with Islamic studies and modern education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0612, 33.6523]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_005",
+      "properties": {
+        "name": "Air University",
+        "category": "Public University",
+        "address": "E-9, PAF Complex, Islamabad",
+        "sector": "E-9",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Aerospace Engineering", "IT", "Business", "Aviation"],
+        "established": "2002",
+        "rating": 4.6,
+        "reviews": 2340,
+        "description": "PAF-affiliated university specializing in aviation and engineering",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0923, 33.6834]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_006",
+      "properties": {
+        "name": "National Defense University (NDU)",
+        "category": "Military University",
+        "address": "E-9, Islamabad",
+        "sector": "E-9",
+        "timing": "8:00 AM - 4:00 PM",
+        "programs": ["Strategic Studies", "Defense", "International Relations"],
+        "established": "1970",
+        "rating": 4.7,
+        "reviews": 1560,
+        "description": "Premier institution for defense and strategic studies",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0889, 33.6812]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_007",
+      "properties": {
+        "name": "Pakistan Institute of Development Economics (PIDE)",
+        "category": "Research Institute",
+        "address": "Quaid-i-Azam University Campus, Islamabad",
+        "sector": "QAU Campus",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Economics", "Development Studies", "Research"],
+        "established": "1957",
+        "rating": 4.4,
+        "reviews": 890,
+        "description": "Leading economics research institute",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1289, 33.7478]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_008",
+      "properties": {
+        "name": "National University of Modern Languages (NUML)",
+        "category": "Public University",
+        "address": "H-9 Sector, Islamabad",
+        "sector": "H-9",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Languages", "Translation", "Literature", "Business"],
+        "established": "1970",
+        "rating": 4.3,
+        "reviews": 1780,
+        "description": "Specialized university for languages and linguistics",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0534, 33.6645]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_009",
+      "properties": {
+        "name": "Bahria University Islamabad",
+        "category": "Private University",
+        "address": "Shangrila Road, E-8, Islamabad",
+        "sector": "E-8",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Engineering", "IT", "Business", "Sciences", "Law"],
+        "established": "2000",
+        "rating": 4.5,
+        "reviews": 2670,
+        "description": "Navy-affiliated private university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0801, 33.7123]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_010",
+      "properties": {
+        "name": "Federal Urdu University",
+        "category": "Public University",
+        "address": "G-7/1, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 4:00 PM",
+        "programs": ["Urdu", "Literature", "Education", "Arts"],
+        "established": "2002",
+        "rating": 4.2,
+        "reviews": 1230,
+        "description": "Dedicated to Urdu language and literature",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0545, 33.7134]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_011",
+      "properties": {
+        "name": "HITEC University",
+        "category": "Public University",
+        "address": "Taxila Cantt (Islamabad Campus)",
+        "sector": "E-11",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Engineering", "IT", "Telecommunications"],
+        "established": "2007",
+        "rating": 4.4,
+        "reviews": 980,
+        "description": "Army-affiliated technology university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1123, 33.6456]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_012",
+      "properties": {
+        "name": "Allama Iqbal Open University (AIOU)",
+        "category": "Open University",
+        "address": "H-8, Islamabad",
+        "sector": "H-8",
+        "timing": "8:00 AM - 4:00 PM",
+        "programs": ["Distance Learning", "All Disciplines"],
+        "established": "1974",
+        "rating": 4.1,
+        "reviews": 5680,
+        "description": "Pakistan's largest distance learning university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0467, 33.6589]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_013",
+      "properties": {
+        "name": "Shifa Tameer-e-Millat University",
+        "category": "Private University",
+        "address": "H-8/4, Pitras Bukhari Road, Islamabad",
+        "sector": "H-8",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Medical Sciences", "Nursing", "Allied Health"],
+        "established": "2012",
+        "rating": 4.6,
+        "reviews": 1450,
+        "description": "Medical university affiliated with Shifa Hospital",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0445, 33.6578]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_014",
+      "properties": {
+        "name": "Riphah International University",
+        "category": "Private University",
+        "address": "I-14, Islamabad",
+        "sector": "I-14",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Medical Sciences", "Engineering", "Business", "Islamic Studies"],
+        "established": "2002",
+        "rating": 4.4,
+        "reviews": 2120,
+        "description": "Private university with focus on Islamic education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0712, 33.6234]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_015",
+      "properties": {
+        "name": "Capital University of Science and Technology (CUST)",
+        "category": "Private University",
+        "address": "Kahuta Road, Zone-V, Islamabad",
+        "sector": "Zone V",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Engineering", "IT", "Business", "Sciences"],
+        "established": "1998",
+        "rating": 4.3,
+        "reviews": 1680,
+        "description": "Private university specializing in sciences and technology",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1556, 33.6712]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_016",
+      "properties": {
+        "name": "Foundation University Islamabad",
+        "category": "Private University",
+        "address": "DHA Phase 1, Islamabad",
+        "sector": "DHA",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Engineering", "Medical Sciences", "Business", "IT"],
+        "established": "2002",
+        "rating": 4.5,
+        "reviews": 1890,
+        "description": "Comprehensive private university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1678, 33.5923]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_017",
+      "properties": {
+        "name": "Institute of Space Technology (IST)",
+        "category": "Public University",
+        "address": "Near Islamabad Highway, Islamabad",
+        "sector": "Highway",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Aerospace Engineering", "Space Sciences", "IT"],
+        "established": "2002",
+        "rating": 4.7,
+        "reviews": 1340,
+        "description": "Specialized institute for space technology",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1234, 33.6123]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_018",
+      "properties": {
+        "name": "National Institute of Pakistan Studies (NIPS)",
+        "category": "Research Institute",
+        "address": "Quaid-i-Azam University, Islamabad",
+        "sector": "QAU Campus",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Pakistan Studies", "Research"],
+        "established": "1976",
+        "rating": 4.2,
+        "reviews": 560,
+        "description": "Research institute for Pakistan studies",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1298, 33.7489]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_019",
+      "properties": {
+        "name": "National School of Public Policy (NSPP)",
+        "category": "Graduate School",
+        "address": "Shahrah-e-Kashmir, Islamabad",
+        "sector": "G-5",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Public Policy", "Governance", "Management"],
+        "established": "2010",
+        "rating": 4.5,
+        "reviews": 670,
+        "description": "Graduate school for public policy",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0756, 33.7245]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_020",
+      "properties": {
+        "name": "Iqra University Islamabad",
+        "category": "Private University",
+        "address": "H-9/1, Islamabad",
+        "sector": "H-9",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Business", "IT", "Engineering"],
+        "established": "2008",
+        "rating": 4.2,
+        "reviews": 1120,
+        "description": "Private university with multiple programs",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0512, 33.6667]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_021",
+      "properties": {
+        "name": "Preston University Islamabad",
+        "category": "Private University",
+        "address": "Korang Road, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Business", "IT", "Management"],
+        "established": "2000",
+        "rating": 3.9,
+        "reviews": 780,
+        "description": "American-style private university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0267, 33.6634]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_022",
+      "properties": {
+        "name": "Hamdard University Islamabad",
+        "category": "Private University",
+        "address": "D-12/1, Islamabad",
+        "sector": "D-12",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Pharmacy", "Eastern Medicine", "Sciences"],
+        "established": "2012",
+        "rating": 4.3,
+        "reviews": 890,
+        "description": "Specialized in pharmaceutical sciences",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0891, 33.6245]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_023",
+      "properties": {
+        "name": "National University of Technology (NUTECH)",
+        "category": "Public University",
+        "address": "I-12, Islamabad",
+        "sector": "I-12",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Engineering", "Technology", "IT"],
+        "established": "2012",
+        "rating": 4.4,
+        "reviews": 1230,
+        "description": "Technology-focused national university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0834, 33.6412]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_024",
+      "properties": {
+        "name": "Abasyn University Islamabad",
+        "category": "Private University",
+        "address": "Peshawar Road, Islamabad",
+        "sector": "E-11",
+        "timing": "8:00 AM - 5:00 PM",
+        "programs": ["Business", "IT", "Engineering"],
+        "established": "2014",
+        "rating": 4.0,
+        "reviews": 680,
+        "description": "Private university offering various programs",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1189, 33.6478]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni_025",
+      "properties": {
+        "name": "Virtual University of Pakistan (VU) - Islamabad Campus",
+        "category": "Virtual University",
+        "address": "G-11/1, Islamabad",
+        "sector": "G-11",
+        "timing": "Online + Campus Support",
+        "programs": ["IT", "Business", "Sciences", "Distance Learning"],
+        "established": "2002",
+        "rating": 4.1,
+        "reviews": 3240,
+        "description": "Pakistan's first online university",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0334, 33.6845]
+      }
+    }
+  ]
+}

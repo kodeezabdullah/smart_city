@@ -1,0 +1,6626 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "category": "mosques",
+    "total": 250,
+    "lastUpdated": "2024-12-15",
+    "city": "Islamabad",
+    "description": "Mosques and Islamic centers across Islamabad"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "mosque_001",
+      "properties": {
+        "name": "Faisal Mosque",
+        "category": "Grand Mosque",
+        "address": "Shah Faisal Avenue",
+        "sector": "E-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.9,
+        "reviews": 8920,
+        "description": "Grand Mosque serving the community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0372,
+          33.7297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_002",
+      "properties": {
+        "name": "Lal Masjid",
+        "category": "Historic Mosque",
+        "address": "G-6/2, Aabpara",
+        "sector": "G-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 1560,
+        "description": "Historic Mosque serving the community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0689,
+          33.7156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_003",
+      "properties": {
+        "name": "Grand Jamia Mosque",
+        "category": "Grand Mosque",
+        "address": "Blue Area, Jinnah Avenue",
+        "sector": "Blue Area",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.6,
+        "reviews": 2340,
+        "description": "Grand Mosque serving the community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0623,
+          33.7189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_004",
+      "properties": {
+        "name": "H-11 Grand Mosque",
+        "category": "Grand Mosque",
+        "address": "H-11",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 1240,
+        "description": "Grand Mosque serving the community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0834,
+          33.6578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_005",
+      "properties": {
+        "name": "King Faisal Mosque",
+        "category": "Sector Mosque",
+        "address": "E-7",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 980,
+        "description": "Sector Mosque serving the community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0945,
+          33.7067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_006",
+      "properties": {
+        "name": "Masjid Al-Mubarak F-5/1",
+        "category": "Jamia Mosque",
+        "address": "F-5/1, Islamabad",
+        "sector": "F-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.2,
+        "reviews": 411,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02065863060061,
+          33.66499943290249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_007",
+      "properties": {
+        "name": "Masjid Al-Barakah F-5/2",
+        "category": "Sector Mosque",
+        "address": "F-5/2, Islamabad",
+        "sector": "F-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 289,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03176200971959,
+          33.66208607301589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_008",
+      "properties": {
+        "name": "Masjid Al-Salam F-5/3",
+        "category": "Sector Mosque",
+        "address": "F-5/3, Islamabad",
+        "sector": "F-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 240,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03944594603689,
+          33.664107329544564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_009",
+      "properties": {
+        "name": "Masjid Al-Falah F-5/4",
+        "category": "Small Mosque",
+        "address": "F-5/4, Islamabad",
+        "sector": "F-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 66,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05794822677217,
+          33.6635850720178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_010",
+      "properties": {
+        "name": "Masjid Al-Barakah F-5/1",
+        "category": "Small Mosque",
+        "address": "F-5/1, Islamabad",
+        "sector": "F-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 165,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01338999958341,
+          33.67223696878523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_011",
+      "properties": {
+        "name": "Masjid Al-Hidayah F-5/2",
+        "category": "Small Mosque",
+        "address": "F-5/2, Islamabad",
+        "sector": "F-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 285,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02700278832499,
+          33.67217983278413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_012",
+      "properties": {
+        "name": "Masjid Al-Jamia F-5/3",
+        "category": "Small Mosque",
+        "address": "F-5/3, Islamabad",
+        "sector": "F-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 339,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03866663914663,
+          33.67397261945504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_013",
+      "properties": {
+        "name": "Masjid Al-Madina F-5/4",
+        "category": "Small Mosque",
+        "address": "F-5/4, Islamabad",
+        "sector": "F-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.5,
+        "reviews": 264,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05452935829156,
+          33.67631207598152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_014",
+      "properties": {
+        "name": "Masjid Al-Noor F-5/1",
+        "category": "Small Mosque",
+        "address": "F-5/1, Islamabad",
+        "sector": "F-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.0,
+        "reviews": 115,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01948856348771,
+          33.67567319847085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_015",
+      "properties": {
+        "name": "Masjid Al-Jamia F-6/1",
+        "category": "Jamia Mosque",
+        "address": "F-6/1, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 1021,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01371325766722,
+          33.68515527052168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_016",
+      "properties": {
+        "name": "Masjid Al-Taqwa F-6/2",
+        "category": "Sector Mosque",
+        "address": "F-6/2, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 237,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02483322143492,
+          33.68392050920374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_017",
+      "properties": {
+        "name": "Masjid Al-Aqsa F-6/3",
+        "category": "Sector Mosque",
+        "address": "F-6/3, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.2,
+        "reviews": 389,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04426393245099,
+          33.686890363995296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_018",
+      "properties": {
+        "name": "Masjid Al-Khair F-6/4",
+        "category": "Small Mosque",
+        "address": "F-6/4, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 351,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0463451014235,
+          33.67639823077127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_019",
+      "properties": {
+        "name": "Masjid Al-Furqan F-6/1",
+        "category": "Small Mosque",
+        "address": "F-6/1, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 109,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01220321549538,
+          33.68216419746218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_020",
+      "properties": {
+        "name": "Masjid Al-Khair F-6/2",
+        "category": "Small Mosque",
+        "address": "F-6/2, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 114,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.025258611179,
+          33.676405723617044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_021",
+      "properties": {
+        "name": "Masjid Al-Huda F-6/3",
+        "category": "Small Mosque",
+        "address": "F-6/3, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 275,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04456330704353,
+          33.685448652147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_022",
+      "properties": {
+        "name": "Masjid Al-Jamia F-6/4",
+        "category": "Small Mosque",
+        "address": "F-6/4, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 387,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05211242463741,
+          33.67398351968179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_023",
+      "properties": {
+        "name": "Masjid Al-Mustafa F-6/1",
+        "category": "Small Mosque",
+        "address": "F-6/1, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 358,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0235164040278,
+          33.676638294594895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_024",
+      "properties": {
+        "name": "Masjid Al-Rahman F-6/2",
+        "category": "Small Mosque",
+        "address": "F-6/2, Islamabad",
+        "sector": "F-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 163,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02771194334454,
+          33.68219764600787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_025",
+      "properties": {
+        "name": "Masjid Al-Rashid F-7/1",
+        "category": "Jamia Mosque",
+        "address": "F-7/1, Islamabad",
+        "sector": "F-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.7,
+        "reviews": 937,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01589503709369,
+          33.688797559904515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_026",
+      "properties": {
+        "name": "Masjid Al-Salam F-7/2",
+        "category": "Sector Mosque",
+        "address": "F-7/2, Islamabad",
+        "sector": "F-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.8,
+        "reviews": 606,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03497251050695,
+          33.691740331965306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_027",
+      "properties": {
+        "name": "Masjid Al-Rahim F-7/3",
+        "category": "Sector Mosque",
+        "address": "F-7/3, Islamabad",
+        "sector": "F-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 762,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03227854504341,
+          33.68838050142879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_028",
+      "properties": {
+        "name": "Masjid Al-Salam F-7/4",
+        "category": "Small Mosque",
+        "address": "F-7/4, Islamabad",
+        "sector": "F-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 93,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0488228177865,
+          33.68996723576492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_029",
+      "properties": {
+        "name": "Masjid Al-Rahman F-7/1",
+        "category": "Small Mosque",
+        "address": "F-7/1, Islamabad",
+        "sector": "F-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 294,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02159593258027,
+          33.696943693541066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_030",
+      "properties": {
+        "name": "Masjid Al-Mubarak F-7/2",
+        "category": "Small Mosque",
+        "address": "F-7/2, Islamabad",
+        "sector": "F-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.0,
+        "reviews": 262,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03729420923742,
+          33.69019077366763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_031",
+      "properties": {
+        "name": "Masjid Al-Khair F-7/3",
+        "category": "Small Mosque",
+        "address": "F-7/3, Islamabad",
+        "sector": "F-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 103,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03669682994509,
+          33.69798677723219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_032",
+      "properties": {
+        "name": "Masjid Al-Taqwa F-7/4",
+        "category": "Small Mosque",
+        "address": "F-7/4, Islamabad",
+        "sector": "F-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 201,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04688312356,
+          33.69578697333882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_033",
+      "properties": {
+        "name": "Masjid Al-Mubarak F-8/1",
+        "category": "Jamia Mosque",
+        "address": "F-8/1, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 473,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0136565834204,
+          33.696962646342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_034",
+      "properties": {
+        "name": "Masjid Al-Jamia F-8/2",
+        "category": "Sector Mosque",
+        "address": "F-8/2, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 220,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02591966381993,
+          33.704547719665946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_035",
+      "properties": {
+        "name": "Masjid Al-Noor F-8/3",
+        "category": "Sector Mosque",
+        "address": "F-8/3, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 195,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04244283710071,
+          33.693723189795485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_036",
+      "properties": {
+        "name": "Masjid Al-Rahman F-8/4",
+        "category": "Small Mosque",
+        "address": "F-8/4, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 171,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05065307412849,
+          33.6941277987156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_037",
+      "properties": {
+        "name": "Masjid Al-Khair F-8/1",
+        "category": "Small Mosque",
+        "address": "F-8/1, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 222,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01994390672232,
+          33.70009151208918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_038",
+      "properties": {
+        "name": "Masjid Al-Falah F-8/2",
+        "category": "Small Mosque",
+        "address": "F-8/2, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 375,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02877640463463,
+          33.696812625845084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_039",
+      "properties": {
+        "name": "Masjid Al-Falah F-8/3",
+        "category": "Small Mosque",
+        "address": "F-8/3, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 180,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03827596256497,
+          33.70742235707929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_040",
+      "properties": {
+        "name": "Masjid Al-Madina F-8/4",
+        "category": "Small Mosque",
+        "address": "F-8/4, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 361,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05648272641797,
+          33.70073451431113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_041",
+      "properties": {
+        "name": "Masjid Al-Faisal F-8/1",
+        "category": "Small Mosque",
+        "address": "F-8/1, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 51,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02367244903598,
+          33.70787671270914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_042",
+      "properties": {
+        "name": "Masjid Al-Mustafa F-8/2",
+        "category": "Small Mosque",
+        "address": "F-8/2, Islamabad",
+        "sector": "F-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 300,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03439256696043,
+          33.703595946226805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_043",
+      "properties": {
+        "name": "Masjid Al-Mustafa F-9/1",
+        "category": "Jamia Mosque",
+        "address": "F-9/1, Islamabad",
+        "sector": "F-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.6,
+        "reviews": 422,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02174934430296,
+          33.71654056151079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_044",
+      "properties": {
+        "name": "Masjid Al-Rashid F-9/2",
+        "category": "Sector Mosque",
+        "address": "F-9/2, Islamabad",
+        "sector": "F-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.8,
+        "reviews": 383,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0306154344299,
+          33.70268953951132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_045",
+      "properties": {
+        "name": "Masjid Al-Mubarak F-9/3",
+        "category": "Sector Mosque",
+        "address": "F-9/3, Islamabad",
+        "sector": "F-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.9,
+        "reviews": 703,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03365286983767,
+          33.71009131379432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_046",
+      "properties": {
+        "name": "Masjid Al-Huda F-9/4",
+        "category": "Small Mosque",
+        "address": "F-9/4, Islamabad",
+        "sector": "F-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 232,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04931813655854,
+          33.70670600148938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_047",
+      "properties": {
+        "name": "Masjid Al-Rashid F-9/1",
+        "category": "Small Mosque",
+        "address": "F-9/1, Islamabad",
+        "sector": "F-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 275,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02720873943532,
+          33.705236101342344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_048",
+      "properties": {
+        "name": "Masjid Al-Mustafa F-9/2",
+        "category": "Small Mosque",
+        "address": "F-9/2, Islamabad",
+        "sector": "F-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 388,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02371140642498,
+          33.70921242008468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_049",
+      "properties": {
+        "name": "Masjid Al-Salam F-9/3",
+        "category": "Small Mosque",
+        "address": "F-9/3, Islamabad",
+        "sector": "F-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 106,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03871234471157,
+          33.70955191463228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_050",
+      "properties": {
+        "name": "Masjid Al-Faisal F-9/4",
+        "category": "Small Mosque",
+        "address": "F-9/4, Islamabad",
+        "sector": "F-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 245,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0440310580969,
+          33.71718555848137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_051",
+      "properties": {
+        "name": "Masjid Al-Mubarak F-9/1",
+        "category": "Small Mosque",
+        "address": "F-9/1, Islamabad",
+        "sector": "F-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 333,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01929609605794,
+          33.714227319421816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_052",
+      "properties": {
+        "name": "Masjid Al-Rahim F-10/1",
+        "category": "Jamia Mosque",
+        "address": "F-10/1, Islamabad",
+        "sector": "F-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 621,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0168288142411,
+          33.72585975032907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_053",
+      "properties": {
+        "name": "Masjid Al-Rashid F-10/2",
+        "category": "Sector Mosque",
+        "address": "F-10/2, Islamabad",
+        "sector": "F-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.8,
+        "reviews": 212,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03088482492858,
+          33.71426900201076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_054",
+      "properties": {
+        "name": "Masjid Al-Khair F-10/3",
+        "category": "Sector Mosque",
+        "address": "F-10/3, Islamabad",
+        "sector": "F-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.9,
+        "reviews": 214,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04152462644008,
+          33.72367863443288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_055",
+      "properties": {
+        "name": "Masjid Al-Salam F-10/4",
+        "category": "Small Mosque",
+        "address": "F-10/4, Islamabad",
+        "sector": "F-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 346,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05590027231753,
+          33.71479844522031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_056",
+      "properties": {
+        "name": "Masjid Al-Salam F-10/1",
+        "category": "Small Mosque",
+        "address": "F-10/1, Islamabad",
+        "sector": "F-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 301,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01945893592733,
+          33.724488445008134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_057",
+      "properties": {
+        "name": "Masjid Al-Mustafa F-10/2",
+        "category": "Small Mosque",
+        "address": "F-10/2, Islamabad",
+        "sector": "F-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 69,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02577308953624,
+          33.72141990654063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_058",
+      "properties": {
+        "name": "Masjid Al-Rashid F-10/3",
+        "category": "Small Mosque",
+        "address": "F-10/3, Islamabad",
+        "sector": "F-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 112,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04319706294088,
+          33.71366116493435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_059",
+      "properties": {
+        "name": "Masjid Al-Rashid F-10/4",
+        "category": "Small Mosque",
+        "address": "F-10/4, Islamabad",
+        "sector": "F-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 79,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04731540560255,
+          33.7198608402665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_060",
+      "properties": {
+        "name": "Masjid Al-Mustafa F-10/1",
+        "category": "Small Mosque",
+        "address": "F-10/1, Islamabad",
+        "sector": "F-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 336,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01383289463718,
+          33.72246680506336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_061",
+      "properties": {
+        "name": "Masjid Al-Aqsa F-11/1",
+        "category": "Jamia Mosque",
+        "address": "F-11/1, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 575,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01319552716143,
+          33.73230524264293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_062",
+      "properties": {
+        "name": "Masjid Al-Aqsa F-11/2",
+        "category": "Sector Mosque",
+        "address": "F-11/2, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 247,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0242846091269,
+          33.72549987568301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_063",
+      "properties": {
+        "name": "Masjid Al-Mustafa F-11/3",
+        "category": "Sector Mosque",
+        "address": "F-11/3, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 306,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0461097357045,
+          33.72644966084148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_064",
+      "properties": {
+        "name": "Masjid Al-Jamia F-11/4",
+        "category": "Small Mosque",
+        "address": "F-11/4, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 188,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04803398481475,
+          33.73425358620159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_065",
+      "properties": {
+        "name": "Masjid Al-Mubarak F-11/1",
+        "category": "Small Mosque",
+        "address": "F-11/1, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 315,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02780908416102,
+          33.72709358122491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_066",
+      "properties": {
+        "name": "Masjid Al-Hidayah F-11/2",
+        "category": "Small Mosque",
+        "address": "F-11/2, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 248,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02522907873482,
+          33.72729743109897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_067",
+      "properties": {
+        "name": "Masjid Al-Barakah F-11/3",
+        "category": "Small Mosque",
+        "address": "F-11/3, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 156,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04402822088659,
+          33.72383212066056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_068",
+      "properties": {
+        "name": "Masjid Al-Madina F-11/4",
+        "category": "Small Mosque",
+        "address": "F-11/4, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 352,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04490371533633,
+          33.72657285762213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_069",
+      "properties": {
+        "name": "Masjid Al-Noor F-11/1",
+        "category": "Small Mosque",
+        "address": "F-11/1, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 374,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02482308959495,
+          33.72559444069375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_070",
+      "properties": {
+        "name": "Masjid Al-Barakah F-11/2",
+        "category": "Small Mosque",
+        "address": "F-11/2, Islamabad",
+        "sector": "F-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 263,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03503313280163,
+          33.73360423972214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_071",
+      "properties": {
+        "name": "Masjid Al-Noor G-5/1",
+        "category": "Jamia Mosque",
+        "address": "G-5/1, Islamabad",
+        "sector": "G-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 347,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04792368738148,
+          33.6931720789038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_072",
+      "properties": {
+        "name": "Masjid Al-Jamia G-5/2",
+        "category": "Sector Mosque",
+        "address": "G-5/2, Islamabad",
+        "sector": "G-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.7,
+        "reviews": 439,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04268154102944,
+          33.68422898313252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_073",
+      "properties": {
+        "name": "Masjid Al-Taqwa G-5/3",
+        "category": "Sector Mosque",
+        "address": "G-5/3, Islamabad",
+        "sector": "G-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.8,
+        "reviews": 175,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05219193391791,
+          33.694348935633286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_074",
+      "properties": {
+        "name": "Masjid Al-Jamia G-5/4",
+        "category": "Small Mosque",
+        "address": "G-5/4, Islamabad",
+        "sector": "G-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 218,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07016775273387,
+          33.69756132131597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_075",
+      "properties": {
+        "name": "Masjid Al-Khair G-5/1",
+        "category": "Small Mosque",
+        "address": "G-5/1, Islamabad",
+        "sector": "G-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 305,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04339030593546,
+          33.69512362622248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_076",
+      "properties": {
+        "name": "Masjid Al-Madina G-5/2",
+        "category": "Small Mosque",
+        "address": "G-5/2, Islamabad",
+        "sector": "G-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 238,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05689062360621,
+          33.68490083222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_077",
+      "properties": {
+        "name": "Masjid Al-Noor G-5/3",
+        "category": "Small Mosque",
+        "address": "G-5/3, Islamabad",
+        "sector": "G-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 137,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05404725241712,
+          33.69620108993472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_078",
+      "properties": {
+        "name": "Masjid Al-Rashid G-5/4",
+        "category": "Small Mosque",
+        "address": "G-5/4, Islamabad",
+        "sector": "G-5",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 230,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07406016514918,
+          33.690399632169864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_079",
+      "properties": {
+        "name": "Masjid Al-Faisal G-6/1",
+        "category": "Jamia Mosque",
+        "address": "G-6/1, Islamabad",
+        "sector": "G-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.8,
+        "reviews": 501,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03589731951848,
+          33.70751612575114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_080",
+      "properties": {
+        "name": "Masjid Al-Rahim G-6/2",
+        "category": "Sector Mosque",
+        "address": "G-6/2, Islamabad",
+        "sector": "G-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 197,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04355447602073,
+          33.701237293203654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_081",
+      "properties": {
+        "name": "Masjid Al-Noor G-6/3",
+        "category": "Sector Mosque",
+        "address": "G-6/3, Islamabad",
+        "sector": "G-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.9,
+        "reviews": 208,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06318306471827,
+          33.70430184406308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_082",
+      "properties": {
+        "name": "Masjid Al-Aqsa G-6/4",
+        "category": "Small Mosque",
+        "address": "G-6/4, Islamabad",
+        "sector": "G-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 143,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07665108155032,
+          33.70019622202588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_083",
+      "properties": {
+        "name": "Masjid Al-Rahman G-6/1",
+        "category": "Small Mosque",
+        "address": "G-6/1, Islamabad",
+        "sector": "G-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 104,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0320056414912,
+          33.69389975733973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_084",
+      "properties": {
+        "name": "Masjid Al-Rashid G-6/2",
+        "category": "Small Mosque",
+        "address": "G-6/2, Islamabad",
+        "sector": "G-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 322,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.056466009511,
+          33.7064481380244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_085",
+      "properties": {
+        "name": "Masjid Al-Jamia G-6/3",
+        "category": "Small Mosque",
+        "address": "G-6/3, Islamabad",
+        "sector": "G-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 68,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06095964816375,
+          33.69788502660412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_086",
+      "properties": {
+        "name": "Masjid Al-Furqan G-6/4",
+        "category": "Small Mosque",
+        "address": "G-6/4, Islamabad",
+        "sector": "G-6",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 335,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06668837611062,
+          33.69664033254941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_087",
+      "properties": {
+        "name": "Masjid Al-Faisal G-7/1",
+        "category": "Jamia Mosque",
+        "address": "G-7/1, Islamabad",
+        "sector": "G-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 503,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03358930491943,
+          33.71200417500694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_088",
+      "properties": {
+        "name": "Masjid Al-Khair G-7/2",
+        "category": "Sector Mosque",
+        "address": "G-7/2, Islamabad",
+        "sector": "G-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.8,
+        "reviews": 589,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05131499916132,
+          33.70335942844104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_089",
+      "properties": {
+        "name": "Masjid Al-Rahman G-7/3",
+        "category": "Sector Mosque",
+        "address": "G-7/3, Islamabad",
+        "sector": "G-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.8,
+        "reviews": 521,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06183276674533,
+          33.71067259899411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_090",
+      "properties": {
+        "name": "Masjid Al-Taqwa G-7/4",
+        "category": "Small Mosque",
+        "address": "G-7/4, Islamabad",
+        "sector": "G-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 305,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07216432026631,
+          33.71516725810384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_091",
+      "properties": {
+        "name": "Masjid Al-Mustafa G-7/1",
+        "category": "Small Mosque",
+        "address": "G-7/1, Islamabad",
+        "sector": "G-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 367,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0335245020026,
+          33.70359770528683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_092",
+      "properties": {
+        "name": "Masjid Al-Faisal G-7/2",
+        "category": "Small Mosque",
+        "address": "G-7/2, Islamabad",
+        "sector": "G-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 394,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04799213802049,
+          33.716033658142074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_093",
+      "properties": {
+        "name": "Masjid Al-Hidayah G-7/3",
+        "category": "Small Mosque",
+        "address": "G-7/3, Islamabad",
+        "sector": "G-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 57,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06420620073065,
+          33.70780276106659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_094",
+      "properties": {
+        "name": "Masjid Al-Faisal G-7/4",
+        "category": "Small Mosque",
+        "address": "G-7/4, Islamabad",
+        "sector": "G-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 356,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07022358419484,
+          33.70421017295979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_095",
+      "properties": {
+        "name": "Masjid Al-Hidayah G-8/1",
+        "category": "Jamia Mosque",
+        "address": "G-8/1, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.6,
+        "reviews": 491,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04677635939674,
+          33.716977273527796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_096",
+      "properties": {
+        "name": "Masjid Al-Barakah G-8/2",
+        "category": "Sector Mosque",
+        "address": "G-8/2, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 524,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04798152656548,
+          33.71602331807579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_097",
+      "properties": {
+        "name": "Masjid Al-Faisal G-8/3",
+        "category": "Sector Mosque",
+        "address": "G-8/3, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 519,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0660729762669,
+          33.71981429066526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_098",
+      "properties": {
+        "name": "Masjid Al-Khair G-8/4",
+        "category": "Small Mosque",
+        "address": "G-8/4, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 346,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07173401672907,
+          33.72173022030625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_099",
+      "properties": {
+        "name": "Masjid Al-Furqan G-8/1",
+        "category": "Small Mosque",
+        "address": "G-8/1, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 100,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04543449126984,
+          33.71671199615985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_100",
+      "properties": {
+        "name": "Masjid Al-Barakah G-8/2",
+        "category": "Small Mosque",
+        "address": "G-8/2, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 349,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05178551430554,
+          33.726310597919706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_101",
+      "properties": {
+        "name": "Masjid Al-Hidayah G-8/3",
+        "category": "Small Mosque",
+        "address": "G-8/3, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 311,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06446399619064,
+          33.725399413401924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_102",
+      "properties": {
+        "name": "Masjid Al-Rashid G-8/4",
+        "category": "Small Mosque",
+        "address": "G-8/4, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 109,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07381662345222,
+          33.71935627164441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_103",
+      "properties": {
+        "name": "Masjid Al-Furqan G-8/1",
+        "category": "Small Mosque",
+        "address": "G-8/1, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 255,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04658207541134,
+          33.72329562307181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_104",
+      "properties": {
+        "name": "Masjid Al-Rashid G-8/2",
+        "category": "Small Mosque",
+        "address": "G-8/2, Islamabad",
+        "sector": "G-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 83,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04824066161432,
+          33.72728828315987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_105",
+      "properties": {
+        "name": "Masjid Al-Khair G-9/1",
+        "category": "Jamia Mosque",
+        "address": "G-9/1, Islamabad",
+        "sector": "G-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 990,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0348287189205,
+          33.732136445084784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_106",
+      "properties": {
+        "name": "Masjid Al-Huda G-9/2",
+        "category": "Sector Mosque",
+        "address": "G-9/2, Islamabad",
+        "sector": "G-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.9,
+        "reviews": 768,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04750112150747,
+          33.72992233736201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_107",
+      "properties": {
+        "name": "Masjid Al-Salam G-9/3",
+        "category": "Sector Mosque",
+        "address": "G-9/3, Islamabad",
+        "sector": "G-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.6,
+        "reviews": 406,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05863332251631,
+          33.73066452772259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_108",
+      "properties": {
+        "name": "Masjid Al-Huda G-9/4",
+        "category": "Small Mosque",
+        "address": "G-9/4, Islamabad",
+        "sector": "G-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 158,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06576854363283,
+          33.73676655932673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_109",
+      "properties": {
+        "name": "Masjid Al-Furqan G-9/1",
+        "category": "Small Mosque",
+        "address": "G-9/1, Islamabad",
+        "sector": "G-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.5,
+        "reviews": 177,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04343694498046,
+          33.73160896614238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_110",
+      "properties": {
+        "name": "Masjid Al-Mubarak G-9/2",
+        "category": "Small Mosque",
+        "address": "G-9/2, Islamabad",
+        "sector": "G-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 274,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05455109851616,
+          33.73226605017469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_111",
+      "properties": {
+        "name": "Masjid Al-Jamia G-9/3",
+        "category": "Small Mosque",
+        "address": "G-9/3, Islamabad",
+        "sector": "G-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 288,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05774128628204,
+          33.725972065341765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_112",
+      "properties": {
+        "name": "Masjid Al-Hidayah G-9/4",
+        "category": "Small Mosque",
+        "address": "G-9/4, Islamabad",
+        "sector": "G-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 248,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07757787587164,
+          33.73756030651247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_113",
+      "properties": {
+        "name": "Masjid Al-Taqwa G-9/1",
+        "category": "Small Mosque",
+        "address": "G-9/1, Islamabad",
+        "sector": "G-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 147,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03831679734758,
+          33.73741865127263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_114",
+      "properties": {
+        "name": "Masjid Al-Furqan G-10/1",
+        "category": "Jamia Mosque",
+        "address": "G-10/1, Islamabad",
+        "sector": "G-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 578,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.044819203344,
+          33.73950857315114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_115",
+      "properties": {
+        "name": "Masjid Al-Rahman G-10/2",
+        "category": "Sector Mosque",
+        "address": "G-10/2, Islamabad",
+        "sector": "G-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 365,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05352429854875,
+          33.74717572412171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_116",
+      "properties": {
+        "name": "Masjid Al-Rashid G-10/3",
+        "category": "Sector Mosque",
+        "address": "G-10/3, Islamabad",
+        "sector": "G-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 777,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05258011073312,
+          33.74695068212117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_117",
+      "properties": {
+        "name": "Masjid Al-Salam G-10/4",
+        "category": "Small Mosque",
+        "address": "G-10/4, Islamabad",
+        "sector": "G-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 118,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06337982560967,
+          33.73937346792208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_118",
+      "properties": {
+        "name": "Masjid Al-Faisal G-10/1",
+        "category": "Small Mosque",
+        "address": "G-10/1, Islamabad",
+        "sector": "G-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.0,
+        "reviews": 214,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03925704898977,
+          33.7380169001195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_119",
+      "properties": {
+        "name": "Masjid Al-Mubarak G-10/2",
+        "category": "Small Mosque",
+        "address": "G-10/2, Islamabad",
+        "sector": "G-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 212,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04851372492531,
+          33.73475189246279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_120",
+      "properties": {
+        "name": "Masjid Al-Khair G-10/3",
+        "category": "Small Mosque",
+        "address": "G-10/3, Islamabad",
+        "sector": "G-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 292,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06144401914298,
+          33.74222831695477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_121",
+      "properties": {
+        "name": "Masjid Al-Hidayah G-10/4",
+        "category": "Small Mosque",
+        "address": "G-10/4, Islamabad",
+        "sector": "G-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 54,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07351630951136,
+          33.74352489801732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_122",
+      "properties": {
+        "name": "Masjid Al-Madina G-11/1",
+        "category": "Jamia Mosque",
+        "address": "G-11/1, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 735,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04369280572442,
+          33.75434931934952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_123",
+      "properties": {
+        "name": "Masjid Al-Mubarak G-11/2",
+        "category": "Sector Mosque",
+        "address": "G-11/2, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.7,
+        "reviews": 488,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0507755875037,
+          33.74901376059226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_124",
+      "properties": {
+        "name": "Masjid Al-Mubarak G-11/3",
+        "category": "Sector Mosque",
+        "address": "G-11/3, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.8,
+        "reviews": 708,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06277570230523,
+          33.74795829099457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_125",
+      "properties": {
+        "name": "Masjid Al-Taqwa G-11/4",
+        "category": "Small Mosque",
+        "address": "G-11/4, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 327,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07646984599198,
+          33.75468470807882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_126",
+      "properties": {
+        "name": "Masjid Al-Furqan G-11/1",
+        "category": "Small Mosque",
+        "address": "G-11/1, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 395,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04283616028468,
+          33.7422192435143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_127",
+      "properties": {
+        "name": "Masjid Al-Mustafa G-11/2",
+        "category": "Small Mosque",
+        "address": "G-11/2, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.0,
+        "reviews": 122,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04485003609068,
+          33.755058672303456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_128",
+      "properties": {
+        "name": "Masjid Al-Huda G-11/3",
+        "category": "Small Mosque",
+        "address": "G-11/3, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 292,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06685255678242,
+          33.75637561325793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_129",
+      "properties": {
+        "name": "Masjid Al-Rahman G-11/4",
+        "category": "Small Mosque",
+        "address": "G-11/4, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 69,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06461778267482,
+          33.752851864464816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_130",
+      "properties": {
+        "name": "Masjid Al-Barakah G-11/1",
+        "category": "Small Mosque",
+        "address": "G-11/1, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 361,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03794829129819,
+          33.746764680527804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_131",
+      "properties": {
+        "name": "Masjid Al-Taqwa G-11/2",
+        "category": "Small Mosque",
+        "address": "G-11/2, Islamabad",
+        "sector": "G-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 112,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05183658787942,
+          33.744659879086896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_132",
+      "properties": {
+        "name": "Masjid Al-Falah G-13/1",
+        "category": "Jamia Mosque",
+        "address": "G-13/1, Islamabad",
+        "sector": "G-13",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 355,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03467093746268,
+          33.77383255903581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_133",
+      "properties": {
+        "name": "Masjid Al-Salam G-13/2",
+        "category": "Sector Mosque",
+        "address": "G-13/2, Islamabad",
+        "sector": "G-13",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 223,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05528418994244,
+          33.768804223251294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_134",
+      "properties": {
+        "name": "Masjid Al-Barakah G-13/3",
+        "category": "Sector Mosque",
+        "address": "G-13/3, Islamabad",
+        "sector": "G-13",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.9,
+        "reviews": 654,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0661170699221,
+          33.774741062340574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_135",
+      "properties": {
+        "name": "Masjid Al-Hidayah G-13/4",
+        "category": "Small Mosque",
+        "address": "G-13/4, Islamabad",
+        "sector": "G-13",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 231,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0628429328028,
+          33.768035040400456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_136",
+      "properties": {
+        "name": "Masjid Al-Hidayah G-13/1",
+        "category": "Small Mosque",
+        "address": "G-13/1, Islamabad",
+        "sector": "G-13",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 268,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03239588888745,
+          33.777654087066225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_137",
+      "properties": {
+        "name": "Masjid Al-Jamia G-13/2",
+        "category": "Small Mosque",
+        "address": "G-13/2, Islamabad",
+        "sector": "G-13",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 333,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05334594947622,
+          33.77183766693645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_138",
+      "properties": {
+        "name": "Masjid Al-Noor G-13/3",
+        "category": "Small Mosque",
+        "address": "G-13/3, Islamabad",
+        "sector": "G-13",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.5,
+        "reviews": 145,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05840315482787,
+          33.77190928341151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_139",
+      "properties": {
+        "name": "Masjid Al-Rahman G-13/4",
+        "category": "Small Mosque",
+        "address": "G-13/4, Islamabad",
+        "sector": "G-13",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 283,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06511983504828,
+          33.777903660273104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_140",
+      "properties": {
+        "name": "Masjid Al-Mubarak G-13/1",
+        "category": "Small Mosque",
+        "address": "G-13/1, Islamabad",
+        "sector": "G-13",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.0,
+        "reviews": 291,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04758914311597,
+          33.77081656548646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_141",
+      "properties": {
+        "name": "Masjid Al-Faisal I-8/1",
+        "category": "Jamia Mosque",
+        "address": "I-8/1, Islamabad",
+        "sector": "I-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.2,
+        "reviews": 946,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02642388735123,
+          33.65031339596594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_142",
+      "properties": {
+        "name": "Masjid Al-Mustafa I-8/2",
+        "category": "Sector Mosque",
+        "address": "I-8/2, Islamabad",
+        "sector": "I-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 262,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03641810539418,
+          33.650140770493124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_143",
+      "properties": {
+        "name": "Masjid Al-Furqan I-8/3",
+        "category": "Sector Mosque",
+        "address": "I-8/3, Islamabad",
+        "sector": "I-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 331,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03950390735083,
+          33.64419385578544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_144",
+      "properties": {
+        "name": "Masjid Al-Huda I-8/4",
+        "category": "Small Mosque",
+        "address": "I-8/4, Islamabad",
+        "sector": "I-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 357,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05690626375097,
+          33.65442819170704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_145",
+      "properties": {
+        "name": "Masjid Al-Jamia I-8/1",
+        "category": "Small Mosque",
+        "address": "I-8/1, Islamabad",
+        "sector": "I-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 166,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01379054738263,
+          33.65435255938776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_146",
+      "properties": {
+        "name": "Masjid Al-Madina I-8/2",
+        "category": "Small Mosque",
+        "address": "I-8/2, Islamabad",
+        "sector": "I-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 390,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02897665755034,
+          33.65069925282336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_147",
+      "properties": {
+        "name": "Masjid Al-Taqwa I-8/3",
+        "category": "Small Mosque",
+        "address": "I-8/3, Islamabad",
+        "sector": "I-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 322,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03321140739138,
+          33.65623599736872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_148",
+      "properties": {
+        "name": "Masjid Al-Furqan I-8/4",
+        "category": "Small Mosque",
+        "address": "I-8/4, Islamabad",
+        "sector": "I-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 375,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04863465166542,
+          33.65649932139693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_149",
+      "properties": {
+        "name": "Masjid Al-Rahman I-9/1",
+        "category": "Jamia Mosque",
+        "address": "I-9/1, Islamabad",
+        "sector": "I-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.8,
+        "reviews": 1164,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02443209838628,
+          33.6561022912023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_150",
+      "properties": {
+        "name": "Masjid Al-Hidayah I-9/2",
+        "category": "Sector Mosque",
+        "address": "I-9/2, Islamabad",
+        "sector": "I-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 454,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02820033269269,
+          33.66130039732019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_151",
+      "properties": {
+        "name": "Masjid Al-Barakah I-9/3",
+        "category": "Sector Mosque",
+        "address": "I-9/3, Islamabad",
+        "sector": "I-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.2,
+        "reviews": 611,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0359774072329,
+          33.65408340130484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_152",
+      "properties": {
+        "name": "Masjid Al-Noor I-9/4",
+        "category": "Small Mosque",
+        "address": "I-9/4, Islamabad",
+        "sector": "I-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 232,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05168805945385,
+          33.66692187153584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_153",
+      "properties": {
+        "name": "Masjid Al-Rahim I-9/1",
+        "category": "Small Mosque",
+        "address": "I-9/1, Islamabad",
+        "sector": "I-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 371,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01967278721892,
+          33.66368597073688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_154",
+      "properties": {
+        "name": "Masjid Al-Noor I-9/2",
+        "category": "Small Mosque",
+        "address": "I-9/2, Islamabad",
+        "sector": "I-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 167,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02999445522161,
+          33.654025378849695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_155",
+      "properties": {
+        "name": "Masjid Al-Madina I-9/3",
+        "category": "Small Mosque",
+        "address": "I-9/3, Islamabad",
+        "sector": "I-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 296,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04476486652419,
+          33.66170910112858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_156",
+      "properties": {
+        "name": "Masjid Al-Hidayah I-9/4",
+        "category": "Small Mosque",
+        "address": "I-9/4, Islamabad",
+        "sector": "I-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 335,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05344016771782,
+          33.66545312202691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_157",
+      "properties": {
+        "name": "Masjid Al-Madina I-9/1",
+        "category": "Small Mosque",
+        "address": "I-9/1, Islamabad",
+        "sector": "I-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 358,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0277405797379,
+          33.667836952109255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_158",
+      "properties": {
+        "name": "Masjid Al-Mustafa I-10/1",
+        "category": "Jamia Mosque",
+        "address": "I-10/1, Islamabad",
+        "sector": "I-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.1,
+        "reviews": 1114,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0174614553166,
+          33.673649253713016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_159",
+      "properties": {
+        "name": "Masjid Al-Aqsa I-10/2",
+        "category": "Sector Mosque",
+        "address": "I-10/2, Islamabad",
+        "sector": "I-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.9,
+        "reviews": 195,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0295964011694,
+          33.66923404915968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_160",
+      "properties": {
+        "name": "Masjid Al-Faisal I-10/3",
+        "category": "Sector Mosque",
+        "address": "I-10/3, Islamabad",
+        "sector": "I-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 250,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04620737501021,
+          33.66861233656599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_161",
+      "properties": {
+        "name": "Masjid Al-Faisal I-10/4",
+        "category": "Small Mosque",
+        "address": "I-10/4, Islamabad",
+        "sector": "I-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 77,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05521705239195,
+          33.663933950496535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_162",
+      "properties": {
+        "name": "Masjid Al-Huda I-10/1",
+        "category": "Small Mosque",
+        "address": "I-10/1, Islamabad",
+        "sector": "I-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 256,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01243775866797,
+          33.66467025525759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_163",
+      "properties": {
+        "name": "Masjid Al-Huda I-10/2",
+        "category": "Small Mosque",
+        "address": "I-10/2, Islamabad",
+        "sector": "I-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 269,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03761385578424,
+          33.664450377371445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_164",
+      "properties": {
+        "name": "Masjid Al-Rahim I-10/3",
+        "category": "Small Mosque",
+        "address": "I-10/3, Islamabad",
+        "sector": "I-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 227,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03507770256427,
+          33.665517397690635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_165",
+      "properties": {
+        "name": "Masjid Al-Rahim I-10/4",
+        "category": "Small Mosque",
+        "address": "I-10/4, Islamabad",
+        "sector": "I-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 114,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04697830923138,
+          33.66307748121482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_166",
+      "properties": {
+        "name": "Masjid Al-Taqwa I-10/1",
+        "category": "Small Mosque",
+        "address": "I-10/1, Islamabad",
+        "sector": "I-10",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 344,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01217606299075,
+          33.66296479228197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_167",
+      "properties": {
+        "name": "Masjid Al-Aqsa I-11/1",
+        "category": "Jamia Mosque",
+        "address": "I-11/1, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 453,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02727623086338,
+          33.680229845842355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_168",
+      "properties": {
+        "name": "Masjid Al-Madina I-11/2",
+        "category": "Sector Mosque",
+        "address": "I-11/2, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 586,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02753423223483,
+          33.67396009874708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_169",
+      "properties": {
+        "name": "Masjid Al-Salam I-11/3",
+        "category": "Sector Mosque",
+        "address": "I-11/3, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 299,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04071301428165,
+          33.67507446211396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_170",
+      "properties": {
+        "name": "Masjid Al-Jamia I-11/4",
+        "category": "Small Mosque",
+        "address": "I-11/4, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 83,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.047422752004,
+          33.68325345279711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_171",
+      "properties": {
+        "name": "Masjid Al-Furqan I-11/1",
+        "category": "Small Mosque",
+        "address": "I-11/1, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.0,
+        "reviews": 296,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01618292106035,
+          33.68044624375383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_172",
+      "properties": {
+        "name": "Masjid Al-Mubarak I-11/2",
+        "category": "Small Mosque",
+        "address": "I-11/2, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 159,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02651938479795,
+          33.676922615699475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_173",
+      "properties": {
+        "name": "Masjid Al-Noor I-11/3",
+        "category": "Small Mosque",
+        "address": "I-11/3, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 320,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0329083605844,
+          33.67945877091895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_174",
+      "properties": {
+        "name": "Masjid Al-Rahman I-11/4",
+        "category": "Small Mosque",
+        "address": "I-11/4, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 274,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0475120951224,
+          33.67567521519108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_175",
+      "properties": {
+        "name": "Masjid Al-Mubarak I-11/1",
+        "category": "Small Mosque",
+        "address": "I-11/1, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 345,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01714542371683,
+          33.68754037335828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_176",
+      "properties": {
+        "name": "Masjid Al-Rashid I-11/2",
+        "category": "Small Mosque",
+        "address": "I-11/2, Islamabad",
+        "sector": "I-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 200,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02573414594026,
+          33.67519852706647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_177",
+      "properties": {
+        "name": "Masjid Al-Taqwa I-14/1",
+        "category": "Jamia Mosque",
+        "address": "I-14/1, Islamabad",
+        "sector": "I-14",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 662,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01458464475584,
+          33.70552948600438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_178",
+      "properties": {
+        "name": "Masjid Al-Huda I-14/2",
+        "category": "Sector Mosque",
+        "address": "I-14/2, Islamabad",
+        "sector": "I-14",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.9,
+        "reviews": 202,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02454234573409,
+          33.71214814488991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_179",
+      "properties": {
+        "name": "Masjid Al-Barakah I-14/3",
+        "category": "Sector Mosque",
+        "address": "I-14/3, Islamabad",
+        "sector": "I-14",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 341,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03466069225682,
+          33.71028703154637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_180",
+      "properties": {
+        "name": "Masjid Al-Barakah I-14/4",
+        "category": "Small Mosque",
+        "address": "I-14/4, Islamabad",
+        "sector": "I-14",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 327,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05169569916602,
+          33.70938380080629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_181",
+      "properties": {
+        "name": "Masjid Al-Hidayah I-14/1",
+        "category": "Small Mosque",
+        "address": "I-14/1, Islamabad",
+        "sector": "I-14",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 362,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02314256088874,
+          33.702129498117166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_182",
+      "properties": {
+        "name": "Masjid Al-Aqsa I-14/2",
+        "category": "Small Mosque",
+        "address": "I-14/2, Islamabad",
+        "sector": "I-14",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 306,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02888439047881,
+          33.70479431527008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_183",
+      "properties": {
+        "name": "Masjid Al-Mubarak I-14/3",
+        "category": "Small Mosque",
+        "address": "I-14/3, Islamabad",
+        "sector": "I-14",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 346,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0321214787975,
+          33.70713096268857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_184",
+      "properties": {
+        "name": "Masjid Al-Rahim I-14/4",
+        "category": "Small Mosque",
+        "address": "I-14/4, Islamabad",
+        "sector": "I-14",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 144,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04865648934891,
+          33.70664617282981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_185",
+      "properties": {
+        "name": "Masjid Al-Madina I-14/1",
+        "category": "Small Mosque",
+        "address": "I-14/1, Islamabad",
+        "sector": "I-14",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 350,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02524924809728,
+          33.710461306748755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_186",
+      "properties": {
+        "name": "Masjid Al-Falah E-7/1",
+        "category": "Jamia Mosque",
+        "address": "E-7/1, Islamabad",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.1,
+        "reviews": 366,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.09420232639145,
+          33.63713300078836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_187",
+      "properties": {
+        "name": "Masjid Al-Jamia E-7/2",
+        "category": "Sector Mosque",
+        "address": "E-7/2, Islamabad",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.1,
+        "reviews": 329,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11050692443925,
+          33.645265295709706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_188",
+      "properties": {
+        "name": "Masjid Al-Rashid E-7/3",
+        "category": "Sector Mosque",
+        "address": "E-7/3, Islamabad",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 733,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.12274182932454,
+          33.644057994985936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_189",
+      "properties": {
+        "name": "Masjid Al-Noor E-7/4",
+        "category": "Small Mosque",
+        "address": "E-7/4, Islamabad",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 367,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.12726587839765,
+          33.63878954759663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_190",
+      "properties": {
+        "name": "Masjid Al-Aqsa E-7/1",
+        "category": "Small Mosque",
+        "address": "E-7/1, Islamabad",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.0,
+        "reviews": 53,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.09699688395384,
+          33.63488774938852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_191",
+      "properties": {
+        "name": "Masjid Al-Taqwa E-7/2",
+        "category": "Small Mosque",
+        "address": "E-7/2, Islamabad",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 91,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11617653659304,
+          33.638381189455124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_192",
+      "properties": {
+        "name": "Masjid Al-Faisal E-7/3",
+        "category": "Small Mosque",
+        "address": "E-7/3, Islamabad",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 304,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11434286999253,
+          33.64252795904043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_193",
+      "properties": {
+        "name": "Masjid Al-Barakah E-7/4",
+        "category": "Small Mosque",
+        "address": "E-7/4, Islamabad",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 87,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13570604283238,
+          33.64180552132479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_194",
+      "properties": {
+        "name": "Masjid Al-Khair E-7/1",
+        "category": "Small Mosque",
+        "address": "E-7/1, Islamabad",
+        "sector": "E-7",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 183,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10389054187085,
+          33.64775640585576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_195",
+      "properties": {
+        "name": "Masjid Al-Barakah E-11/1",
+        "category": "Jamia Mosque",
+        "address": "E-11/1, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 392,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10565400715552,
+          33.67997041870268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_196",
+      "properties": {
+        "name": "Masjid Al-Rahim E-11/2",
+        "category": "Sector Mosque",
+        "address": "E-11/2, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 238,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10308942749573,
+          33.68142528860246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_197",
+      "properties": {
+        "name": "Masjid Al-Madina E-11/3",
+        "category": "Sector Mosque",
+        "address": "E-11/3, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.2,
+        "reviews": 371,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11774886022835,
+          33.679129329941006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_198",
+      "properties": {
+        "name": "Masjid Al-Taqwa E-11/4",
+        "category": "Small Mosque",
+        "address": "E-11/4, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 296,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13182504460605,
+          33.677322645350486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_199",
+      "properties": {
+        "name": "Masjid Al-Rahim E-11/1",
+        "category": "Small Mosque",
+        "address": "E-11/1, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 293,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.09990121026587,
+          33.68549251936249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_200",
+      "properties": {
+        "name": "Masjid Al-Taqwa E-11/2",
+        "category": "Small Mosque",
+        "address": "E-11/2, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.0,
+        "reviews": 395,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11161780457213,
+          33.67830423646033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_201",
+      "properties": {
+        "name": "Masjid Al-Taqwa E-11/3",
+        "category": "Small Mosque",
+        "address": "E-11/3, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 73,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11878713444196,
+          33.683798355540354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_202",
+      "properties": {
+        "name": "Masjid Al-Khair E-11/4",
+        "category": "Small Mosque",
+        "address": "E-11/4, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 107,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.12880033089162,
+          33.67534524606223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_203",
+      "properties": {
+        "name": "Masjid Al-Furqan E-11/1",
+        "category": "Small Mosque",
+        "address": "E-11/1, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 329,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10387618305141,
+          33.68234474610169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_204",
+      "properties": {
+        "name": "Masjid Al-Madina E-11/2",
+        "category": "Small Mosque",
+        "address": "E-11/2, Islamabad",
+        "sector": "E-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 207,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11388969903763,
+          33.6876007375942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_205",
+      "properties": {
+        "name": "Masjid Al-Barakah H-8/1",
+        "category": "Jamia Mosque",
+        "address": "H-8/1, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 444,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0320172664014,
+          33.6415522505245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_206",
+      "properties": {
+        "name": "Masjid Al-Madina H-8/2",
+        "category": "Sector Mosque",
+        "address": "H-8/2, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 777,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.047560629686,
+          33.632424730793204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_207",
+      "properties": {
+        "name": "Masjid Al-Barakah H-8/3",
+        "category": "Sector Mosque",
+        "address": "H-8/3, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.1,
+        "reviews": 621,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05361377377115,
+          33.64088707191734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_208",
+      "properties": {
+        "name": "Masjid Al-Jamia H-8/4",
+        "category": "Small Mosque",
+        "address": "H-8/4, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 167,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06444213179773,
+          33.632775732788836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_209",
+      "properties": {
+        "name": "Masjid Al-Aqsa H-8/1",
+        "category": "Small Mosque",
+        "address": "H-8/1, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 352,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04699615232214,
+          33.64143425566844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_210",
+      "properties": {
+        "name": "Masjid Al-Rahman H-8/2",
+        "category": "Small Mosque",
+        "address": "H-8/2, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 382,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04730672917084,
+          33.64525948702893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_211",
+      "properties": {
+        "name": "Masjid Al-Noor H-8/3",
+        "category": "Small Mosque",
+        "address": "H-8/3, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 302,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05321918315379,
+          33.6340799680412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_212",
+      "properties": {
+        "name": "Masjid Al-Rashid H-8/4",
+        "category": "Small Mosque",
+        "address": "H-8/4, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 265,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.070128319802,
+          33.64504182685149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_213",
+      "properties": {
+        "name": "Masjid Al-Faisal H-8/1",
+        "category": "Small Mosque",
+        "address": "H-8/1, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 346,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03973836887923,
+          33.642482258666945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_214",
+      "properties": {
+        "name": "Masjid Al-Barakah H-8/2",
+        "category": "Small Mosque",
+        "address": "H-8/2, Islamabad",
+        "sector": "H-8",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 104,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05596034905605,
+          33.64378391691317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_215",
+      "properties": {
+        "name": "Masjid Al-Mubarak H-9/1",
+        "category": "Jamia Mosque",
+        "address": "H-9/1, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 1124,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03784733086131,
+          33.64890326544629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_216",
+      "properties": {
+        "name": "Masjid Al-Noor H-9/2",
+        "category": "Sector Mosque",
+        "address": "H-9/2, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 3.7,
+        "reviews": 591,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04558034352195,
+          33.64672646322815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_217",
+      "properties": {
+        "name": "Masjid Al-Madina H-9/3",
+        "category": "Sector Mosque",
+        "address": "H-9/3, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 184,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05249800457811,
+          33.64670776375598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_218",
+      "properties": {
+        "name": "Masjid Al-Salam H-9/4",
+        "category": "Small Mosque",
+        "address": "H-9/4, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 283,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06394032185453,
+          33.654650231680506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_219",
+      "properties": {
+        "name": "Masjid Al-Mubarak H-9/1",
+        "category": "Small Mosque",
+        "address": "H-9/1, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 261,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03781542212865,
+          33.64661280806046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_220",
+      "properties": {
+        "name": "Masjid Al-Huda H-9/2",
+        "category": "Small Mosque",
+        "address": "H-9/2, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.0,
+        "reviews": 180,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05368982577083,
+          33.64960970434647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_221",
+      "properties": {
+        "name": "Masjid Al-Rashid H-9/3",
+        "category": "Small Mosque",
+        "address": "H-9/3, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 149,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05233607509406,
+          33.64639395837423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_222",
+      "properties": {
+        "name": "Masjid Al-Mubarak H-9/4",
+        "category": "Small Mosque",
+        "address": "H-9/4, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 193,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06963234741735,
+          33.64947405289721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_223",
+      "properties": {
+        "name": "Masjid Al-Salam H-9/1",
+        "category": "Small Mosque",
+        "address": "H-9/1, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 387,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04685186805028,
+          33.65783799781654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_224",
+      "properties": {
+        "name": "Masjid Al-Noor H-9/2",
+        "category": "Small Mosque",
+        "address": "H-9/2, Islamabad",
+        "sector": "H-9",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 288,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05370430539108,
+          33.65559091161053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_225",
+      "properties": {
+        "name": "Masjid Al-Furqan H-11/1",
+        "category": "Jamia Mosque",
+        "address": "H-11/1, Islamabad",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.3,
+        "reviews": 616,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04275753310935,
+          33.66559038654606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_226",
+      "properties": {
+        "name": "Masjid Al-Rashid H-11/2",
+        "category": "Sector Mosque",
+        "address": "H-11/2, Islamabad",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.6,
+        "reviews": 252,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05252334667566,
+          33.67329884350032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_227",
+      "properties": {
+        "name": "Masjid Al-Faisal H-11/3",
+        "category": "Sector Mosque",
+        "address": "H-11/3, Islamabad",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.4,
+        "reviews": 762,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05415875264212,
+          33.67047587057214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_228",
+      "properties": {
+        "name": "Masjid Al-Rahim H-11/4",
+        "category": "Small Mosque",
+        "address": "H-11/4, Islamabad",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 151,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06614668446986,
+          33.67588448789076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_229",
+      "properties": {
+        "name": "Masjid Al-Furqan H-11/1",
+        "category": "Small Mosque",
+        "address": "H-11/1, Islamabad",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 86,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04207337471917,
+          33.67695971737591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_230",
+      "properties": {
+        "name": "Masjid Al-Mustafa H-11/2",
+        "category": "Small Mosque",
+        "address": "H-11/2, Islamabad",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 174,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05457686515481,
+          33.675556774026106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_231",
+      "properties": {
+        "name": "Masjid Al-Furqan H-11/3",
+        "category": "Small Mosque",
+        "address": "H-11/3, Islamabad",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.7,
+        "reviews": 213,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06779634055545,
+          33.677564627566156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_232",
+      "properties": {
+        "name": "Masjid Al-Aqsa H-11/4",
+        "category": "Small Mosque",
+        "address": "H-11/4, Islamabad",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.5,
+        "reviews": 388,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06421729536103,
+          33.67143166536801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_233",
+      "properties": {
+        "name": "Masjid Al-Rashid H-11/1",
+        "category": "Small Mosque",
+        "address": "H-11/1, Islamabad",
+        "sector": "H-11",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 267,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04226349685838,
+          33.67760637426928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_234",
+      "properties": {
+        "name": "Masjid Al-Rahim D-12/1",
+        "category": "Jamia Mosque",
+        "address": "D-12/1, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Main Prayer Hall",
+          "Women Section",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.0,
+        "reviews": 870,
+        "description": "Jamia Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07554696892551,
+          33.61150765043576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_235",
+      "properties": {
+        "name": "Masjid Al-Mustafa D-12/2",
+        "category": "Sector Mosque",
+        "address": "D-12/2, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 452,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.09240150159059,
+          33.60908197803528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_236",
+      "properties": {
+        "name": "Masjid Al-Rashid D-12/3",
+        "category": "Sector Mosque",
+        "address": "D-12/3, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 401,
+        "description": "Sector Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10194286025605,
+          33.610755519878424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_237",
+      "properties": {
+        "name": "Masjid Al-Mustafa D-12/4",
+        "category": "Small Mosque",
+        "address": "D-12/4, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.8,
+        "reviews": 399,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10416183978225,
+          33.608852361349946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_238",
+      "properties": {
+        "name": "Masjid Al-Salam D-12/1",
+        "category": "Small Mosque",
+        "address": "D-12/1, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.5,
+        "reviews": 301,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07316877161145,
+          33.61420234521855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_239",
+      "properties": {
+        "name": "Masjid Al-Hidayah D-12/2",
+        "category": "Small Mosque",
+        "address": "D-12/2, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.5,
+        "reviews": 75,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.08437131443529,
+          33.60363327660804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_240",
+      "properties": {
+        "name": "Masjid Al-Rahim D-12/3",
+        "category": "Small Mosque",
+        "address": "D-12/3, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.2,
+        "reviews": 101,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10270660462191,
+          33.60594990439392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_241",
+      "properties": {
+        "name": "Masjid Al-Noor D-12/4",
+        "category": "Small Mosque",
+        "address": "D-12/4, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.6,
+        "reviews": 79,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10552969772672,
+          33.60924349960225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_242",
+      "properties": {
+        "name": "Masjid Al-Rahim D-12/1",
+        "category": "Small Mosque",
+        "address": "D-12/1, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 171,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.08024091763009,
+          33.60897528877916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_243",
+      "properties": {
+        "name": "Masjid Al-Huda D-12/2",
+        "category": "Small Mosque",
+        "address": "D-12/2, Islamabad",
+        "sector": "D-12",
+        "timing": "5:00 AM - 10:00 PM (5 daily prayers)",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.4,
+        "reviews": 296,
+        "description": "Small Mosque serving the local community",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.08747334625724,
+          33.61473317146321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_244",
+      "properties": {
+        "name": "Masjid Al-Salam Bahria Town",
+        "category": "Jamia Mosque",
+        "address": "Bahria Town, Islamabad",
+        "sector": "Bahria Town",
+        "timing": "5:00 AM - 10:00 PM",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.3,
+        "reviews": 319,
+        "description": "Community mosque",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.98675903418544,
+          33.56656037202101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_245",
+      "properties": {
+        "name": "Masjid Al-Aqsa Bahria Town",
+        "category": "Sector Mosque",
+        "address": "Bahria Town, Islamabad",
+        "sector": "Bahria Town",
+        "timing": "5:00 AM - 10:00 PM",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 371,
+        "description": "Community mosque",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.99398803990853,
+          33.55826065607126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_246",
+      "properties": {
+        "name": "Masjid Al-Taqwa Bahria Town",
+        "category": "Small Mosque",
+        "address": "Bahria Town, Islamabad",
+        "sector": "Bahria Town",
+        "timing": "5:00 AM - 10:00 PM",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 262,
+        "description": "Community mosque",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.98270080640775,
+          33.55840247932572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_247",
+      "properties": {
+        "name": "Masjid Al-Faisal Bahria Town",
+        "category": "Sector Mosque",
+        "address": "Bahria Town, Islamabad",
+        "sector": "Bahria Town",
+        "timing": "5:00 AM - 10:00 PM",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 303,
+        "description": "Community mosque",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.99533349434273,
+          33.55717411367102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_248",
+      "properties": {
+        "name": "Masjid Al-Rahim Bahria Town",
+        "category": "Jamia Mosque",
+        "address": "Bahria Town, Islamabad",
+        "sector": "Bahria Town",
+        "timing": "5:00 AM - 10:00 PM",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.5,
+        "reviews": 457,
+        "description": "Community mosque",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.99047377661113,
+          33.568367702939035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_249",
+      "properties": {
+        "name": "Masjid Al-Noor Bahria Town",
+        "category": "Sector Mosque",
+        "address": "Bahria Town, Islamabad",
+        "sector": "Bahria Town",
+        "timing": "5:00 AM - 10:00 PM",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 3.9,
+        "reviews": 203,
+        "description": "Community mosque",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.98699146749831,
+          33.564200429173646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque_250",
+      "properties": {
+        "name": "Masjid Al-Furqan Bahria Town",
+        "category": "Jamia Mosque",
+        "address": "Bahria Town, Islamabad",
+        "sector": "Bahria Town",
+        "timing": "5:00 AM - 10:00 PM",
+        "amenities": [
+          "Prayer Hall",
+          "Ablution Area"
+        ],
+        "rating": 4.1,
+        "reviews": 326,
+        "description": "Community mosque",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.98745856231905,
+          33.567051595192076
+        ]
+      }
+    }
+  ]
+}

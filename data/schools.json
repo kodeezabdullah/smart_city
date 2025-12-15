@@ -1,0 +1,4883 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "category": "schools",
+    "total": 175,
+    "lastUpdated": "2024-12-15",
+    "city": "Islamabad",
+    "description": "Primary, middle, and high schools across Islamabad"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "school_001",
+      "properties": {
+        "name": "Islamabad College for Boys",
+        "category": "Boys High School",
+        "address": "F-6/2",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.6,
+        "reviews": 1240,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0723,
+          33.7201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_002",
+      "properties": {
+        "name": "Islamabad College for Girls",
+        "category": "Girls High School",
+        "address": "F-6/2",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.7,
+        "reviews": 1380,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0734,
+          33.7189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_003",
+      "properties": {
+        "name": "F.G. Sir Syed College",
+        "category": "Boys High School",
+        "address": "G-7/2",
+        "sector": "G-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.5,
+        "reviews": 980,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0545,
+          33.7123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_004",
+      "properties": {
+        "name": "Beaconhouse School System F-8",
+        "category": "Private School",
+        "address": "F-8/3",
+        "sector": "F-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.8,
+        "reviews": 1560,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0489,
+          33.6934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_005",
+      "properties": {
+        "name": "The Educators F-10",
+        "category": "Private School",
+        "address": "F-10/1",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.7,
+        "reviews": 1340,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0312,
+          33.6901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_006",
+      "properties": {
+        "name": "Roots Millennium School",
+        "category": "Private School",
+        "address": "G-11/3",
+        "sector": "G-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.6,
+        "reviews": 1120,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0345,
+          33.6845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_007",
+      "properties": {
+        "name": "Army Public School",
+        "category": "Military School",
+        "address": "E-11/3",
+        "sector": "E-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.7,
+        "reviews": 1450,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1145,
+          33.6445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_008",
+      "properties": {
+        "name": "Air Force School",
+        "category": "Military School",
+        "address": "E-9",
+        "sector": "E-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.6,
+        "reviews": 1230,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1001,
+          33.6823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_009",
+      "properties": {
+        "name": "Islamabad Model College for Boys",
+        "category": "Government School",
+        "address": "F-10/4",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.3,
+        "reviews": 890,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0334,
+          33.6878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_010",
+      "properties": {
+        "name": "Islamabad Model College for Girls",
+        "category": "Government School",
+        "address": "F-10/4",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.4,
+        "reviews": 920,
+        "description": "Established educational institution",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0345,
+          33.6867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_011",
+      "properties": {
+        "name": "Beaconhouse School F-6/1",
+        "category": "High School",
+        "address": "F-6/1, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.1,
+        "reviews": 758,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01750073748921,
+          33.66304620549645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_012",
+      "properties": {
+        "name": "F.G. Girls School F-6/2",
+        "category": "Boys School",
+        "address": "F-6/2, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.1,
+        "reviews": 408,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0253079935503,
+          33.6702863394437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_013",
+      "properties": {
+        "name": "Roots Millennium School F-6/3",
+        "category": "Boys School",
+        "address": "F-6/3, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.4,
+        "reviews": 255,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02920844936267,
+          33.675194819245974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_014",
+      "properties": {
+        "name": "F.G. Public School F-6/4",
+        "category": "High School",
+        "address": "F-6/4, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 3.6,
+        "reviews": 599,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04332427619073,
+          33.66304640996319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_015",
+      "properties": {
+        "name": "Divisional Public School F-6/1",
+        "category": "Private School",
+        "address": "F-6/1, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.2,
+        "reviews": 491,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02440371299276,
+          33.666116727727406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_016",
+      "properties": {
+        "name": "Federal Government School F-6/2",
+        "category": "Girls School",
+        "address": "F-6/2, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.7,
+        "reviews": 412,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03462228698534,
+          33.673232152822685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_017",
+      "properties": {
+        "name": "Federal Government School F-6/3",
+        "category": "Girls School",
+        "address": "F-6/3, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.2,
+        "reviews": 311,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03915156116828,
+          33.66842913822647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_018",
+      "properties": {
+        "name": "Divisional Public School F-6/4",
+        "category": "Boys School",
+        "address": "F-6/4, Islamabad",
+        "sector": "F-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.5,
+        "reviews": 432,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04923771927241,
+          33.664776391269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_019",
+      "properties": {
+        "name": "Islamabad Model School F-7/1",
+        "category": "Girls School",
+        "address": "F-7/1, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.7,
+        "reviews": 595,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02530819590282,
+          33.67944193185564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_020",
+      "properties": {
+        "name": "F.G. Girls School F-7/2",
+        "category": "Girls School",
+        "address": "F-7/2, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.0,
+        "reviews": 356,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03151681496446,
+          33.67962488967962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_021",
+      "properties": {
+        "name": "Lacas School F-7/3",
+        "category": "Government School",
+        "address": "F-7/3, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.1,
+        "reviews": 229,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03354961973467,
+          33.6747495975163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_022",
+      "properties": {
+        "name": "F.G. Public School F-7/4",
+        "category": "Primary School",
+        "address": "F-7/4, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.3,
+        "reviews": 218,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.039591415531,
+          33.67361787665793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_023",
+      "properties": {
+        "name": "Lacas School F-7/1",
+        "category": "Primary School",
+        "address": "F-7/1, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 3.5,
+        "reviews": 315,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02667091422548,
+          33.67378388823494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_024",
+      "properties": {
+        "name": "Bloomfield Hall School F-7/2",
+        "category": "Private School",
+        "address": "F-7/2, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.1,
+        "reviews": 266,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03085533826824,
+          33.68535117191026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_025",
+      "properties": {
+        "name": "Islamabad Model School F-7/3",
+        "category": "High School",
+        "address": "F-7/3, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.1,
+        "reviews": 165,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03020650089577,
+          33.67317079086658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_026",
+      "properties": {
+        "name": "F.G. Girls School F-7/4",
+        "category": "Private School",
+        "address": "F-7/4, Islamabad",
+        "sector": "F-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.4,
+        "reviews": 683,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03892669088663,
+          33.68058849365106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_027",
+      "properties": {
+        "name": "The Educators School F-8/1",
+        "category": "Boys School",
+        "address": "F-8/1, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.6,
+        "reviews": 269,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01934824703659,
+          33.69112370444037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_028",
+      "properties": {
+        "name": "Lacas School F-8/2",
+        "category": "Private School",
+        "address": "F-8/2, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.5,
+        "reviews": 343,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0274438842302,
+          33.68498579746575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_029",
+      "properties": {
+        "name": "Beaconhouse School F-8/3",
+        "category": "Primary School",
+        "address": "F-8/3, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.5,
+        "reviews": 528,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03362435629298,
+          33.69104587181509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_030",
+      "properties": {
+        "name": "F.G. Boys School F-8/4",
+        "category": "Government School",
+        "address": "F-8/4, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.8,
+        "reviews": 414,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0391453091285,
+          33.687084139136346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_031",
+      "properties": {
+        "name": "Headstart School F-8/1",
+        "category": "Boys School",
+        "address": "F-8/1, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.2,
+        "reviews": 413,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02669641900953,
+          33.68911226178807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_032",
+      "properties": {
+        "name": "Lacas School F-8/2",
+        "category": "Primary School",
+        "address": "F-8/2, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.1,
+        "reviews": 242,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02311172681284,
+          33.69588570151265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_033",
+      "properties": {
+        "name": "Bloomfield Hall School F-8/3",
+        "category": "Primary School",
+        "address": "F-8/3, Islamabad",
+        "sector": "F-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.0,
+        "reviews": 529,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03826185017301,
+          33.69177391131807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_034",
+      "properties": {
+        "name": "F.G. Boys School F-9/1",
+        "category": "Primary School",
+        "address": "F-9/1, Islamabad",
+        "sector": "F-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 3.9,
+        "reviews": 551,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01316722873435,
+          33.700076668463296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_035",
+      "properties": {
+        "name": "The Educators School F-9/2",
+        "category": "High School",
+        "address": "F-9/2, Islamabad",
+        "sector": "F-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.1,
+        "reviews": 258,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03020820840398,
+          33.702127809736865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_036",
+      "properties": {
+        "name": "Islamabad Model School F-9/3",
+        "category": "Girls School",
+        "address": "F-9/3, Islamabad",
+        "sector": "F-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.2,
+        "reviews": 386,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04141720075131,
+          33.706731398556805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_037",
+      "properties": {
+        "name": "Headstart School F-9/4",
+        "category": "Private School",
+        "address": "F-9/4, Islamabad",
+        "sector": "F-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.8,
+        "reviews": 784,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04593036994228,
+          33.69655623178691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_038",
+      "properties": {
+        "name": "Islamabad Model School F-9/1",
+        "category": "Boys School",
+        "address": "F-9/1, Islamabad",
+        "sector": "F-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.0,
+        "reviews": 195,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01624155153148,
+          33.69355129056424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_039",
+      "properties": {
+        "name": "Headstart School F-9/2",
+        "category": "Primary School",
+        "address": "F-9/2, Islamabad",
+        "sector": "F-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.5,
+        "reviews": 392,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03450113207231,
+          33.705125822409876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_040",
+      "properties": {
+        "name": "Divisional Public School F-9/3",
+        "category": "Private School",
+        "address": "F-9/3, Islamabad",
+        "sector": "F-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.7,
+        "reviews": 408,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0335236421992,
+          33.69328379574781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_041",
+      "properties": {
+        "name": "Lacas School F-10/1",
+        "category": "Girls School",
+        "address": "F-10/1, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.5,
+        "reviews": 220,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02315887999666,
+          33.705553008843474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_042",
+      "properties": {
+        "name": "F.G. Girls School F-10/2",
+        "category": "High School",
+        "address": "F-10/2, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.2,
+        "reviews": 190,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03024632472783,
+          33.70622474782256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_043",
+      "properties": {
+        "name": "Army Public School F-10/3",
+        "category": "Boys School",
+        "address": "F-10/3, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.1,
+        "reviews": 321,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03466851443801,
+          33.704264474400404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_044",
+      "properties": {
+        "name": "Lacas School F-10/4",
+        "category": "Girls School",
+        "address": "F-10/4, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.1,
+        "reviews": 294,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04458583507461,
+          33.71670278653448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_045",
+      "properties": {
+        "name": "City School School F-10/1",
+        "category": "Boys School",
+        "address": "F-10/1, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.7,
+        "reviews": 403,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0191259012874,
+          33.715660001218566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_046",
+      "properties": {
+        "name": "Federal Government School F-10/2",
+        "category": "Private School",
+        "address": "F-10/2, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.2,
+        "reviews": 863,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02184174073717,
+          33.71391664807097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_047",
+      "properties": {
+        "name": "The Educators School F-10/3",
+        "category": "Private School",
+        "address": "F-10/3, Islamabad",
+        "sector": "F-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.4,
+        "reviews": 758,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03952374978333,
+          33.712521118021094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_048",
+      "properties": {
+        "name": "F.G. Boys School F-11/1",
+        "category": "Private School",
+        "address": "F-11/1, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.5,
+        "reviews": 425,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01404511583958,
+          33.717334514836274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_049",
+      "properties": {
+        "name": "F.G. Public School F-11/2",
+        "category": "Boys School",
+        "address": "F-11/2, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 3.7,
+        "reviews": 532,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0326778101819,
+          33.71780729773014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_050",
+      "properties": {
+        "name": "City School School F-11/3",
+        "category": "Government School",
+        "address": "F-11/3, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.5,
+        "reviews": 328,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03091330833749,
+          33.71750033473769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_051",
+      "properties": {
+        "name": "Lacas School F-11/4",
+        "category": "High School",
+        "address": "F-11/4, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 3.5,
+        "reviews": 441,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04773462774722,
+          33.715877414929395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_052",
+      "properties": {
+        "name": "Headstart School F-11/1",
+        "category": "Government School",
+        "address": "F-11/1, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.5,
+        "reviews": 102,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01454577982142,
+          33.72286775269184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_053",
+      "properties": {
+        "name": "Federal Government School F-11/2",
+        "category": "Girls School",
+        "address": "F-11/2, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.7,
+        "reviews": 165,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0309918060282,
+          33.72335019319627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_054",
+      "properties": {
+        "name": "Federal Government School F-11/3",
+        "category": "Girls School",
+        "address": "F-11/3, Islamabad",
+        "sector": "F-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.2,
+        "reviews": 589,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03102014518039,
+          33.71858172482209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_055",
+      "properties": {
+        "name": "Federal Government School G-6/1",
+        "category": "Primary School",
+        "address": "G-6/1, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 3.8,
+        "reviews": 443,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04658672885353,
+          33.69566728833314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_056",
+      "properties": {
+        "name": "The Educators School G-6/2",
+        "category": "Boys School",
+        "address": "G-6/2, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.5,
+        "reviews": 864,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04755993513005,
+          33.693213745250105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_057",
+      "properties": {
+        "name": "Roots Millennium School G-6/3",
+        "category": "Private School",
+        "address": "G-6/3, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.5,
+        "reviews": 651,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04945492883363,
+          33.68462313932933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_058",
+      "properties": {
+        "name": "F.G. Girls School G-6/4",
+        "category": "Girls School",
+        "address": "G-6/4, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.8,
+        "reviews": 349,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06289480964423,
+          33.68756881310397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_059",
+      "properties": {
+        "name": "F.G. Public School G-6/1",
+        "category": "Government School",
+        "address": "G-6/1, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.1,
+        "reviews": 594,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03325709763732,
+          33.68904470266202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_060",
+      "properties": {
+        "name": "Army Public School G-6/2",
+        "category": "Boys School",
+        "address": "G-6/2, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.2,
+        "reviews": 143,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04851790499826,
+          33.68382668124043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_061",
+      "properties": {
+        "name": "Divisional Public School G-6/3",
+        "category": "High School",
+        "address": "G-6/3, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.4,
+        "reviews": 124,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05917539759149,
+          33.68800242930515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_062",
+      "properties": {
+        "name": "Federal Government School G-6/4",
+        "category": "Government School",
+        "address": "G-6/4, Islamabad",
+        "sector": "G-6",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.7,
+        "reviews": 252,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05749602214973,
+          33.694439206541155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_063",
+      "properties": {
+        "name": "Roots Millennium School G-7/1",
+        "category": "Private School",
+        "address": "G-7/1, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.3,
+        "reviews": 241,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04438252101389,
+          33.69920882672246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_064",
+      "properties": {
+        "name": "F.G. Boys School G-7/2",
+        "category": "Boys School",
+        "address": "G-7/2, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.0,
+        "reviews": 573,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05267135686306,
+          33.70305719445645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_065",
+      "properties": {
+        "name": "The Educators School G-7/3",
+        "category": "Boys School",
+        "address": "G-7/3, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.6,
+        "reviews": 668,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05561997138935,
+          33.69583808944234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_066",
+      "properties": {
+        "name": "Beaconhouse School G-7/4",
+        "category": "Girls School",
+        "address": "G-7/4, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.7,
+        "reviews": 378,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0687180263152,
+          33.70423028329239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_067",
+      "properties": {
+        "name": "Divisional Public School G-7/1",
+        "category": "Government School",
+        "address": "G-7/1, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.0,
+        "reviews": 543,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03593630687668,
+          33.7034000573673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_068",
+      "properties": {
+        "name": "Froebels School G-7/2",
+        "category": "High School",
+        "address": "G-7/2, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.1,
+        "reviews": 274,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.043970508339,
+          33.70589752986044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_069",
+      "properties": {
+        "name": "Army Public School G-7/3",
+        "category": "Government School",
+        "address": "G-7/3, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.5,
+        "reviews": 105,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05083144892097,
+          33.70017869549706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_070",
+      "properties": {
+        "name": "Army Public School G-7/4",
+        "category": "Girls School",
+        "address": "G-7/4, Islamabad",
+        "sector": "G-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.2,
+        "reviews": 454,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05818352343971,
+          33.70693052255126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_071",
+      "properties": {
+        "name": "Divisional Public School G-8/1",
+        "category": "Private School",
+        "address": "G-8/1, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.4,
+        "reviews": 723,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04441332904979,
+          33.71457331510453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_072",
+      "properties": {
+        "name": "Army Public School G-8/2",
+        "category": "Primary School",
+        "address": "G-8/2, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.0,
+        "reviews": 500,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04583175554954,
+          33.71420834152515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_073",
+      "properties": {
+        "name": "Divisional Public School G-8/3",
+        "category": "Primary School",
+        "address": "G-8/3, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 3.7,
+        "reviews": 499,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05169040148735,
+          33.71110269775742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_074",
+      "properties": {
+        "name": "Bloomfield Hall School G-8/4",
+        "category": "Government School",
+        "address": "G-8/4, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.2,
+        "reviews": 456,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06004430848077,
+          33.71010383261638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_075",
+      "properties": {
+        "name": "F.G. Public School G-8/1",
+        "category": "Primary School",
+        "address": "G-8/1, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 3.6,
+        "reviews": 379,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04471151554458,
+          33.7039280820109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_076",
+      "properties": {
+        "name": "Army Public School G-8/2",
+        "category": "Girls School",
+        "address": "G-8/2, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.4,
+        "reviews": 240,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04517952315493,
+          33.71642166317664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_077",
+      "properties": {
+        "name": "Divisional Public School G-8/3",
+        "category": "Boys School",
+        "address": "G-8/3, Islamabad",
+        "sector": "G-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.4,
+        "reviews": 346,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05635165847393,
+          33.71265636487369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_078",
+      "properties": {
+        "name": "The Educators School G-9/1",
+        "category": "Boys School",
+        "address": "G-9/1, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.2,
+        "reviews": 617,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04548581501518,
+          33.716024469997855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_079",
+      "properties": {
+        "name": "The Educators School G-9/2",
+        "category": "Girls School",
+        "address": "G-9/2, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.5,
+        "reviews": 893,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04321549542593,
+          33.71326139431397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_080",
+      "properties": {
+        "name": "Lacas School G-9/3",
+        "category": "Primary School",
+        "address": "G-9/3, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.1,
+        "reviews": 128,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04958040421252,
+          33.71936375745756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_081",
+      "properties": {
+        "name": "Divisional Public School G-9/4",
+        "category": "Girls School",
+        "address": "G-9/4, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.8,
+        "reviews": 524,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06973898405053,
+          33.72492257107522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_082",
+      "properties": {
+        "name": "Froebels School G-9/1",
+        "category": "Primary School",
+        "address": "G-9/1, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.2,
+        "reviews": 243,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03967540223461,
+          33.7139819897592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_083",
+      "properties": {
+        "name": "The Educators School G-9/2",
+        "category": "Private School",
+        "address": "G-9/2, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.5,
+        "reviews": 230,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04811562849953,
+          33.715029362819905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_084",
+      "properties": {
+        "name": "Beaconhouse School G-9/3",
+        "category": "Primary School",
+        "address": "G-9/3, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.5,
+        "reviews": 541,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05021052038127,
+          33.71684358724545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_085",
+      "properties": {
+        "name": "Froebels School G-9/4",
+        "category": "Private School",
+        "address": "G-9/4, Islamabad",
+        "sector": "G-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.0,
+        "reviews": 314,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05782123624002,
+          33.723817441321295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_086",
+      "properties": {
+        "name": "Headstart School G-10/1",
+        "category": "Government School",
+        "address": "G-10/1, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.0,
+        "reviews": 253,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04617978479719,
+          33.72723105581153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_087",
+      "properties": {
+        "name": "Froebels School G-10/2",
+        "category": "Private School",
+        "address": "G-10/2, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.5,
+        "reviews": 798,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04844704516486,
+          33.729798210300636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_088",
+      "properties": {
+        "name": "Divisional Public School G-10/3",
+        "category": "High School",
+        "address": "G-10/3, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.4,
+        "reviews": 220,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05911235616458,
+          33.73097533009977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_089",
+      "properties": {
+        "name": "F.G. Girls School G-10/4",
+        "category": "Primary School",
+        "address": "G-10/4, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.1,
+        "reviews": 326,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06553612391991,
+          33.729540761688526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_090",
+      "properties": {
+        "name": "Roots Millennium School G-10/1",
+        "category": "Government School",
+        "address": "G-10/1, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.5,
+        "reviews": 257,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0354926482955,
+          33.73084501502497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_091",
+      "properties": {
+        "name": "Divisional Public School G-10/2",
+        "category": "Boys School",
+        "address": "G-10/2, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.1,
+        "reviews": 165,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04113058447709,
+          33.7267024567971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_092",
+      "properties": {
+        "name": "Divisional Public School G-10/3",
+        "category": "High School",
+        "address": "G-10/3, Islamabad",
+        "sector": "G-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 3.5,
+        "reviews": 380,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05470725869077,
+          33.727760541713145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_093",
+      "properties": {
+        "name": "Islamabad Model School G-11/1",
+        "category": "High School",
+        "address": "G-11/1, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.5,
+        "reviews": 187,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03852313823099,
+          33.740071066799665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_094",
+      "properties": {
+        "name": "City School School G-11/2",
+        "category": "Boys School",
+        "address": "G-11/2, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.6,
+        "reviews": 654,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05292857253625,
+          33.74271136304253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_095",
+      "properties": {
+        "name": "F.G. Public School G-11/3",
+        "category": "Private School",
+        "address": "G-11/3, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.3,
+        "reviews": 464,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05330844718561,
+          33.73880945777271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_096",
+      "properties": {
+        "name": "The Educators School G-11/4",
+        "category": "Government School",
+        "address": "G-11/4, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.2,
+        "reviews": 209,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.07036589393894,
+          33.74408852032607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_097",
+      "properties": {
+        "name": "Froebels School G-11/1",
+        "category": "High School",
+        "address": "G-11/1, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.0,
+        "reviews": 175,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04213605940683,
+          33.74150509148337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_098",
+      "properties": {
+        "name": "Headstart School G-11/2",
+        "category": "Girls School",
+        "address": "G-11/2, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.7,
+        "reviews": 125,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04512911211576,
+          33.734039968826636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_099",
+      "properties": {
+        "name": "F.G. Public School G-11/3",
+        "category": "Government School",
+        "address": "G-11/3, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.1,
+        "reviews": 277,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0577774376926,
+          33.74224107955882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_100",
+      "properties": {
+        "name": "Headstart School G-11/4",
+        "category": "Private School",
+        "address": "G-11/4, Islamabad",
+        "sector": "G-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.4,
+        "reviews": 328,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05785052330273,
+          33.74150917650911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_101",
+      "properties": {
+        "name": "F.G. Boys School G-13/1",
+        "category": "Girls School",
+        "address": "G-13/1, Islamabad",
+        "sector": "G-13",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.0,
+        "reviews": 299,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03867284905571,
+          33.75407115936237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_102",
+      "properties": {
+        "name": "F.G. Public School G-13/2",
+        "category": "Primary School",
+        "address": "G-13/2, Islamabad",
+        "sector": "G-13",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.2,
+        "reviews": 542,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05254221868712,
+          33.75560313826838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_103",
+      "properties": {
+        "name": "F.G. Boys School G-13/3",
+        "category": "Primary School",
+        "address": "G-13/3, Islamabad",
+        "sector": "G-13",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.5,
+        "reviews": 343,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0587877399984,
+          33.764971484487575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_104",
+      "properties": {
+        "name": "F.G. Boys School G-13/4",
+        "category": "Government School",
+        "address": "G-13/4, Islamabad",
+        "sector": "G-13",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.6,
+        "reviews": 432,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06406978027152,
+          33.75955948457309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_105",
+      "properties": {
+        "name": "Bloomfield Hall School G-13/1",
+        "category": "Private School",
+        "address": "G-13/1, Islamabad",
+        "sector": "G-13",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.4,
+        "reviews": 269,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04371999992348,
+          33.756390970702036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_106",
+      "properties": {
+        "name": "F.G. Public School G-13/2",
+        "category": "Government School",
+        "address": "G-13/2, Islamabad",
+        "sector": "G-13",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.8,
+        "reviews": 493,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04297063233176,
+          33.75385154276459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_107",
+      "properties": {
+        "name": "F.G. Public School G-13/3",
+        "category": "Primary School",
+        "address": "G-13/3, Islamabad",
+        "sector": "G-13",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 3.9,
+        "reviews": 572,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05956203031064,
+          33.76661019377206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_108",
+      "properties": {
+        "name": "The Educators School G-13/4",
+        "category": "Primary School",
+        "address": "G-13/4, Islamabad",
+        "sector": "G-13",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.6,
+        "reviews": 229,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06623452426103,
+          33.760042544613235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_109",
+      "properties": {
+        "name": "F.G. Public School I-8/1",
+        "category": "High School",
+        "address": "I-8/1, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 3.9,
+        "reviews": 204,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02382951188501,
+          33.651643130340254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_110",
+      "properties": {
+        "name": "F.G. Girls School I-8/2",
+        "category": "Government School",
+        "address": "I-8/2, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.2,
+        "reviews": 100,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02898684502394,
+          33.647979603585796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_111",
+      "properties": {
+        "name": "F.G. Boys School I-8/3",
+        "category": "Primary School",
+        "address": "I-8/3, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.4,
+        "reviews": 209,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03554980447247,
+          33.64438719906393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_112",
+      "properties": {
+        "name": "Army Public School I-8/4",
+        "category": "Boys School",
+        "address": "I-8/4, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.0,
+        "reviews": 339,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05092431533717,
+          33.6531229198354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_113",
+      "properties": {
+        "name": "Divisional Public School I-8/1",
+        "category": "Government School",
+        "address": "I-8/1, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.7,
+        "reviews": 490,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01397913604248,
+          33.65663263802521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_114",
+      "properties": {
+        "name": "Divisional Public School I-8/2",
+        "category": "Boys School",
+        "address": "I-8/2, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 3.8,
+        "reviews": 158,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03487267742581,
+          33.64861622882032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_115",
+      "properties": {
+        "name": "Beaconhouse School I-8/3",
+        "category": "Government School",
+        "address": "I-8/3, Islamabad",
+        "sector": "I-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.3,
+        "reviews": 574,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0380661161203,
+          33.65433445348626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_116",
+      "properties": {
+        "name": "Islamabad Model School I-9/1",
+        "category": "Boys School",
+        "address": "I-9/1, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 3.8,
+        "reviews": 265,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01993407983151,
+          33.66636967729508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_117",
+      "properties": {
+        "name": "Lacas School I-9/2",
+        "category": "Boys School",
+        "address": "I-9/2, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.3,
+        "reviews": 134,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0253074064762,
+          33.66508675606108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_118",
+      "properties": {
+        "name": "Roots Millennium School I-9/3",
+        "category": "Private School",
+        "address": "I-9/3, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.4,
+        "reviews": 432,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03557864349743,
+          33.6613863040362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_119",
+      "properties": {
+        "name": "Bloomfield Hall School I-9/4",
+        "category": "Government School",
+        "address": "I-9/4, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.7,
+        "reviews": 160,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04796283768114,
+          33.659809800543826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_120",
+      "properties": {
+        "name": "City School School I-9/1",
+        "category": "Government School",
+        "address": "I-9/1, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.3,
+        "reviews": 311,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0225954255197,
+          33.6639045564301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_121",
+      "properties": {
+        "name": "Federal Government School I-9/2",
+        "category": "Girls School",
+        "address": "I-9/2, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.7,
+        "reviews": 497,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02621180209385,
+          33.661095603052345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_122",
+      "properties": {
+        "name": "City School School I-9/3",
+        "category": "Boys School",
+        "address": "I-9/3, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.4,
+        "reviews": 386,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03874187544812,
+          33.66029013988804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_123",
+      "properties": {
+        "name": "Army Public School I-9/4",
+        "category": "Boys School",
+        "address": "I-9/4, Islamabad",
+        "sector": "I-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.1,
+        "reviews": 149,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03893540361429,
+          33.66545407490728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_124",
+      "properties": {
+        "name": "The Educators School I-10/1",
+        "category": "High School",
+        "address": "I-10/1, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.6,
+        "reviews": 268,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02661514223072,
+          33.67036172374483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_125",
+      "properties": {
+        "name": "F.G. Public School I-10/2",
+        "category": "Primary School",
+        "address": "I-10/2, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.1,
+        "reviews": 322,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02150634045859,
+          33.663130843228835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_126",
+      "properties": {
+        "name": "F.G. Public School I-10/3",
+        "category": "High School",
+        "address": "I-10/3, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 3.6,
+        "reviews": 292,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0332231793826,
+          33.66827544417464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_127",
+      "properties": {
+        "name": "Headstart School I-10/4",
+        "category": "Primary School",
+        "address": "I-10/4, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.5,
+        "reviews": 567,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0493769907393,
+          33.67491663732803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_128",
+      "properties": {
+        "name": "Froebels School I-10/1",
+        "category": "Primary School",
+        "address": "I-10/1, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.2,
+        "reviews": 521,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01323022274082,
+          33.67426415551262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_129",
+      "properties": {
+        "name": "Federal Government School I-10/2",
+        "category": "Private School",
+        "address": "I-10/2, Islamabad",
+        "sector": "I-10",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.7,
+        "reviews": 261,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0219790276067,
+          33.67631338830369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_130",
+      "properties": {
+        "name": "Lacas School I-11/1",
+        "category": "High School",
+        "address": "I-11/1, Islamabad",
+        "sector": "I-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.3,
+        "reviews": 399,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01857006950874,
+          33.68575595768276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_131",
+      "properties": {
+        "name": "Headstart School I-11/2",
+        "category": "Girls School",
+        "address": "I-11/2, Islamabad",
+        "sector": "I-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.9,
+        "reviews": 494,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0237727786252,
+          33.679673646678076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_132",
+      "properties": {
+        "name": "F.G. Boys School I-11/3",
+        "category": "High School",
+        "address": "I-11/3, Islamabad",
+        "sector": "I-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 3.8,
+        "reviews": 112,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04227622435182,
+          33.6740691556069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_133",
+      "properties": {
+        "name": "Roots Millennium School I-11/4",
+        "category": "Primary School",
+        "address": "I-11/4, Islamabad",
+        "sector": "I-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.2,
+        "reviews": 444,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03794667395783,
+          33.67551191483781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_134",
+      "properties": {
+        "name": "Federal Government School I-11/1",
+        "category": "Girls School",
+        "address": "I-11/1, Islamabad",
+        "sector": "I-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.9,
+        "reviews": 419,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02053531435058,
+          33.67888026165092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_135",
+      "properties": {
+        "name": "Froebels School I-11/2",
+        "category": "Boys School",
+        "address": "I-11/2, Islamabad",
+        "sector": "I-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.3,
+        "reviews": 173,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03495477549846,
+          33.68079935565074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_136",
+      "properties": {
+        "name": "Army Public School I-11/3",
+        "category": "Primary School",
+        "address": "I-11/3, Islamabad",
+        "sector": "I-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.0,
+        "reviews": 308,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0291410831427,
+          33.68497515095092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_137",
+      "properties": {
+        "name": "Froebels School I-14/1",
+        "category": "Government School",
+        "address": "I-14/1, Islamabad",
+        "sector": "I-14",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.6,
+        "reviews": 358,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02387051265049,
+          33.716083124214556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_138",
+      "properties": {
+        "name": "F.G. Girls School I-14/2",
+        "category": "Primary School",
+        "address": "I-14/2, Islamabad",
+        "sector": "I-14",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 3.5,
+        "reviews": 316,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02257073146912,
+          33.707180317350215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_139",
+      "properties": {
+        "name": "The Educators School I-14/3",
+        "category": "Private School",
+        "address": "I-14/3, Islamabad",
+        "sector": "I-14",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.0,
+        "reviews": 399,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04094602694657,
+          33.70674329725482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_140",
+      "properties": {
+        "name": "Headstart School I-14/4",
+        "category": "Primary School",
+        "address": "I-14/4, Islamabad",
+        "sector": "I-14",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 3.6,
+        "reviews": 156,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0406376984305,
+          33.70891257405882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_141",
+      "properties": {
+        "name": "Roots Millennium School I-14/1",
+        "category": "Government School",
+        "address": "I-14/1, Islamabad",
+        "sector": "I-14",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.3,
+        "reviews": 564,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01643754168902,
+          33.71116486902105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_142",
+      "properties": {
+        "name": "Froebels School I-14/2",
+        "category": "Government School",
+        "address": "I-14/2, Islamabad",
+        "sector": "I-14",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.5,
+        "reviews": 499,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02651206801207,
+          33.708421551403006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_143",
+      "properties": {
+        "name": "Bloomfield Hall School I-14/3",
+        "category": "Girls School",
+        "address": "I-14/3, Islamabad",
+        "sector": "I-14",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.2,
+        "reviews": 593,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03472572920586,
+          33.707730460668756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_144",
+      "properties": {
+        "name": "F.G. Girls School E-7/1",
+        "category": "Boys School",
+        "address": "E-7/1, Islamabad",
+        "sector": "E-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.3,
+        "reviews": 573,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0951568367084,
+          33.64199755462669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_145",
+      "properties": {
+        "name": "Roots Millennium School E-7/2",
+        "category": "Government School",
+        "address": "E-7/2, Islamabad",
+        "sector": "E-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.7,
+        "reviews": 539,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10899187083977,
+          33.63971547224005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_146",
+      "properties": {
+        "name": "Lacas School E-7/3",
+        "category": "High School",
+        "address": "E-7/3, Islamabad",
+        "sector": "E-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.1,
+        "reviews": 104,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1102768196515,
+          33.64294988234196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_147",
+      "properties": {
+        "name": "Roots Millennium School E-7/4",
+        "category": "Primary School",
+        "address": "E-7/4, Islamabad",
+        "sector": "E-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.5,
+        "reviews": 772,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.12239236079016,
+          33.6442224531309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_148",
+      "properties": {
+        "name": "Roots Millennium School E-7/1",
+        "category": "Primary School",
+        "address": "E-7/1, Islamabad",
+        "sector": "E-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.3,
+        "reviews": 658,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10019386786412,
+          33.641668069201025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_149",
+      "properties": {
+        "name": "City School School E-7/2",
+        "category": "Girls School",
+        "address": "E-7/2, Islamabad",
+        "sector": "E-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.4,
+        "reviews": 543,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10595388354342,
+          33.64341320615736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_150",
+      "properties": {
+        "name": "Froebels School E-7/3",
+        "category": "Government School",
+        "address": "E-7/3, Islamabad",
+        "sector": "E-7",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.9,
+        "reviews": 569,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11083878562819,
+          33.643526903974156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_151",
+      "properties": {
+        "name": "Army Public School E-11/1",
+        "category": "Primary School",
+        "address": "E-11/1, Islamabad",
+        "sector": "E-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.5,
+        "reviews": 551,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.09667964886064,
+          33.67823055531981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_152",
+      "properties": {
+        "name": "Army Public School E-11/2",
+        "category": "Girls School",
+        "address": "E-11/2, Islamabad",
+        "sector": "E-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.4,
+        "reviews": 221,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.10913155341015,
+          33.6786309053292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_153",
+      "properties": {
+        "name": "Beaconhouse School E-11/3",
+        "category": "Primary School",
+        "address": "E-11/3, Islamabad",
+        "sector": "E-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.7,
+        "reviews": 476,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11407882796983,
+          33.67571990439402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_154",
+      "properties": {
+        "name": "Beaconhouse School E-11/4",
+        "category": "Boys School",
+        "address": "E-11/4, Islamabad",
+        "sector": "E-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.3,
+        "reviews": 830,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.12551916687953,
+          33.681196038117946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_155",
+      "properties": {
+        "name": "Divisional Public School E-11/1",
+        "category": "Government School",
+        "address": "E-11/1, Islamabad",
+        "sector": "E-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 3.6,
+        "reviews": 198,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.09796826526744,
+          33.67603296886101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_156",
+      "properties": {
+        "name": "Islamabad Model School E-11/2",
+        "category": "High School",
+        "address": "E-11/2, Islamabad",
+        "sector": "E-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 3.5,
+        "reviews": 424,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11163658389682,
+          33.67399240548369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_157",
+      "properties": {
+        "name": "City School School E-11/3",
+        "category": "Government School",
+        "address": "E-11/3, Islamabad",
+        "sector": "E-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.2,
+        "reviews": 360,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11319010565431,
+          33.676285459184534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_158",
+      "properties": {
+        "name": "Divisional Public School H-8/1",
+        "category": "Primary School",
+        "address": "H-8/1, Islamabad",
+        "sector": "H-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.2,
+        "reviews": 452,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03327404796053,
+          33.64505558245812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_159",
+      "properties": {
+        "name": "Islamabad Model School H-8/2",
+        "category": "Girls School",
+        "address": "H-8/2, Islamabad",
+        "sector": "H-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.6,
+        "reviews": 251,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04514880513585,
+          33.646174378720424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_160",
+      "properties": {
+        "name": "Islamabad Model School H-8/3",
+        "category": "Government School",
+        "address": "H-8/3, Islamabad",
+        "sector": "H-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground"
+        ],
+        "rating": 4.2,
+        "reviews": 502,
+        "description": "Government School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05305528808844,
+          33.64078345499911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_161",
+      "properties": {
+        "name": "Islamabad Model School H-8/4",
+        "category": "High School",
+        "address": "H-8/4, Islamabad",
+        "sector": "H-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.3,
+        "reviews": 510,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06406907309042,
+          33.636986286367545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_162",
+      "properties": {
+        "name": "Army Public School H-8/1",
+        "category": "High School",
+        "address": "H-8/1, Islamabad",
+        "sector": "H-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.2,
+        "reviews": 375,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04410499300872,
+          33.643065433997855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_163",
+      "properties": {
+        "name": "F.G. Public School H-8/2",
+        "category": "Boys School",
+        "address": "H-8/2, Islamabad",
+        "sector": "H-8",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.0,
+        "reviews": 315,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04540711687777,
+          33.641694467835165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_164",
+      "properties": {
+        "name": "Froebels School H-9/1",
+        "category": "Private School",
+        "address": "H-9/1, Islamabad",
+        "sector": "H-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.7,
+        "reviews": 561,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04400262325952,
+          33.64820645358009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_165",
+      "properties": {
+        "name": "F.G. Boys School H-9/2",
+        "category": "Primary School",
+        "address": "H-9/2, Islamabad",
+        "sector": "H-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 3.9,
+        "reviews": 462,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04185991429274,
+          33.6522017170476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_166",
+      "properties": {
+        "name": "Froebels School H-9/3",
+        "category": "Private School",
+        "address": "H-9/3, Islamabad",
+        "sector": "H-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.3,
+        "reviews": 400,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05479374869725,
+          33.64643470413928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_167",
+      "properties": {
+        "name": "Army Public School H-9/4",
+        "category": "High School",
+        "address": "H-9/4, Islamabad",
+        "sector": "H-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.5,
+        "reviews": 321,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06747528504181,
+          33.64727075395128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_168",
+      "properties": {
+        "name": "City School School H-9/1",
+        "category": "Primary School",
+        "address": "H-9/1, Islamabad",
+        "sector": "H-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.3,
+        "reviews": 765,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04176146579336,
+          33.65378121271772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_169",
+      "properties": {
+        "name": "Divisional Public School H-9/2",
+        "category": "High School",
+        "address": "H-9/2, Islamabad",
+        "sector": "H-9",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.0,
+        "reviews": 194,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04851836018065,
+          33.64881465444059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_170",
+      "properties": {
+        "name": "City School School H-11/1",
+        "category": "Primary School",
+        "address": "H-11/1, Islamabad",
+        "sector": "H-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Play Area",
+          "Library"
+        ],
+        "rating": 4.0,
+        "reviews": 442,
+        "description": "Primary School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03445203570762,
+          33.663974220537256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_171",
+      "properties": {
+        "name": "F.G. Boys School H-11/2",
+        "category": "Girls School",
+        "address": "H-11/2, Islamabad",
+        "sector": "H-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 3.7,
+        "reviews": 313,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04420398840044,
+          33.66995040953917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_172",
+      "properties": {
+        "name": "Roots Millennium School H-11/3",
+        "category": "High School",
+        "address": "H-11/3, Islamabad",
+        "sector": "H-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Labs",
+          "Sports Facilities"
+        ],
+        "rating": 4.4,
+        "reviews": 818,
+        "description": "High School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0545163340305,
+          33.66817175790024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_173",
+      "properties": {
+        "name": "F.G. Girls School H-11/4",
+        "category": "Girls School",
+        "address": "H-11/4, Islamabad",
+        "sector": "H-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Art Room"
+        ],
+        "rating": 4.2,
+        "reviews": 250,
+        "description": "Girls School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05739976305111,
+          33.663660892267906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_174",
+      "properties": {
+        "name": "Beaconhouse School H-11/1",
+        "category": "Boys School",
+        "address": "H-11/1, Islamabad",
+        "sector": "H-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Sports Ground",
+          "Science Lab"
+        ],
+        "rating": 4.5,
+        "reviews": 387,
+        "description": "Boys School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03500464563908,
+          33.67351392470915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "school_175",
+      "properties": {
+        "name": "Headstart School H-11/2",
+        "category": "Private School",
+        "address": "H-11/2, Islamabad",
+        "sector": "H-11",
+        "timing": "8:00 AM - 2:00 PM",
+        "facilities": [
+          "Classrooms",
+          "Library",
+          "Computer Lab",
+          "Sports",
+          "Transport"
+        ],
+        "rating": 4.5,
+        "reviews": 221,
+        "description": "Private School providing quality education",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04651602043604,
+          33.66826625247398
+        ]
+      }
+    }
+  ]
+}

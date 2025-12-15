@@ -1,0 +1,817 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "category": "police-stations",
+    "total": 35,
+    "lastUpdated": "2024-12-15",
+    "city": "Islamabad",
+    "description": "Police stations, traffic police posts, and emergency rescue services"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "police_001",
+      "properties": {
+        "name": "Secretariat Police Station",
+        "category": "Police Station",
+        "address": "G-5, Islamabad",
+        "sector": "G-5",
+        "contact": "+92-51-9205612",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.8,
+        "reviews": 210,
+        "description": "Main police station serving government secretariat area",
+        "established": "1970",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0756, 33.7223]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_002",
+      "properties": {
+        "name": "Aabpara Police Station",
+        "category": "Police Station",
+        "address": "G-6/3, Islamabad",
+        "sector": "G-6",
+        "contact": "+92-51-9206542",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Traffic Management"],
+        "rating": 3.7,
+        "reviews": 180,
+        "description": "Police station covering Aabpara and surrounding areas",
+        "established": "1972",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0712, 33.7134]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_003",
+      "properties": {
+        "name": "Kohsar Police Station",
+        "category": "Police Station",
+        "address": "F-6/3, Islamabad",
+        "sector": "F-6",
+        "contact": "+92-51-2871901",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.9,
+        "reviews": 195,
+        "description": "Police station serving diplomatic enclave and F sectors",
+        "established": "1975",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0778, 33.7178]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_004",
+      "properties": {
+        "name": "Margalla Police Station",
+        "category": "Police Station",
+        "address": "F-7/4, Islamabad",
+        "sector": "F-7",
+        "contact": "+92-51-2651789",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Tourist Safety"],
+        "rating": 4.0,
+        "reviews": 165,
+        "description": "Police station covering Margalla Hills and F-7 sector",
+        "established": "1978",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0589, 33.7289]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_005",
+      "properties": {
+        "name": "Ramna Police Station",
+        "category": "Police Station",
+        "address": "G-7/2, Islamabad",
+        "sector": "G-7",
+        "contact": "+92-51-9204567",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.6,
+        "reviews": 145,
+        "description": "Police station serving G-7 and nearby sectors",
+        "established": "1973",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0567, 33.7145]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_006",
+      "properties": {
+        "name": "Karachi Company Police Station",
+        "category": "Police Station",
+        "address": "G-9/4, Islamabad",
+        "sector": "G-9",
+        "contact": "+92-51-2253890",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.8,
+        "reviews": 170,
+        "description": "Police station covering G-9 sector and Karachi Company",
+        "established": "1976",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0412, 33.7034]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_007",
+      "properties": {
+        "name": "Shalimar Police Station",
+        "category": "Police Station",
+        "address": "F-8/1, Islamabad",
+        "sector": "F-8",
+        "contact": "+92-51-2251678",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.9,
+        "reviews": 188,
+        "description": "Police station serving F-8 sector",
+        "established": "1980",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0501, 33.6956]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_008",
+      "properties": {
+        "name": "Industrial Area Police Station",
+        "category": "Police Station",
+        "address": "I-9/3, Islamabad",
+        "sector": "I-9",
+        "contact": "+92-51-4448234",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Industrial Security"],
+        "rating": 3.5,
+        "reviews": 125,
+        "description": "Police station covering industrial areas",
+        "established": "1985",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0456, 33.6745]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_009",
+      "properties": {
+        "name": "Sabzi Mandi Police Station",
+        "category": "Police Station",
+        "address": "I-11, Islamabad",
+        "sector": "I-11",
+        "contact": "+92-51-4863456",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Market Security"],
+        "rating": 3.4,
+        "reviews": 98,
+        "description": "Police station serving vegetable market and I-11 sector",
+        "established": "1990",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0623, 33.6534]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_010",
+      "properties": {
+        "name": "Bhara Kahu Police Station",
+        "category": "Police Station",
+        "address": "Murree Road, Bhara Kahu",
+        "sector": "Bhara Kahu",
+        "contact": "+92-51-9271234",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Highway Patrol"],
+        "rating": 3.6,
+        "reviews": 112,
+        "description": "Police station on Murree Road serving Bhara Kahu area",
+        "established": "1982",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1234, 33.7456]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_011",
+      "properties": {
+        "name": "Tarnol Police Station",
+        "category": "Police Station",
+        "address": "GT Road, Tarnol",
+        "sector": "Tarnol",
+        "contact": "+92-51-5489123",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Highway Patrol"],
+        "rating": 3.3,
+        "reviews": 85,
+        "description": "Police station on GT Road serving Tarnol area",
+        "established": "1988",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.9845, 33.6123]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_012",
+      "properties": {
+        "name": "Golra Police Station",
+        "category": "Police Station",
+        "address": "Golra Mor, Islamabad",
+        "sector": "Golra",
+        "contact": "+92-51-5730567",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.5,
+        "reviews": 102,
+        "description": "Police station serving Golra and surrounding areas",
+        "established": "1983",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0234, 33.6012]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_013",
+      "properties": {
+        "name": "Nilore Police Station",
+        "category": "Police Station",
+        "address": "Nilore, Islamabad",
+        "sector": "Nilore",
+        "contact": "+92-51-9271890",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.4,
+        "reviews": 78,
+        "description": "Police station serving Nilore and surrounding villages",
+        "established": "1992",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1567, 33.6234]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_014",
+      "properties": {
+        "name": "Shams Colony Police Station",
+        "category": "Police Station",
+        "address": "F-11/4, Islamabad",
+        "sector": "F-11",
+        "contact": "+92-51-2290456",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.7,
+        "reviews": 132,
+        "description": "Police station serving F-11 and Shams Colony",
+        "established": "1995",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0723, 33.6712]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_015",
+      "properties": {
+        "name": "Koral Police Station",
+        "category": "Police Station",
+        "address": "Koral Chowk, Islamabad",
+        "sector": "Koral",
+        "contact": "+92-51-5487234",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.2,
+        "reviews": 67,
+        "description": "Police station serving Koral and adjacent areas",
+        "established": "1998",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0123, 33.5789]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_016",
+      "properties": {
+        "name": "Noon Police Station",
+        "category": "Police Station",
+        "address": "Lehtrar Road, Islamabad",
+        "sector": "Noon",
+        "contact": "+92-51-5489678",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.3,
+        "reviews": 72,
+        "description": "Police station on Lehtrar Road",
+        "established": "2000",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0089, 33.5634]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_017",
+      "properties": {
+        "name": "Lohi Bher Police Station",
+        "category": "Police Station",
+        "address": "Airport Road, Islamabad",
+        "sector": "Lohi Bher",
+        "contact": "+92-51-5730890",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Airport Security"],
+        "rating": 3.6,
+        "reviews": 94,
+        "description": "Police station near airport serving Lohi Bher area",
+        "established": "1996",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0912, 33.6123]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_018",
+      "properties": {
+        "name": "Sumbal Police Station",
+        "category": "Police Station",
+        "address": "Sohan, Islamabad",
+        "sector": "Sumbal",
+        "contact": "+92-51-5489234",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.4,
+        "reviews": 68,
+        "description": "Police station serving Sumbal and Sohan areas",
+        "established": "2002",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0756, 33.5912]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_019",
+      "properties": {
+        "name": "Kirpa Police Station",
+        "category": "Police Station",
+        "address": "Rawat, Islamabad",
+        "sector": "Kirpa",
+        "contact": "+92-51-5487890",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.3,
+        "reviews": 62,
+        "description": "Police station serving Kirpa and Rawat areas",
+        "established": "2004",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1823, 33.5678]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_020",
+      "properties": {
+        "name": "Humak Police Station",
+        "category": "Police Station",
+        "address": "Humak, Islamabad",
+        "sector": "Humak",
+        "contact": "+92-51-9271567",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["FIR Registration", "Crime Investigation", "Public Safety"],
+        "rating": 3.2,
+        "reviews": 58,
+        "description": "Police station serving Humak area",
+        "established": "2006",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1456, 33.7823]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_021",
+      "properties": {
+        "name": "Traffic Police Headquarters",
+        "category": "Traffic Police",
+        "address": "G-6/1-4, Islamabad",
+        "sector": "G-6",
+        "contact": "+92-51-9206789",
+        "emergencyNumber": "1915",
+        "timing": "24/7",
+        "services": ["Traffic Management", "Accident Investigation", "Challan"],
+        "rating": 3.5,
+        "reviews": 245,
+        "description": "Main traffic police headquarters for Islamabad",
+        "established": "1975",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0689, 33.7156]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_022",
+      "properties": {
+        "name": "Blue Area Traffic Post",
+        "category": "Traffic Police",
+        "address": "Blue Area, Jinnah Avenue",
+        "sector": "Blue Area",
+        "contact": "+92-51-9206123",
+        "emergencyNumber": "1915",
+        "timing": "24/7",
+        "services": ["Traffic Management", "Parking Enforcement"],
+        "rating": 3.4,
+        "reviews": 156,
+        "description": "Traffic police post managing Blue Area traffic",
+        "established": "1980",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0623, 33.7189]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_023",
+      "properties": {
+        "name": "Zero Point Traffic Post",
+        "category": "Traffic Police",
+        "address": "Zero Point, Islamabad",
+        "sector": "G-6",
+        "contact": "+92-51-9206345",
+        "emergencyNumber": "1915",
+        "timing": "24/7",
+        "services": ["Traffic Management", "Signal Control"],
+        "rating": 3.3,
+        "reviews": 189,
+        "description": "Traffic police post at Zero Point interchange",
+        "established": "1985",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0734, 33.7123]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_024",
+      "properties": {
+        "name": "Faizabad Traffic Post",
+        "category": "Traffic Police",
+        "address": "Faizabad Interchange, Islamabad",
+        "sector": "Faizabad",
+        "contact": "+92-51-5730123",
+        "emergencyNumber": "1915",
+        "timing": "24/7",
+        "services": ["Traffic Management", "Highway Patrol"],
+        "rating": 3.2,
+        "reviews": 142,
+        "description": "Traffic police post at Faizabad interchange",
+        "established": "1990",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0645, 33.6523]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_025",
+      "properties": {
+        "name": "Koral Traffic Post",
+        "category": "Traffic Police",
+        "address": "Koral Chowk, Islamabad",
+        "sector": "Koral",
+        "contact": "+92-51-5487567",
+        "emergencyNumber": "1915",
+        "timing": "24/7",
+        "services": ["Traffic Management", "Highway Patrol"],
+        "rating": 3.1,
+        "reviews": 98,
+        "description": "Traffic police post at Koral Chowk",
+        "established": "1995",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0134, 33.5801]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_026",
+      "properties": {
+        "name": "Rescue 1122 Headquarters",
+        "category": "Rescue Service",
+        "address": "G-9/1, Islamabad",
+        "sector": "G-9",
+        "contact": "+92-51-9262000",
+        "emergencyNumber": "1122",
+        "timing": "24/7",
+        "services": ["Emergency Rescue", "Ambulance", "Fire Fighting", "Disaster Response"],
+        "rating": 4.5,
+        "reviews": 890,
+        "description": "Main rescue 1122 headquarters providing emergency services",
+        "established": "2006",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0445, 33.7023]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_027",
+      "properties": {
+        "name": "Rescue 1122 Station F-7",
+        "category": "Rescue Service",
+        "address": "F-7 Markaz, Islamabad",
+        "sector": "F-7",
+        "contact": "+92-51-2651122",
+        "emergencyNumber": "1122",
+        "timing": "24/7",
+        "services": ["Emergency Rescue", "Ambulance", "Fire Fighting"],
+        "rating": 4.3,
+        "reviews": 456,
+        "description": "Rescue 1122 station serving F sectors",
+        "established": "2008",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0567, 33.7234]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_028",
+      "properties": {
+        "name": "Rescue 1122 Station I-8",
+        "category": "Rescue Service",
+        "address": "I-8 Markaz, Islamabad",
+        "sector": "I-8",
+        "contact": "+92-51-4443122",
+        "emergencyNumber": "1122",
+        "timing": "24/7",
+        "services": ["Emergency Rescue", "Ambulance", "Fire Fighting"],
+        "rating": 4.2,
+        "reviews": 378,
+        "description": "Rescue 1122 station serving I sectors",
+        "established": "2010",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0756, 33.6645]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_029",
+      "properties": {
+        "name": "Rescue 1122 Station Bhara Kahu",
+        "category": "Rescue Service",
+        "address": "Murree Road, Bhara Kahu",
+        "sector": "Bhara Kahu",
+        "contact": "+92-51-9271122",
+        "emergencyNumber": "1122",
+        "timing": "24/7",
+        "services": ["Emergency Rescue", "Ambulance", "Mountain Rescue"],
+        "rating": 4.4,
+        "reviews": 512,
+        "description": "Rescue 1122 station on Murree Road for hill area emergencies",
+        "established": "2012",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1245, 33.7467]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_030",
+      "properties": {
+        "name": "Rescue 1122 Station Bahria Town",
+        "category": "Rescue Service",
+        "address": "Bahria Town Phase 7, Islamabad",
+        "sector": "Bahria Town",
+        "contact": "+92-51-5730122",
+        "emergencyNumber": "1122",
+        "timing": "24/7",
+        "services": ["Emergency Rescue", "Ambulance", "Fire Fighting"],
+        "rating": 4.3,
+        "reviews": 423,
+        "description": "Rescue 1122 station serving Bahria Town",
+        "established": "2015",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.9934, 33.5645]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_031",
+      "properties": {
+        "name": "Police Lines Headquarters",
+        "category": "Police Headquarters",
+        "address": "G-6/3, Islamabad",
+        "sector": "G-6",
+        "contact": "+92-51-9206000",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["Police Administration", "Training", "Operations"],
+        "rating": 3.8,
+        "reviews": 156,
+        "description": "Main police lines and headquarters",
+        "established": "1970",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0698, 33.7145]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_032",
+      "properties": {
+        "name": "Women Police Station",
+        "category": "Women Police Station",
+        "address": "G-7/1, Islamabad",
+        "sector": "G-7",
+        "contact": "+92-51-9204890",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["Women's Safety", "Domestic Violence", "FIR Registration"],
+        "rating": 4.1,
+        "reviews": 234,
+        "description": "Dedicated women police station",
+        "established": "2005",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0545, 33.7134]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_033",
+      "properties": {
+        "name": "Tourist Police Post Daman-e-Koh",
+        "category": "Tourist Police",
+        "address": "Daman-e-Koh, Margalla Hills",
+        "sector": "Margalla",
+        "contact": "+92-51-9262800",
+        "emergencyNumber": "1122",
+        "timing": "6:00 AM - 10:00 PM",
+        "services": ["Tourist Safety", "Information", "Emergency Response"],
+        "rating": 4.2,
+        "reviews": 567,
+        "description": "Tourist police post at Daman-e-Koh viewpoint",
+        "established": "2010",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0623, 33.7489]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_034",
+      "properties": {
+        "name": "Highway Patrol Post Motorway",
+        "category": "Highway Patrol",
+        "address": "M-2 Motorway, Islamabad Toll Plaza",
+        "sector": "Motorway",
+        "contact": "+92-130",
+        "emergencyNumber": "130",
+        "timing": "24/7",
+        "services": ["Highway Patrol", "Emergency Response", "Traffic Management"],
+        "rating": 4.0,
+        "reviews": 345,
+        "description": "Motorway police post on M-2",
+        "established": "1998",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1567, 33.5234]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_035",
+      "properties": {
+        "name": "Anti-Terrorism Squad Islamabad",
+        "category": "Special Force",
+        "address": "G-9/4, Islamabad",
+        "sector": "G-9",
+        "contact": "+92-51-9262500",
+        "emergencyNumber": "15",
+        "timing": "24/7",
+        "services": ["Counter-Terrorism", "Security Operations", "Intelligence"],
+        "rating": 4.3,
+        "reviews": 189,
+        "description": "Special anti-terrorism force for Islamabad",
+        "established": "2002",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0423, 33.7045]
+      }
+    }
+  ]
+}

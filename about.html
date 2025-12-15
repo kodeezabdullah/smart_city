@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Islamabad Smart City</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body style="background-color: #fbecd7;">
+
+    <!-- Header -->
+    <header style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);" class="text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-map-marked-alt text-3xl" style="color: #fbecd7;"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold">Islamabad Smart City</h1>
+                        <p class="text-xs" style="color: #fbecd7;">Find civic facilities near you</p>
+                    </div>
+                </div>
+                <nav class="hidden md:flex space-x-6 items-center">
+                    <a href="index.html" class="transition" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'">Home</a>
+                    <a href="statistics.html" class="transition" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'">
+                        <i class="fas fa-chart-bar mr-1"></i> Statistics
+                    </a>
+                    <a href="favorites.html" class="transition" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'">
+                        <i class="fas fa-heart mr-1"></i> Favorites
+                    </a>
+                    <a href="about.html" class="transition" style="color: #ffffff; font-weight: bold;">About</a>
+                </nav>
+                <button id="menuToggle" class="md:hidden">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden text-white md:hidden" style="background-color: #60546c;">
+        <nav class="container mx-auto px-4 py-3 flex flex-col space-y-2">
+            <a href="index.html" class="px-3 py-2 rounded transition" style="color: #fbecd7;">Home</a>
+            <a href="statistics.html" class="px-3 py-2 rounded transition" style="color: #fbecd7;">
+                <i class="fas fa-chart-bar mr-2"></i> Statistics
+            </a>
+            <a href="favorites.html" class="px-3 py-2 rounded transition" style="color: #fbecd7;">
+                <i class="fas fa-heart mr-2"></i> Favorites
+            </a>
+            <a href="about.html" class="px-3 py-2 rounded" style="color: #ffffff; background-color: #7f2e1f;">About</a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto">
+            <!-- Page Header -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-6">
+                <div class="text-center mb-8">
+                    <i class="fas fa-map-marked-alt text-6xl mb-4" style="color: #7f2e1f;"></i>
+                    <h1 class="text-4xl font-bold mb-2" style="color: #202236;">About Islamabad Smart City</h1>
+                    <p class="text-xl" style="color: #60546c;">Your Comprehensive Guide to Civic Facilities</p>
+                </div>
+            </div>
+
+            <!-- Welcome Section -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-6">
+                <h2 class="text-2xl font-bold mb-4" style="color: #7f2e1f;">
+                    <i class="fas fa-heart mr-2"></i> Welcome
+                </h2>
+                <p class="text-gray-700 mb-4 leading-relaxed">
+                    Islamabad Smart City WebGIS is a comprehensive Geographic Information System designed to help
+                    residents and visitors discover civic facilities across Islamabad, Pakistan. Our platform makes
+                    it easy to find hospitals, schools, parks, mosques, police stations, and educational institutions
+                    with just a few clicks.
+                </p>
+                <p class="text-gray-700 leading-relaxed">
+                    Whether you're looking for the nearest hospital, searching for parks in your sector, or planning
+                    a visit to educational institutions, our interactive map and powerful search features have you covered.
+                </p>
+            </div>
+
+            <!-- Key Features -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-6">
+                <h2 class="text-2xl font-bold mb-6" style="color: #7f2e1f;">
+                    <i class="fas fa-star mr-2"></i> Key Features
+                </h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-search text-2xl mt-1" style="color: #60546c;"></i>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2" style="color: #202236;">Smart Search</h3>
+                            <p class="text-gray-600 text-sm">Natural language search like "mosque near me" or "hospitals in F-7"</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-location-arrow text-2xl mt-1" style="color: #60546c;"></i>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2" style="color: #202236;">Near Me Feature</h3>
+                            <p class="text-gray-600 text-sm">Find facilities within custom radius (1-10km) from your location</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-route text-2xl mt-1" style="color: #60546c;"></i>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2" style="color: #202236;">Turn-by-Turn Directions</h3>
+                            <p class="text-gray-600 text-sm">Get detailed navigation with step-by-step instructions</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-heart text-2xl mt-1" style="color: #60546c;"></i>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2" style="color: #202236;">Favorites System</h3>
+                            <p class="text-gray-600 text-sm">Save your favorite locations for quick access</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-chart-pie text-2xl mt-1" style="color: #60546c;"></i>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2" style="color: #202236;">Statistics Dashboard</h3>
+                            <p class="text-gray-600 text-sm">Interactive charts showing facility distribution</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-share-alt text-2xl mt-1" style="color: #60546c;"></i>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2" style="color: #202236;">Share & Export</h3>
+                            <p class="text-gray-600 text-sm">Share locations via social media or export to CSV</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Coverage -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-6">
+                <h2 class="text-2xl font-bold mb-6" style="color: #7f2e1f;">
+                    <i class="fas fa-database mr-2"></i> Data Coverage
+                </h2>
+                <p class="text-gray-700 mb-6">Our comprehensive database includes <strong>688+ facilities</strong> across Islamabad:</p>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="flex items-center p-4 rounded-lg" style="background-color: rgba(127, 46, 31, 0.1);">
+                        <i class="fas fa-hospital text-3xl mr-4" style="color: #7f2e1f;"></i>
+                        <div>
+                            <div class="font-bold text-xl" style="color: #202236;">75</div>
+                            <div class="text-sm text-gray-600">Hospitals & Clinics</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 rounded-lg" style="background-color: rgba(96, 84, 108, 0.1);">
+                        <i class="fas fa-shield-alt text-3xl mr-4" style="color: #60546c;"></i>
+                        <div>
+                            <div class="font-bold text-xl" style="color: #202236;">35</div>
+                            <div class="text-sm text-gray-600">Police Stations</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 rounded-lg" style="background-color: rgba(127, 46, 31, 0.1);">
+                        <i class="fas fa-tree text-3xl mr-4" style="color: #7f2e1f;"></i>
+                        <div>
+                            <div class="font-bold text-xl" style="color: #202236;">82</div>
+                            <div class="text-sm text-gray-600">Parks & Recreation</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 rounded-lg" style="background-color: rgba(96, 84, 108, 0.1);">
+                        <i class="fas fa-mosque text-3xl mr-4" style="color: #60546c;"></i>
+                        <div>
+                            <div class="font-bold text-xl" style="color: #202236;">250</div>
+                            <div class="text-sm text-gray-600">Mosques</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 rounded-lg" style="background-color: rgba(127, 46, 31, 0.1);">
+                        <i class="fas fa-school text-3xl mr-4" style="color: #7f2e1f;"></i>
+                        <div>
+                            <div class="font-bold text-xl" style="color: #202236;">175</div>
+                            <div class="text-sm text-gray-600">Schools</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 rounded-lg" style="background-color: rgba(96, 84, 108, 0.1);">
+                        <i class="fas fa-graduation-cap text-3xl mr-4" style="color: #60546c;"></i>
+                        <div>
+                            <div class="font-bold text-xl" style="color: #202236;">46</div>
+                            <div class="text-sm text-gray-600">Colleges</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 rounded-lg col-span-2" style="background-color: rgba(127, 46, 31, 0.1);">
+                        <i class="fas fa-university text-3xl mr-4" style="color: #7f2e1f;"></i>
+                        <div>
+                            <div class="font-bold text-xl" style="color: #202236;">25</div>
+                            <div class="text-sm text-gray-600">Universities (NUST, QAU, COMSATS, IIU, etc.)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology Stack -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-6">
+                <h2 class="text-2xl font-bold mb-6" style="color: #7f2e1f;">
+                    <i class="fas fa-code mr-2"></i> Technology Stack
+                </h2>
+                <div class="flex flex-wrap gap-3">
+                    <span class="px-4 py-2 rounded-full text-sm font-medium" style="background-color: rgba(127, 46, 31, 0.1); color: #7f2e1f;">Leaflet.js</span>
+                    <span class="px-4 py-2 rounded-full text-sm font-medium" style="background-color: rgba(96, 84, 108, 0.1); color: #60546c;">OpenStreetMap</span>
+                    <span class="px-4 py-2 rounded-full text-sm font-medium" style="background-color: rgba(32, 34, 54, 0.1); color: #202236;">JavaScript ES6+</span>
+                    <span class="px-4 py-2 rounded-full text-sm font-medium" style="background-color: rgba(127, 46, 31, 0.1); color: #7f2e1f;">Tailwind CSS</span>
+                    <span class="px-4 py-2 rounded-full text-sm font-medium" style="background-color: rgba(96, 84, 108, 0.1); color: #60546c;">OSRM Routing</span>
+                    <span class="px-4 py-2 rounded-full text-sm font-medium" style="background-color: rgba(32, 34, 54, 0.1); color: #202236;">Chart.js</span>
+                    <span class="px-4 py-2 rounded-full text-sm font-medium" style="background-color: rgba(127, 46, 31, 0.1); color: #7f2e1f;">HTML5 Geolocation</span>
+                </div>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="text-center">
+                <a href="index.html" class="inline-block px-8 py-4 rounded-lg text-white font-bold text-lg transition transform hover:scale-105" style="background-color: #7f2e1f;">
+                    <i class="fas fa-map-marked-alt mr-2"></i> Explore the Map
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-white py-8 mt-12" style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+                <div>
+                    <h3 class="text-lg font-bold mb-3" style="color: #fbecd7;">
+                        <i class="fas fa-map-marked-alt mr-2"></i> Islamabad Smart City
+                    </h3>
+                    <p class="text-sm" style="color: rgba(251, 236, 215, 0.8);">
+                        Your comprehensive guide to finding civic facilities across Islamabad.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-3" style="color: #fbecd7;">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" class="transition" style="color: rgba(251, 236, 215, 0.8);">Home</a></li>
+                        <li><a href="about.html" class="transition" style="color: rgba(251, 236, 215, 0.8);">About</a></li>
+                        <li><a href="statistics.html" class="transition" style="color: rgba(251, 236, 215, 0.8);">Statistics</a></li>
+                        <li><a href="favorites.html" class="transition" style="color: rgba(251, 236, 215, 0.8);">My Favorites</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-3" style="color: #fbecd7;">Connect With Us</h3>
+                    <div class="flex space-x-4 text-2xl">
+                        <a href="#" class="transition" style="color: rgba(251, 236, 215, 0.8);"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="transition" style="color: rgba(251, 236, 215, 0.8);"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="transition" style="color: rgba(251, 236, 215, 0.8);"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-6 text-center" style="border-top: 1px solid rgba(251, 236, 215, 0.2);">
+                <p class="text-sm" style="color: rgba(251, 236, 215, 0.8);">&copy; 2025 Islamabad Smart City WebGIS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menuToggle')?.addEventListener('click', () => {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

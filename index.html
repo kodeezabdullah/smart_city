@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamabad Smart City - WebGIS</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Leaflet CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+
+    <!-- Leaflet MarkerCluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+    <!-- Leaflet Routing Machine CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+
+    <!-- Leaflet Draw CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" />
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body style="background-color: #fbecd7;">
+
+    <!-- Header -->
+    <header style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);" class="text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-map-marked-alt text-3xl" style="color: #fbecd7;"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold">Islamabad Smart City</h1>
+                        <p class="text-xs" style="color: #fbecd7;">Find civic facilities near you</p>
+                    </div>
+                </div>
+                <nav class="hidden md:flex space-x-6 items-center">
+                    <a href="index.html" class="transition" style="color: #ffffff; font-weight: bold;">
+                        <i class="fas fa-home mr-1"></i> Home
+                    </a>
+                    <a href="statistics.html" class="transition" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'">
+                        <i class="fas fa-chart-bar mr-1"></i> Statistics
+                    </a>
+                    <a href="favorites.html" class="transition" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'">
+                        <i class="fas fa-heart mr-1"></i> Favorites
+                    </a>
+                    <a href="about.html" class="transition" style="color: #fbecd7;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#fbecd7'">
+                        <i class="fas fa-info-circle mr-1"></i> About
+                    </a>
+                </nav>
+                <button id="menuToggle" class="md:hidden">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden text-white md:hidden" style="background-color: #60546c;">
+        <nav class="container mx-auto px-4 py-3 flex flex-col space-y-2">
+            <a href="index.html" class="px-3 py-2 rounded transition" style="background-color: #7f2e1f; color: #ffffff; font-weight: bold;">
+                <i class="fas fa-home mr-2"></i> Home
+            </a>
+            <a href="statistics.html" class="px-3 py-2 rounded transition" style="color: #fbecd7;" onmouseover="this.style.backgroundColor='#7f2e1f'" onmouseout="this.style.backgroundColor='transparent'">
+                <i class="fas fa-chart-bar mr-2"></i> Statistics
+            </a>
+            <a href="favorites.html" class="px-3 py-2 rounded transition" style="color: #fbecd7;" onmouseover="this.style.backgroundColor='#7f2e1f'" onmouseout="this.style.backgroundColor='transparent'">
+                <i class="fas fa-heart mr-2"></i> Favorites
+            </a>
+            <a href="about.html" class="px-3 py-2 rounded transition" style="color: #fbecd7;" onmouseover="this.style.backgroundColor='#7f2e1f'" onmouseout="this.style.backgroundColor='transparent'">
+                <i class="fas fa-info-circle mr-2"></i> About
+            </a>
+        </nav>
+    </div>
+
+    <!-- Main Container -->
+    <main class="container mx-auto px-4 py-4">
+
+        <!-- Search & Filter Section -->
+        <div class="bg-white rounded-lg shadow-md p-4 mb-4">
+            <!-- Search Bar -->
+            <div class="flex flex-col md:flex-row gap-3 mb-4">
+                <div class="flex-1 relative">
+                    <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                    <input
+                        type="text"
+                        id="searchBar"
+                        placeholder="Search facilities (e.g., PIMS Hospital, mosque near me)"
+                        class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                </div>
+                <button id="nearMeBtn" class="text-white px-6 py-2 rounded-lg transition flex items-center justify-center space-x-2" style="background-color: #60546c;" onmouseover="this.style.backgroundColor='#7f2e1f'" onmouseout="this.style.backgroundColor='#60546c'">
+                    <i class="fas fa-location-arrow"></i>
+                    <span>Near Me</span>
+                </button>
+                <button id="toggleViewBtn" class="text-white px-6 py-2 rounded-lg transition flex items-center justify-center space-x-2" style="background-color: #202236;" onmouseover="this.style.backgroundColor='#7f2e1f'" onmouseout="this.style.backgroundColor='#202236'">
+                    <i class="fas fa-list"></i>
+                    <span>List View</span>
+                </button>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap gap-2 mb-3">
+                <button class="filter-btn active" data-category="all">
+                    <i class="fas fa-globe"></i> All
+                </button>
+                <button class="filter-btn" data-category="hospitals">
+                    <i class="fas fa-hospital"></i> Hospitals
+                </button>
+                <button class="filter-btn" data-category="police-stations">
+                    <i class="fas fa-shield-alt"></i> Police
+                </button>
+                <button class="filter-btn" data-category="parks">
+                    <i class="fas fa-tree"></i> Parks
+                </button>
+                <button class="filter-btn" data-category="mosques">
+                    <i class="fas fa-mosque"></i> Mosques
+                </button>
+                <button class="filter-btn" data-category="schools">
+                    <i class="fas fa-school"></i> Schools
+                </button>
+                <button class="filter-btn" data-category="colleges">
+                    <i class="fas fa-graduation-cap"></i> Colleges
+                </button>
+                <button class="filter-btn" data-category="universities">
+                    <i class="fas fa-university"></i> Universities
+                </button>
+            </div>
+
+            <!-- Distance Filter -->
+            <div class="flex items-center gap-2 text-sm">
+                <span class="text-gray-600">Radius:</span>
+                <select id="distanceFilter" class="border border-gray-300 rounded px-3 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="all">All</option>
+                    <option value="1">1 km</option>
+                    <option value="3">3 km</option>
+                    <option value="5" selected>5 km</option>
+                    <option value="10">10 km</option>
+                </select>
+                <span id="facilityCount" class="ml-auto text-gray-600">Loading facilities...</span>
+            </div>
+        </div>
+
+        <!-- Map and Sidebar Container -->
+        <div class="flex flex-col lg:flex-row gap-4">
+
+            <!-- Map Container -->
+            <div class="flex-1 bg-white rounded-lg shadow-md overflow-hidden relative">
+                <div id="map" class="w-full h-[600px] lg:h-[700px]"></div>
+
+                <!-- Legend -->
+                <div id="legend" class="absolute bottom-4 right-4 bg-white bg-opacity-95 rounded-lg shadow-lg p-3 text-sm">
+                    <h3 class="font-bold mb-2 text-gray-700">Legend</h3>
+                    <div class="space-y-1">
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 bg-red-600 rounded-full"></div>
+                            <span>Hospitals</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 bg-blue-600 rounded-full"></div>
+                            <span>Police Stations</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 bg-green-600 rounded-full"></div>
+                            <span>Parks</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 bg-purple-600 rounded-full"></div>
+                            <span>Mosques</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 bg-orange-600 rounded-full"></div>
+                            <span>Schools</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 bg-yellow-500 rounded-full"></div>
+                            <span>Colleges</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 bg-indigo-700 rounded-full"></div>
+                            <span>Universities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar for Details -->
+            <div id="sidebar" class="w-full lg:w-96 bg-white rounded-lg shadow-md overflow-hidden hidden lg:block">
+                <!-- Sidebar Header with Tabs -->
+                <div class="text-white p-4" style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);">
+                    <h2 class="text-xl font-bold">Information Panel</h2>
+                </div>
+
+                <!-- Tabs -->
+                <div class="flex border-b">
+                    <button class="sidebar-tab active flex-1 py-2 px-4 text-center" data-tab="details">
+                        <i class="fas fa-info-circle mr-1"></i> Details
+                    </button>
+                    <button class="sidebar-tab flex-1 py-2 px-4 text-center" data-tab="directions">
+                        <i class="fas fa-directions mr-1"></i> Directions
+                    </button>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="p-4 overflow-y-auto" style="max-height: 600px;">
+                    <!-- Details Tab -->
+                    <div id="detailsTab" class="tab-content active">
+                        <div id="facilityDetails" class="text-gray-600 text-center py-8">
+                            <i class="fas fa-info-circle text-4xl text-gray-300 mb-2"></i>
+                            <p>Click on a marker to view details</p>
+                        </div>
+                    </div>
+
+                    <!-- Directions Tab -->
+                    <div id="directionsTab" class="tab-content hidden">
+                        <div id="directionsContent" class="text-gray-600 text-center py-8">
+                            <i class="fas fa-route text-4xl text-gray-300 mb-2"></i>
+                            <p>Select a facility and click "Get Directions"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Results Panel (List View) -->
+        <div id="resultsPanel" class="hidden mt-4">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-xl font-bold mb-4 text-gray-800">Facilities List</h2>
+                <div id="resultsList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- Results will be populated here -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Modals and Overlays -->
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="bg-white rounded-lg p-8 text-center">
+            <div class="spinner mx-auto mb-4"></div>
+            <p id="loading-text" class="text-gray-700 font-medium">Loading...</p>
+        </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div id="notification-container" class="fixed top-4 right-4 z-50 space-y-2"></div>
+
+    <!-- About Modal -->
+    <div id="aboutModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="bg-white rounded-lg max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+            <div class="text-white p-6 rounded-t-lg" style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-2xl font-bold">
+                        <i class="fas fa-map-marked-alt mr-2" style="color: #fbecd7;"></i> About Islamabad Smart City
+                    </h2>
+                    <button id="closeAbout" class="text-white hover:text-gray-200 text-2xl">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold mb-3 text-gray-800">Welcome to Islamabad Smart City WebGIS</h3>
+                <p class="text-gray-600 mb-4">
+                    A comprehensive Geographic Information System designed to help residents and visitors discover
+                    civic facilities across Islamabad. Find hospitals, schools, parks, mosques, police stations,
+                    and educational institutions with ease.
+                </p>
+
+                <h4 class="font-bold text-lg mb-2 text-gray-800">Key Features:</h4>
+                <ul class="list-disc list-inside text-gray-600 space-y-2 mb-4">
+                    <li>Search facilities by name, category, or sector</li>
+                    <li>Find facilities near your location</li>
+                    <li>Get turn-by-turn directions</li>
+                    <li>Save favorite locations</li>
+                    <li>Distance-based filtering</li>
+                    <li>Interactive map with clustering</li>
+                    <li>Detailed facility information</li>
+                </ul>
+
+                <h4 class="font-bold text-lg mb-2 text-gray-800">Technology Stack:</h4>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Leaflet.js</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">OpenStreetMap</span>
+                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+                    <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                    <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">OSRM Routing</span>
+                </div>
+
+                <h4 class="font-bold text-lg mb-2 text-gray-800">Data Coverage:</h4>
+                <p class="text-gray-600 mb-2">Our database includes 688+ facilities across Islamabad:</p>
+                <div class="grid grid-cols-2 gap-2 text-sm text-gray-600">
+                    <div><i class="fas fa-hospital text-red-600 mr-2"></i> 75 Hospitals</div>
+                    <div><i class="fas fa-shield-alt text-blue-600 mr-2"></i> 35 Police Stations</div>
+                    <div><i class="fas fa-tree text-green-600 mr-2"></i> 82 Parks</div>
+                    <div><i class="fas fa-mosque text-purple-600 mr-2"></i> 250 Mosques</div>
+                    <div><i class="fas fa-school text-orange-600 mr-2"></i> 175 Schools</div>
+                    <div><i class="fas fa-graduation-cap text-yellow-600 mr-2"></i> 46 Colleges</div>
+                    <div><i class="fas fa-university text-indigo-700 mr-2"></i> 25 Universities</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistics Modal -->
+    <div id="statsModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="bg-white rounded-lg max-w-4xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+            <div class="text-white p-6 rounded-t-lg" style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-2xl font-bold">
+                        <i class="fas fa-chart-bar mr-2" style="color: #fbecd7;"></i> City Statistics
+                    </h2>
+                    <button id="closeStats" class="text-white hover:text-gray-200 text-2xl">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="p-6">
+                <div id="statsContent">
+                    <!-- Statistics will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Favorites Modal -->
+    <div id="favoritesModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="bg-white rounded-lg max-w-3xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+            <div class="text-white p-6 rounded-t-lg" style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-2xl font-bold">
+                        <i class="fas fa-heart mr-2" style="color: #fbecd7;"></i> My Favorites
+                    </h2>
+                    <button id="closeFavorites" class="text-white hover:text-gray-200 text-2xl">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="p-6">
+                <div id="favoritesContent">
+                    <!-- Favorites will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-white py-8 mt-12" style="background: linear-gradient(135deg, #202236 0%, #60546c 100%);">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+                <!-- About Section -->
+                <div>
+                    <h3 class="text-lg font-bold mb-3" style="color: #fbecd7;">
+                        <i class="fas fa-map-marked-alt mr-2"></i> Islamabad Smart City
+                    </h3>
+                    <p class="text-sm" style="color: rgba(251, 236, 215, 0.8);">
+                        Your comprehensive guide to finding civic facilities across Islamabad.
+                        Hospitals, schools, parks, and more - all in one place.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-bold mb-3" style="color: #fbecd7;">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" class="transition" style="color: rgba(251, 236, 215, 0.8);" onmouseover="this.style.color='#fbecd7'" onmouseout="this.style.color='rgba(251, 236, 215, 0.8)'">Home</a></li>
+                        <li><a href="about.html" class="transition" style="color: rgba(251, 236, 215, 0.8);" onmouseover="this.style.color='#fbecd7'" onmouseout="this.style.color='rgba(251, 236, 215, 0.8)'">About</a></li>
+                        <li><a href="statistics.html" class="transition" style="color: rgba(251, 236, 215, 0.8);" onmouseover="this.style.color='#fbecd7'" onmouseout="this.style.color='rgba(251, 236, 215, 0.8)'">Statistics</a></li>
+                        <li><a href="favorites.html" class="transition" style="color: rgba(251, 236, 215, 0.8);" onmouseover="this.style.color='#fbecd7'" onmouseout="this.style.color='rgba(251, 236, 215, 0.8)'">My Favorites</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact & Social -->
+                <div>
+                    <h3 class="text-lg font-bold mb-3" style="color: #fbecd7;">Connect With Us</h3>
+                    <div class="flex space-x-4 text-2xl">
+                        <a href="#" class="transition" style="color: rgba(251, 236, 215, 0.8);" onmouseover="this.style.color='#fbecd7'" onmouseout="this.style.color='rgba(251, 236, 215, 0.8)'">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="transition" style="color: rgba(251, 236, 215, 0.8);" onmouseover="this.style.color='#fbecd7'" onmouseout="this.style.color='rgba(251, 236, 215, 0.8)'">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="transition" style="color: rgba(251, 236, 215, 0.8);" onmouseover="this.style.color='#fbecd7'" onmouseout="this.style.color='rgba(251, 236, 215, 0.8)'">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="transition" style="color: rgba(251, 236, 215, 0.8);" onmouseover="this.style.color='#fbecd7'" onmouseout="this.style.color='rgba(251, 236, 215, 0.8)'">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="text-sm mt-4" style="color: rgba(251, 236, 215, 0.8);">
+                        <i class="fas fa-envelope mr-2"></i> info@islamabadsmartcity.com
+                    </p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="pt-6 text-center" style="border-top: 1px solid rgba(251, 236, 215, 0.2);">
+                <p class="text-sm" style="color: rgba(251, 236, 215, 0.8);">&copy; 2025 Islamabad Smart City WebGIS. All rights reserved.</p>
+                <p class="text-xs mt-2" style="color: rgba(251, 236, 215, 0.6);">
+                    Built with <i class="fas fa-heart" style="color: #7f2e1f;"></i> using
+                    <a href="https://leafletjs.com" target="_blank" class="hover:underline" style="color: #fbecd7;">Leaflet.js</a>,
+                    <a href="https://www.openstreetmap.org" target="_blank" class="hover:underline" style="color: #fbecd7;">OpenStreetMap</a> &
+                    <a href="https://tailwindcss.com" target="_blank" class="hover:underline" style="color: #fbecd7;">Tailwind CSS</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Leaflet JS CDN -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+    <!-- Leaflet MarkerCluster JS -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+    <!-- Leaflet Routing Machine JS -->
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+
+    <!-- Leaflet Draw JS -->
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+
+    <!-- Chart.js for Statistics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/routing.js"></script>
+    <script src="assets/js/favorites.js"></script>
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

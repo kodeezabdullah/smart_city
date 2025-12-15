@@ -1,0 +1,2470 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "category": "parks",
+    "total": 82,
+    "lastUpdated": "2024-12-15",
+    "city": "Islamabad",
+    "description": "Public parks, recreational areas, playgrounds, and green spaces"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "park_001",
+      "properties": {
+        "name": "F-9 Fatima Jinnah Park",
+        "category": "Major Park",
+        "address": "F-9, Islamabad",
+        "sector": "F-9",
+        "area": "750 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Playgrounds",
+          "Picnic Areas",
+          "Lake",
+          "Cafeteria",
+          "Parking"
+        ],
+        "rating": 4.6,
+        "reviews": 2340,
+        "description": "Major Park with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.039,
+          33.692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_002",
+      "properties": {
+        "name": "Shakarparian National Park",
+        "category": "National Park",
+        "address": "Shakarparian Hills",
+        "sector": "Zero Point",
+        "area": "600 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Hiking Trails",
+          "Wildlife",
+          "Picnic Spots",
+          "Viewpoints",
+          "Information Center"
+        ],
+        "rating": 4.7,
+        "reviews": 3120,
+        "description": "National Park with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0734,
+          33.6893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_003",
+      "properties": {
+        "name": "Lake View Park",
+        "category": "Major Park",
+        "address": "E-11, Rawal Lake",
+        "sector": "E-11",
+        "area": "300 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Playgrounds",
+          "Picnic Areas",
+          "Lake",
+          "Cafeteria",
+          "Parking"
+        ],
+        "rating": 4.5,
+        "reviews": 2890,
+        "description": "Major Park with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1123,
+          33.6534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_004",
+      "properties": {
+        "name": "Japanese Park",
+        "category": "Themed Park",
+        "address": "Shakarparian Road",
+        "sector": "Zero Point",
+        "area": "5 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Gardens",
+          "Water Features",
+          "Walking Paths",
+          "Sitting Areas",
+          "Photography Spots"
+        ],
+        "rating": 4.4,
+        "reviews": 1560,
+        "description": "Themed Park with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0756,
+          33.6867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_005",
+      "properties": {
+        "name": "Ayub National Park",
+        "category": "National Park",
+        "address": "Murree Road",
+        "sector": "Ayub Park",
+        "area": "2300 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Hiking Trails",
+          "Wildlife",
+          "Picnic Spots",
+          "Viewpoints",
+          "Information Center"
+        ],
+        "rating": 4.3,
+        "reviews": 1890,
+        "description": "National Park with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0923,
+          33.6245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_006",
+      "properties": {
+        "name": "Margalla Hills National Park",
+        "category": "National Park",
+        "address": "Margalla Hills",
+        "sector": "Margalla",
+        "area": "17000 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Hiking Trails",
+          "Wildlife",
+          "Picnic Spots",
+          "Viewpoints",
+          "Information Center"
+        ],
+        "rating": 4.8,
+        "reviews": 4230,
+        "description": "National Park with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0623,
+          33.7389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_007",
+      "properties": {
+        "name": "Trail 3 Viewpoint Park",
+        "category": "Hiking Trail",
+        "address": "Margalla Hills",
+        "sector": "Margalla",
+        "area": "50 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Marked Trail",
+          "Rest Areas",
+          "Viewpoints",
+          "Information Boards"
+        ],
+        "rating": 4.5,
+        "reviews": 1780,
+        "description": "Hiking Trail with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0512,
+          33.7456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_008",
+      "properties": {
+        "name": "Trail 5 Park Area",
+        "category": "Hiking Trail",
+        "address": "Margalla Hills",
+        "sector": "Margalla",
+        "area": "40 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Marked Trail",
+          "Rest Areas",
+          "Viewpoints",
+          "Information Boards"
+        ],
+        "rating": 4.6,
+        "reviews": 1560,
+        "description": "Hiking Trail with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0489,
+          33.7523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_009",
+      "properties": {
+        "name": "Rose & Jasmine Garden",
+        "category": "Botanical Garden",
+        "address": "Shakarparian",
+        "sector": "Zero Point",
+        "area": "12 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Flower Beds",
+          "Walking Paths",
+          "Sitting Areas",
+          "Plant Labels"
+        ],
+        "rating": 4.3,
+        "reviews": 980,
+        "description": "Botanical Garden with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0745,
+          33.6878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_010",
+      "properties": {
+        "name": "F-6 Centaurus Mall Rooftop Garden",
+        "category": "Rooftop Garden",
+        "address": "F-6 Markaz",
+        "sector": "F-6",
+        "area": "2 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Sitting Area",
+          "City Views",
+          "Restaurant",
+          "Plants"
+        ],
+        "rating": 4.2,
+        "reviews": 670,
+        "description": "Rooftop Garden with recreational facilities",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0712,
+          33.7189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_011",
+      "properties": {
+        "name": "F-6/1 Sector Park",
+        "category": "Sector Park",
+        "address": "F-6/1, Islamabad",
+        "sector": "F-6",
+        "area": "5 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.0,
+        "reviews": 381,
+        "description": "Community sector park serving F-6 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01629752336122,
+          33.677723374808906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_012",
+      "properties": {
+        "name": "F-6/1 Children's Playground",
+        "category": "Children's Playground",
+        "address": "F-6/1, Islamabad",
+        "sector": "F-6",
+        "area": "2 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 3.8,
+        "reviews": 460,
+        "description": "Community children's playground serving F-6 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02637274445652,
+          33.68052779375357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_013",
+      "properties": {
+        "name": "F-6/2 Green Belt",
+        "category": "Green Belt",
+        "address": "F-6/2, Islamabad",
+        "sector": "F-6",
+        "area": "7 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.5,
+        "reviews": 123,
+        "description": "Community green belt serving F-6 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04413892967055,
+          33.678713041733566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_014",
+      "properties": {
+        "name": "F-7/1 Sector Park",
+        "category": "Sector Park",
+        "address": "F-7/1, Islamabad",
+        "sector": "F-7",
+        "area": "13 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.2,
+        "reviews": 662,
+        "description": "Community sector park serving F-7 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01992936116298,
+          33.68864902100888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_015",
+      "properties": {
+        "name": "F-7/3 Children's Playground",
+        "category": "Children's Playground",
+        "address": "F-7/3, Islamabad",
+        "sector": "F-7",
+        "area": "2 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 3.9,
+        "reviews": 403,
+        "description": "Community children's playground serving F-7 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0319561135753,
+          33.691049723412206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_016",
+      "properties": {
+        "name": "F-7/1 Green Belt",
+        "category": "Green Belt",
+        "address": "F-7/1, Islamabad",
+        "sector": "F-7",
+        "area": "7 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.7,
+        "reviews": 360,
+        "description": "Community green belt serving F-7 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04312131219288,
+          33.6875634037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_017",
+      "properties": {
+        "name": "F-8/2 Sector Park",
+        "category": "Sector Park",
+        "address": "F-8/2, Islamabad",
+        "sector": "F-8",
+        "area": "6 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.2,
+        "reviews": 402,
+        "description": "Community sector park serving F-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01901659617667,
+          33.695334250275934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_018",
+      "properties": {
+        "name": "F-8/3 Children's Playground",
+        "category": "Children's Playground",
+        "address": "F-8/3, Islamabad",
+        "sector": "F-8",
+        "area": "1 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.3,
+        "reviews": 206,
+        "description": "Community children's playground serving F-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02911256457693,
+          33.70119520375108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_019",
+      "properties": {
+        "name": "F-8/2 Green Belt",
+        "category": "Green Belt",
+        "address": "F-8/2, Islamabad",
+        "sector": "F-8",
+        "area": "7 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.8,
+        "reviews": 201,
+        "description": "Community green belt serving F-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04338434042361,
+          33.701411731076405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_020",
+      "properties": {
+        "name": "F-9/1 Sector Park",
+        "category": "Sector Park",
+        "address": "F-9/1, Islamabad",
+        "sector": "F-9",
+        "area": "10 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.5,
+        "reviews": 324,
+        "description": "Community sector park serving F-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01509580514862,
+          33.711344526894905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_021",
+      "properties": {
+        "name": "F-9/2 Children's Playground",
+        "category": "Children's Playground",
+        "address": "F-9/2, Islamabad",
+        "sector": "F-9",
+        "area": "1 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.3,
+        "reviews": 243,
+        "description": "Community children's playground serving F-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02946712596747,
+          33.706305287454136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_022",
+      "properties": {
+        "name": "F-9/2 Green Belt",
+        "category": "Green Belt",
+        "address": "F-9/2, Islamabad",
+        "sector": "F-9",
+        "area": "10 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.9,
+        "reviews": 372,
+        "description": "Community green belt serving F-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0395845292424,
+          33.70686226944429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_023",
+      "properties": {
+        "name": "F-10/2 Sector Park",
+        "category": "Sector Park",
+        "address": "F-10/2, Islamabad",
+        "sector": "F-10",
+        "area": "6 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.5,
+        "reviews": 411,
+        "description": "Community sector park serving F-10 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01883923662204,
+          33.72225607582009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_024",
+      "properties": {
+        "name": "F-10/3 Children's Playground",
+        "category": "Children's Playground",
+        "address": "F-10/3, Islamabad",
+        "sector": "F-10",
+        "area": "1 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 3.8,
+        "reviews": 589,
+        "description": "Community children's playground serving F-10 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02907146988332,
+          33.71894901793597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_025",
+      "properties": {
+        "name": "F-10/4 Green Belt",
+        "category": "Green Belt",
+        "address": "F-10/4, Islamabad",
+        "sector": "F-10",
+        "area": "4 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.8,
+        "reviews": 187,
+        "description": "Community green belt serving F-10 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0411132308445,
+          33.72225311731306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_026",
+      "properties": {
+        "name": "F-11/4 Sector Park",
+        "category": "Sector Park",
+        "address": "F-11/4, Islamabad",
+        "sector": "F-11",
+        "area": "8 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.3,
+        "reviews": 619,
+        "description": "Community sector park serving F-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02211527251262,
+          33.7342337251073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_027",
+      "properties": {
+        "name": "F-11/2 Children's Playground",
+        "category": "Children's Playground",
+        "address": "F-11/2, Islamabad",
+        "sector": "F-11",
+        "area": "2 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.3,
+        "reviews": 363,
+        "description": "Community children's playground serving F-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03330548624422,
+          33.725456059738136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_028",
+      "properties": {
+        "name": "F-11/3 Green Belt",
+        "category": "Green Belt",
+        "address": "F-11/3, Islamabad",
+        "sector": "F-11",
+        "area": "10 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 4.1,
+        "reviews": 153,
+        "description": "Community green belt serving F-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0395594894235,
+          33.732500487172544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_029",
+      "properties": {
+        "name": "G-6/4 Sector Park",
+        "category": "Sector Park",
+        "address": "G-6/4, Islamabad",
+        "sector": "G-6",
+        "area": "14 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.0,
+        "reviews": 736,
+        "description": "Community sector park serving G-6 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04086601696457,
+          33.690654536029946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_030",
+      "properties": {
+        "name": "G-6/3 Children's Playground",
+        "category": "Children's Playground",
+        "address": "G-6/3, Islamabad",
+        "sector": "G-6",
+        "area": "1 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 3.9,
+        "reviews": 577,
+        "description": "Community children's playground serving G-6 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04545905370682,
+          33.68862190296721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_031",
+      "properties": {
+        "name": "G-6/1 Green Belt",
+        "category": "Green Belt",
+        "address": "G-6/1, Islamabad",
+        "sector": "G-6",
+        "area": "4 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 4.2,
+        "reviews": 136,
+        "description": "Community green belt serving G-6 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06108506259048,
+          33.693295296866054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_032",
+      "properties": {
+        "name": "G-7/4 Sector Park",
+        "category": "Sector Park",
+        "address": "G-7/4, Islamabad",
+        "sector": "G-7",
+        "area": "8 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 3.8,
+        "reviews": 340,
+        "description": "Community sector park serving G-7 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03744013149391,
+          33.69845843857483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_033",
+      "properties": {
+        "name": "G-7/4 Children's Playground",
+        "category": "Children's Playground",
+        "address": "G-7/4, Islamabad",
+        "sector": "G-7",
+        "area": "3 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.4,
+        "reviews": 106,
+        "description": "Community children's playground serving G-7 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04610512180501,
+          33.699571154599084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_034",
+      "properties": {
+        "name": "G-7/4 Green Belt",
+        "category": "Green Belt",
+        "address": "G-7/4, Islamabad",
+        "sector": "G-7",
+        "area": "4 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 4.0,
+        "reviews": 248,
+        "description": "Community green belt serving G-7 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06322235915255,
+          33.70224059177871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_035",
+      "properties": {
+        "name": "G-8/3 Sector Park",
+        "category": "Sector Park",
+        "address": "G-8/3, Islamabad",
+        "sector": "G-8",
+        "area": "9 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 3.7,
+        "reviews": 764,
+        "description": "Community sector park serving G-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04144523676038,
+          33.70603097554359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_036",
+      "properties": {
+        "name": "G-8/3 Children's Playground",
+        "category": "Children's Playground",
+        "address": "G-8/3, Islamabad",
+        "sector": "G-8",
+        "area": "4 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 3.8,
+        "reviews": 538,
+        "description": "Community children's playground serving G-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0548993321939,
+          33.70808062673699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_037",
+      "properties": {
+        "name": "G-8/1 Green Belt",
+        "category": "Green Belt",
+        "address": "G-8/1, Islamabad",
+        "sector": "G-8",
+        "area": "7 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 4.3,
+        "reviews": 217,
+        "description": "Community green belt serving G-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05820928206401,
+          33.70877832901215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_038",
+      "properties": {
+        "name": "G-9/3 Sector Park",
+        "category": "Sector Park",
+        "address": "G-9/3, Islamabad",
+        "sector": "G-9",
+        "area": "7 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 3.6,
+        "reviews": 781,
+        "description": "Community sector park serving G-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03870542912139,
+          33.72188303263287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_039",
+      "properties": {
+        "name": "G-9/2 Children's Playground",
+        "category": "Children's Playground",
+        "address": "G-9/2, Islamabad",
+        "sector": "G-9",
+        "area": "2 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.1,
+        "reviews": 222,
+        "description": "Community children's playground serving G-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04826218163248,
+          33.7166116566915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_040",
+      "properties": {
+        "name": "G-9/2 Green Belt",
+        "category": "Green Belt",
+        "address": "G-9/2, Islamabad",
+        "sector": "G-9",
+        "area": "10 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 4.1,
+        "reviews": 294,
+        "description": "Community green belt serving G-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05549482755379,
+          33.72497074813463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_041",
+      "properties": {
+        "name": "G-10/1 Sector Park",
+        "category": "Sector Park",
+        "address": "G-10/1, Islamabad",
+        "sector": "G-10",
+        "area": "15 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 3.6,
+        "reviews": 792,
+        "description": "Community sector park serving G-10 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04150217826769,
+          33.73455271041123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_042",
+      "properties": {
+        "name": "G-10/2 Children's Playground",
+        "category": "Children's Playground",
+        "address": "G-10/2, Islamabad",
+        "sector": "G-10",
+        "area": "2 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 3.9,
+        "reviews": 426,
+        "description": "Community children's playground serving G-10 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05140222542664,
+          33.73383723726818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_043",
+      "properties": {
+        "name": "G-10/1 Green Belt",
+        "category": "Green Belt",
+        "address": "G-10/1, Islamabad",
+        "sector": "G-10",
+        "area": "7 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.8,
+        "reviews": 272,
+        "description": "Community green belt serving G-10 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05760335554803,
+          33.72955316118051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_044",
+      "properties": {
+        "name": "G-11/2 Sector Park",
+        "category": "Sector Park",
+        "address": "G-11/2, Islamabad",
+        "sector": "G-11",
+        "area": "13 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 3.8,
+        "reviews": 420,
+        "description": "Community sector park serving G-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0435652008095,
+          33.74245419590104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_045",
+      "properties": {
+        "name": "G-11/2 Children's Playground",
+        "category": "Children's Playground",
+        "address": "G-11/2, Islamabad",
+        "sector": "G-11",
+        "area": "1 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 3.7,
+        "reviews": 412,
+        "description": "Community children's playground serving G-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04758837087313,
+          33.7448620934959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_046",
+      "properties": {
+        "name": "G-11/2 Green Belt",
+        "category": "Green Belt",
+        "address": "G-11/2, Islamabad",
+        "sector": "G-11",
+        "area": "5 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.4,
+        "reviews": 372,
+        "description": "Community green belt serving G-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06394548166465,
+          33.73699855576883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_047",
+      "properties": {
+        "name": "G-13/1 Sector Park",
+        "category": "Sector Park",
+        "address": "G-13/1, Islamabad",
+        "sector": "G-13",
+        "area": "15 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.2,
+        "reviews": 213,
+        "description": "Community sector park serving G-13 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03584119444892,
+          33.7550519217603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_048",
+      "properties": {
+        "name": "G-13/2 Children's Playground",
+        "category": "Children's Playground",
+        "address": "G-13/2, Islamabad",
+        "sector": "G-13",
+        "area": "2 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.0,
+        "reviews": 222,
+        "description": "Community children's playground serving G-13 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05369789848874,
+          33.76072269465939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_049",
+      "properties": {
+        "name": "G-13/1 Green Belt",
+        "category": "Green Belt",
+        "address": "G-13/1, Islamabad",
+        "sector": "G-13",
+        "area": "2 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 4.2,
+        "reviews": 66,
+        "description": "Community green belt serving G-13 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05968265718805,
+          33.75757570358897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_050",
+      "properties": {
+        "name": "I-8/3 Sector Park",
+        "category": "Sector Park",
+        "address": "I-8/3, Islamabad",
+        "sector": "I-8",
+        "area": "9 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 3.6,
+        "reviews": 385,
+        "description": "Community sector park serving I-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01718756255688,
+          33.65833908684736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_051",
+      "properties": {
+        "name": "I-8/4 Children's Playground",
+        "category": "Children's Playground",
+        "address": "I-8/4, Islamabad",
+        "sector": "I-8",
+        "area": "3 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.0,
+        "reviews": 409,
+        "description": "Community children's playground serving I-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02643671026408,
+          33.66234258541235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_052",
+      "properties": {
+        "name": "I-8/1 Green Belt",
+        "category": "Green Belt",
+        "address": "I-8/1, Islamabad",
+        "sector": "I-8",
+        "area": "5 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.3,
+        "reviews": 236,
+        "description": "Community green belt serving I-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03773934707137,
+          33.6590723795461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_053",
+      "properties": {
+        "name": "I-9/2 Sector Park",
+        "category": "Sector Park",
+        "address": "I-9/2, Islamabad",
+        "sector": "I-9",
+        "area": "9 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 3.9,
+        "reviews": 463,
+        "description": "Community sector park serving I-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01702178232387,
+          33.666461286241145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_054",
+      "properties": {
+        "name": "I-9/4 Children's Playground",
+        "category": "Children's Playground",
+        "address": "I-9/4, Islamabad",
+        "sector": "I-9",
+        "area": "3 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.3,
+        "reviews": 167,
+        "description": "Community children's playground serving I-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02586076250843,
+          33.67136536033966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_055",
+      "properties": {
+        "name": "I-9/4 Green Belt",
+        "category": "Green Belt",
+        "address": "I-9/4, Islamabad",
+        "sector": "I-9",
+        "area": "7 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 4.0,
+        "reviews": 132,
+        "description": "Community green belt serving I-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04480951433288,
+          33.67163915881562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_056",
+      "properties": {
+        "name": "I-10/3 Sector Park",
+        "category": "Sector Park",
+        "address": "I-10/3, Islamabad",
+        "sector": "I-10",
+        "area": "14 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.3,
+        "reviews": 579,
+        "description": "Community sector park serving I-10 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02351848516317,
+          33.67708070259874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_057",
+      "properties": {
+        "name": "I-10/4 Children's Playground",
+        "category": "Children's Playground",
+        "address": "I-10/4, Islamabad",
+        "sector": "I-10",
+        "area": "4 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.0,
+        "reviews": 443,
+        "description": "Community children's playground serving I-10 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03069881212508,
+          33.67773536538639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_058",
+      "properties": {
+        "name": "I-10/2 Green Belt",
+        "category": "Green Belt",
+        "address": "I-10/2, Islamabad",
+        "sector": "I-10",
+        "area": "9 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.8,
+        "reviews": 86,
+        "description": "Community green belt serving I-10 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04188529559454,
+          33.68039881183298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_059",
+      "properties": {
+        "name": "I-11/2 Sector Park",
+        "category": "Sector Park",
+        "address": "I-11/2, Islamabad",
+        "sector": "I-11",
+        "area": "12 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.4,
+        "reviews": 405,
+        "description": "Community sector park serving I-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.01918393464031,
+          33.68562024220986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_060",
+      "properties": {
+        "name": "I-11/3 Children's Playground",
+        "category": "Children's Playground",
+        "address": "I-11/3, Islamabad",
+        "sector": "I-11",
+        "area": "4 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 3.8,
+        "reviews": 394,
+        "description": "Community children's playground serving I-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03101451749352,
+          33.68991183726825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_061",
+      "properties": {
+        "name": "I-11/1 Green Belt",
+        "category": "Green Belt",
+        "address": "I-11/1, Islamabad",
+        "sector": "I-11",
+        "area": "3 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.8,
+        "reviews": 133,
+        "description": "Community green belt serving I-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04256879728467,
+          33.687619096374846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_062",
+      "properties": {
+        "name": "I-14/1 Sector Park",
+        "category": "Sector Park",
+        "address": "I-14/1, Islamabad",
+        "sector": "I-14",
+        "area": "9 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.6,
+        "reviews": 375,
+        "description": "Community sector park serving I-14 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02054265460237,
+          33.71930753954418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_063",
+      "properties": {
+        "name": "I-14/2 Children's Playground",
+        "category": "Children's Playground",
+        "address": "I-14/2, Islamabad",
+        "sector": "I-14",
+        "area": "4 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.2,
+        "reviews": 513,
+        "description": "Community children's playground serving I-14 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03075039830715,
+          33.72264554349211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_064",
+      "properties": {
+        "name": "I-14/2 Green Belt",
+        "category": "Green Belt",
+        "address": "I-14/2, Islamabad",
+        "sector": "I-14",
+        "area": "3 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 4.4,
+        "reviews": 374,
+        "description": "Community green belt serving I-14 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03511230242135,
+          33.715570179567045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_065",
+      "properties": {
+        "name": "E-7/1 Sector Park",
+        "category": "Sector Park",
+        "address": "E-7/1, Islamabad",
+        "sector": "E-7",
+        "area": "7 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.6,
+        "reviews": 514,
+        "description": "Community sector park serving E-7 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11004474746294,
+          33.64234652031063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_066",
+      "properties": {
+        "name": "E-7/3 Children's Playground",
+        "category": "Children's Playground",
+        "address": "E-7/3, Islamabad",
+        "sector": "E-7",
+        "area": "1 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.1,
+        "reviews": 104,
+        "description": "Community children's playground serving E-7 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.12156011359106,
+          33.64013975686256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_067",
+      "properties": {
+        "name": "E-7/2 Green Belt",
+        "category": "Green Belt",
+        "address": "E-7/2, Islamabad",
+        "sector": "E-7",
+        "area": "6 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.7,
+        "reviews": 127,
+        "description": "Community green belt serving E-7 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13072035639561,
+          33.63997983888601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_068",
+      "properties": {
+        "name": "E-11/3 Sector Park",
+        "category": "Sector Park",
+        "address": "E-11/3, Islamabad",
+        "sector": "E-11",
+        "area": "8 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.6,
+        "reviews": 421,
+        "description": "Community sector park serving E-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11406937636279,
+          33.67738662337263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_069",
+      "properties": {
+        "name": "E-11/3 Children's Playground",
+        "category": "Children's Playground",
+        "address": "E-11/3, Islamabad",
+        "sector": "E-11",
+        "area": "3 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.1,
+        "reviews": 157,
+        "description": "Community children's playground serving E-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11561365379977,
+          33.68091209744317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_070",
+      "properties": {
+        "name": "E-11/2 Green Belt",
+        "category": "Green Belt",
+        "address": "E-11/2, Islamabad",
+        "sector": "E-11",
+        "area": "7 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 4.0,
+        "reviews": 179,
+        "description": "Community green belt serving E-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.13412160566982,
+          33.67670179818518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_071",
+      "properties": {
+        "name": "H-8/1 Sector Park",
+        "category": "Sector Park",
+        "address": "H-8/1, Islamabad",
+        "sector": "H-8",
+        "area": "15 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.6,
+        "reviews": 566,
+        "description": "Community sector park serving H-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04415640571099,
+          33.64950441783876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_072",
+      "properties": {
+        "name": "H-8/4 Children's Playground",
+        "category": "Children's Playground",
+        "address": "H-8/4, Islamabad",
+        "sector": "H-8",
+        "area": "1 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.1,
+        "reviews": 294,
+        "description": "Community children's playground serving H-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04935428989133,
+          33.654841590881745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_073",
+      "properties": {
+        "name": "H-8/4 Green Belt",
+        "category": "Green Belt",
+        "address": "H-8/4, Islamabad",
+        "sector": "H-8",
+        "area": "9 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.5,
+        "reviews": 305,
+        "description": "Community green belt serving H-8 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05733358150144,
+          33.646203462543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_074",
+      "properties": {
+        "name": "H-9/2 Sector Park",
+        "category": "Sector Park",
+        "address": "H-9/2, Islamabad",
+        "sector": "H-9",
+        "area": "8 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.4,
+        "reviews": 357,
+        "description": "Community sector park serving H-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0400546929246,
+          33.66211349380775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_075",
+      "properties": {
+        "name": "H-9/2 Children's Playground",
+        "category": "Children's Playground",
+        "address": "H-9/2, Islamabad",
+        "sector": "H-9",
+        "area": "1 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.0,
+        "reviews": 500,
+        "description": "Community children's playground serving H-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05150354823861,
+          33.6571420825487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_076",
+      "properties": {
+        "name": "H-9/2 Green Belt",
+        "category": "Green Belt",
+        "address": "H-9/2, Islamabad",
+        "sector": "H-9",
+        "area": "10 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.7,
+        "reviews": 223,
+        "description": "Community green belt serving H-9 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.06179504389178,
+          33.655223737212374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_077",
+      "properties": {
+        "name": "H-11/2 Sector Park",
+        "category": "Sector Park",
+        "address": "H-11/2, Islamabad",
+        "sector": "H-11",
+        "area": "6 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 3.5,
+        "reviews": 204,
+        "description": "Community sector park serving H-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03673663149051,
+          33.681247283526766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_078",
+      "properties": {
+        "name": "H-11/2 Children's Playground",
+        "category": "Children's Playground",
+        "address": "H-11/2, Islamabad",
+        "sector": "H-11",
+        "area": "4 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.7,
+        "reviews": 331,
+        "description": "Community children's playground serving H-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05272330029266,
+          33.68251960921029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_079",
+      "properties": {
+        "name": "H-11/4 Green Belt",
+        "category": "Green Belt",
+        "address": "H-11/4, Islamabad",
+        "sector": "H-11",
+        "area": "3 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.6,
+        "reviews": 132,
+        "description": "Community green belt serving H-11 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0573392825814,
+          33.68369375681942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_080",
+      "properties": {
+        "name": "D-12/1 Sector Park",
+        "category": "Sector Park",
+        "address": "D-12/1, Islamabad",
+        "sector": "D-12",
+        "area": "12 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Walking Track",
+          "Children Play Area",
+          "Sitting Benches",
+          "Green Lawns",
+          "Fountain"
+        ],
+        "rating": 4.4,
+        "reviews": 227,
+        "description": "Community sector park serving D-12 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0854973724825,
+          33.62498374228018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_081",
+      "properties": {
+        "name": "D-12/1 Children's Playground",
+        "category": "Children's Playground",
+        "address": "D-12/1, Islamabad",
+        "sector": "D-12",
+        "area": "2 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Swings",
+          "Slides",
+          "See-Saw",
+          "Monkey Bars",
+          "Sand Pit",
+          "Safety Fencing"
+        ],
+        "rating": 4.0,
+        "reviews": 183,
+        "description": "Community children's playground serving D-12 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.08687027331592,
+          33.62390752353378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park_082",
+      "properties": {
+        "name": "D-12/1 Green Belt",
+        "category": "Green Belt",
+        "address": "D-12/1, Islamabad",
+        "sector": "D-12",
+        "area": "9 acres",
+        "timing": "6:00 AM - 9:00 PM",
+        "amenities": [
+          "Jogging Track",
+          "Sitting Area",
+          "Green Space",
+          "Trees"
+        ],
+        "rating": 3.5,
+        "reviews": 234,
+        "description": "Community green belt serving D-12 residents",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.09306933682211,
+          33.624980447137915
+        ]
+      }
+    }
+  ]
+}
