@@ -188,4 +188,4 @@ For questions or support:
 
 **Made with ❤️ for Islamabad by kodeezabdullah**
 
-*Last Updated: January 2025*
+*Last Updated: December 2025*
