@@ -181,11 +181,11 @@ This project is licensed under the MIT License.
 ## 📧 Contact
 
 For questions or support:
-- **Email**: info@islamabadsmartcity.com
+- **Email**: abdullah.gis.services@gmail.com
 - **GitHub Issues**: [Report a bug](https://github.com/yourusername/islamabad-smart-city/issues)
 
 ---
 
-**Made with ❤️ for Islamabad**
+**Made with ❤️ for Islamabad by kodeezabdullah**
 
 *Last Updated: January 2025*
